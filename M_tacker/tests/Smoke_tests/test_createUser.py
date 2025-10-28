@@ -31,7 +31,7 @@ class Testone(BaseClass):
         upload_click.click()
         bulk=self.driver.find_element(By.XPATH,"//button[contains(text(),'Choose File')]")
         bulk.click()
-        file_name="/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_Tracker/sample.xlsx"
+        file_name="/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx"
         log.info(file_name)
 
         abs_path=os.path.abspath(file_name)
@@ -60,7 +60,7 @@ class Testone(BaseClass):
         single_click=self.driver.find_element(By.CSS_SELECTOR,".themeBtn:nth-child(2)")
         single_click.click()
         time.sleep(3)
-        user_data=pd.read_excel("/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_Tracker/sample.xlsx")
+        user_data=pd.read_excel("/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx")
         count=len(user_data)
         log.info(f"Total number of users to be created: {len(user_data)}")
         n=0
@@ -73,13 +73,13 @@ class Testone(BaseClass):
                  n+=1
                  
                  log.info(count)
-        # email_fields=self.driver.find_elements(By.XPATH,"//input[@placeholder='Employee Email']")
-        # full_names=self.driver.find_elements(By.XPATH,"//input[@placeholder='Full Name']")
-        # Employee_ids=self.driver.find_elements(By.XPATH,"//input[@placeholder='Employee ID']")
-        # for row, email_field,full_name, Employee_id in zip(user_data.itertuples(index=False), email_fields, full_names, Employee_ids):
-        #         email_field.send_keys(row.email)
-        #         full_name.send_keys(row.name)
-        #         Employee_id.send_keys(row.employeeId)
+        email_fields=self.driver.find_elements(By.XPATH,"//input[@placeholder='Employee Email']")
+        full_names=self.driver.find_elements(By.XPATH,"//input[@placeholder='Full Name']")
+        Employee_ids=self.driver.find_elements(By.XPATH,"//input[@placeholder='Employee ID']")
+        for row, email_field,full_name, Employee_id in zip(user_data.itertuples(index=False), email_fields, full_names, Employee_ids):
+                email_field.send_keys(row.email)
+                full_name.send_keys(row.name)
+                Employee_id.send_keys(row.employeeId)
 
         flat_data = []
 
@@ -101,7 +101,7 @@ class Testone(BaseClass):
                 field.click()
                 time.sleep(2)
                 # self.driver.execute_script(f"document.querySelector('select.form-control').value = {value};")
-                drop_down=self.driver.find_elements(By.XPATH,"//div[@class='react-select__menu-portal']/li")
+                drop_down=self.driver.find_elements(By.CSS_SELECTOR,".css-fygc7l-option")
                 for option in drop_down:
                     if option.text==value:
                         log.info(f"Clicking on option: {option.text}")
