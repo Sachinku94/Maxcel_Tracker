@@ -21,7 +21,10 @@ class HomePage(BaseClass):
         user="https://stg-fe.maxeltracker.com/organisation/dashboard/users"
         return user
 
-
+    def appsandwebsite(self):
+        time.sleep(5)
+        app_web="https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites"
+        return app_web
 
         
     
