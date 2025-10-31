@@ -27,4 +27,7 @@ class HomePage(BaseClass):
         return app_web
 
         
-    
+    def screen_shot(self):
+        time.sleep(5)
+        sc_shot="https://stg-fe.maxeltracker.com/organisation/dashboard/screenshots"
+        return sc_shot
