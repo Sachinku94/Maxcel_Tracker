@@ -18,19 +18,19 @@ import pandas as pd
 import pyautogui
 import os
 import pyperclip
-import random
 
 class Testone(BaseClass):
 
   
-    def test_screensshotclendar(self):
+    def test_logsclendar(self):
         
-        time.sleep(100)
+       
         log = self.getLogger()
+        
         wait=WebDriverWait(self.driver,20)
-        app=HomePage.screen_shot(self)
+        app=HomePage.graph_logs(self)
         self.driver.get(app)
-        cel=By.XPATH,"//input[@placeholder='Select Date Range']"
+        cel=By.XPATH,"//input[@placeholder='Select Date']"
         celandar=wait.until(EC.presence_of_element_located(cel))
         celandar.click()
         time.sleep(2)
@@ -40,12 +40,11 @@ class Testone(BaseClass):
             i.click()
             time.sleep(3)
             celandar.click()
-    
-
-    def test_screenshotfilter(self):
+   
+    def test_logsfilter(self):
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
-        app=HomePage.screen_shot(self)
+        app=HomePage.graph_logs(self)
         self.driver.get(app)
         time.sleep(5)
         
@@ -71,17 +70,30 @@ class Testone(BaseClass):
                     options=wait.until(EC.presence_of_all_elements_located(options))
                     for opt in options:
                         log.info(f"clicking on filter option {opt.text}")
-                        if opt.text==row['name'] or opt.text==row['shift'] :
+                        if opt.text==row['name'] or opt.text==row['department']:
                             opt.click()
                             time.sleep(2)
                             break
-
                 except Exception as e:
                     log.info(f"Exception occurred while selecting option: {e}")
-    
-
-    
 
 
-        
-            
+    def test_actionsonapp(self):
+        log = self.getLogger()
+        wait=WebDriverWait(self.driver,20)
+        app=HomePage.graph_logs(self)
+        self.driver.get(app)
+        act=By.CSS_SELECTOR,"div.MenuOuterDrop.supertab"  
+        action_button=wait.until(EC.presence_of_all_elements_located(act))
+        for i in action_button:
+             i.click()
+             time.sleep(2)
+             graphs=By.XPATH,"//div[@class='p-[12px]']/li"   
+             graphs_options=wait.until(EC.visibility_of_any_elements_located(graphs))
+             for j in graphs_options:
+                 log.info(f"clicking on graph option {j.text}")
+                 j.click()
+                 time.sleep(2)
+                 i.click() 
+             self.driver.execute_script("window.scrollTo(0,600);")
+             time.sleep(2)

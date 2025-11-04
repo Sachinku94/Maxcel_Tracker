@@ -19,18 +19,19 @@ import pyautogui
 import os
 import pyperclip
 import random
-
 class Testone(BaseClass):
 
   
-    def test_screensshotclendar(self):
+    def test_logsclendar(self):
         
-        time.sleep(100)
+        
+       
         log = self.getLogger()
+        
         wait=WebDriverWait(self.driver,20)
-        app=HomePage.screen_shot(self)
+        app=HomePage.cologs(self)
         self.driver.get(app)
-        cel=By.XPATH,"//input[@placeholder='Select Date Range']"
+        cel=By.XPATH,"//input[@placeholder='Select Date']"
         celandar=wait.until(EC.presence_of_element_located(cel))
         celandar.click()
         time.sleep(2)
@@ -40,12 +41,11 @@ class Testone(BaseClass):
             i.click()
             time.sleep(3)
             celandar.click()
-    
-
-    def test_screenshotfilter(self):
+   
+    def test_logsfilter(self):
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
-        app=HomePage.screen_shot(self)
+        app=HomePage.cologs(self)
         self.driver.get(app)
         time.sleep(5)
         
@@ -71,17 +71,36 @@ class Testone(BaseClass):
                     options=wait.until(EC.presence_of_all_elements_located(options))
                     for opt in options:
                         log.info(f"clicking on filter option {opt.text}")
-                        if opt.text==row['name'] or opt.text==row['shift'] :
+                        if opt.text==row['name'] or opt.text==row['department']:
                             opt.click()
                             time.sleep(2)
                             break
-
                 except Exception as e:
                     log.info(f"Exception occurred while selecting option: {e}")
-    
 
-    
-
-
-        
-            
+    def test_logsdatewise(self):
+        log = self.getLogger()
+        wait=WebDriverWait(self.driver,20)
+        app=HomePage.cologs(self)
+        self.driver.get(app)
+        filter_but=By.CSS_SELECTOR,".css-c2frko-control"
+        filter_button=wait.until(EC.presence_of_all_elements_located(filter_but))
+        for i in filter_button:
+            i.click()
+            try:
+                options=By.CSS_SELECTOR,".css-fygc7l-option"
+                options=wait.until(EC.presence_of_all_elements_located(options))
+                chose_options=random.choice(options)
+                chose_options.click()
+                time.sleep(5)
+                date=By.XPATH,"//div[@id='dateWrapper']/ul/li"
+                date_select=wait.until(EC.presence_of_all_elements_located(date))
+                selectdate=random.choice(date_select)
+                selectdate.click()
+                ran_logs=By.XPATH,"//div[@class='logsTab']/div/div"
+                ran_logs_select=wait.until(EC.presence_of_all_elements_located(ran_logs))
+                random_log=random.choice(ran_logs_select)
+                random_log.click()  
+                time.sleep(5)
+            except Exception as e:
+                log.info(f"Exception occurred while selecting option: {e}")
