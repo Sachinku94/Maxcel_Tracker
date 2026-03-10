@@ -112,7 +112,36 @@ class Testone(BaseClass):
                 
 
                 
-
+    def test_filteruser(self):
+        log=self.getLogger()
+        time.sleep(10)
+        user=HomePage.User(self)
+        self.driver.get(user)
+        time.sleep(5)
+        filter_buttons=self.driver.find_elements(By.CSS_SELECTOR,".css-c2frko-control")
+        user_data=pd.read_excel("/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample_user.xlsx")
+        count=len(user_data)
+        log.info(f"Total number of users: {len(user_data)}")
+        
+        for filter_button, (_, row) in zip(filter_buttons, user_data.iterrows()):
+            try:
+                filter_button.click()
+                time.sleep(2)
+                filter_input=self.driver.find_element(By.CSS_SELECTOR,".css-1d8n9bt-input")
+                filter_input.send_keys(row.name)
+                time.sleep(2)
+                options=self.driver.find_elements(By.CSS_SELECTOR,".css-144zqx9 div")
+                for option in options:
+                    if option.text==row.name:
+                        log.info(f"Clicking on option: {option.text}")
+                        option.click()
+                        log.info(f"Selected value: {row.name}")
+                        break
+                time.sleep(5)
+            except NoSuchElementException as e:
+                log.error(f"Element not found: {e}")
+            except StaleElementReferenceException as e:
+                log.error(f"Stale element reference: {e}")
 
         
 

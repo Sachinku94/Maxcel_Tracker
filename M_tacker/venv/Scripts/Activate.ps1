@@ -49,10 +49,10 @@ https://go.microsoft.com/fwlink/?LinkID=135170
 
 #>
 Param(
-    [Parameter(Mandatory = $false)]
+    [Parameter(Mandatory = $False)]
     [String]
     $VenvDir,
-    [Parameter(Mandatory = $false)]
+    [Parameter(Mandatory = $False)]
     [String]
     $Prompt
 )
@@ -230,7 +230,7 @@ if (-not $Env:VIRTUAL_ENV_DISABLE_PROMPT) {
     New-Variable -Name _PYTHON_VENV_PROMPT_PREFIX -Description "Python virtual environment prompt prefix" -Scope Global -Option ReadOnly -Visibility Public -Value $Prompt
 
     function global:prompt {
-        Write-Host -NoNewline -ForegroundColor Green "($_PYTHON_VENV_PROMPT_PREFIX) "
+        Write-Host -Nonewline -ForegroundColor Green "($_PYTHON_VENV_PROMPT_PREFIX) "
         _OLD_VIRTUAL_PROMPT
     }
     $env:VIRTUAL_ENV_PROMPT = $Prompt

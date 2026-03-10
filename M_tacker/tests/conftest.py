@@ -18,7 +18,7 @@ def setup(request):
     # Read base URL from config
     base_url = read_config("URL","base_url")
     
-    driver =webdriver.Chrome()
+    driver =webdriver.Firefox()
     driver.get(base_url)
     time.sleep(10)
     driver.find_element(By.NAME,"email").send_keys(os.getenv("USER_NAME"))

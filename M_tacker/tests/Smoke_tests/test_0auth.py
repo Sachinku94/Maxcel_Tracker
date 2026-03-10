@@ -61,3 +61,13 @@ class Testone(BaseClass):
         current_url = self.driver.current_url
         assert "error" in current_url or "redirect_uri_mismatch" in current_url, "Redirect URI manipulation test failed"
 
+    def test_loginwithgoogle(self):
+        log= self.getLogger()
+        time.sleep(10)
+        logout=By.ID,"sidebarWrapper"
+        self.driver.find_element(*logout).click()
+        lbutton=By.XPATH,"//span[contains(text(),'Logout')]"
+        self.driver.find_element(*lbutton).click()
+        time.sleep(20)
+        login=By.XPATH,"//span[contains(text(),'Google')]"
+        self.driver.find_element(*login).click()

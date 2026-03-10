@@ -1,0 +1,26 @@
+2026-03-09 11:43:18,165 :INFO : test_appfilter :Total number of users: 4
+2026-03-09 11:43:20,281 :INFO : test_appfilter :already selected filter option is Global Department
+2026-03-09 11:43:20,295 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-09 11:43:24,395 :INFO : test_appfilter :already selected filter option is Global Department
+2026-03-09 11:43:24,409 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-09 11:43:28,495 :INFO : test_appfilter :already selected filter option is Global Department
+2026-03-09 11:43:28,509 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-09 11:43:28,515 :INFO : test_appfilter :clicking on filter option Noon Shift
+2026-03-09 11:43:32,767 :INFO : test_appfilter :already selected filter option is test department
+2026-03-09 11:43:32,781 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-09 11:43:36,875 :INFO : test_appfilter :already selected filter option is test department
+2026-03-09 11:43:36,888 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-09 11:43:36,895 :INFO : test_appfilter :clicking on filter option Evening
+2026-03-09 11:43:41,090 :INFO : test_appfilter :already selected filter option is Global Department
+2026-03-09 11:43:41,103 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-09 11:43:45,202 :INFO : test_appfilter :already selected filter option is Global Department
+2026-03-09 11:43:45,215 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-09 11:43:45,221 :INFO : test_appfilter :clicking on filter option Morning Shift
+2026-03-09 11:43:49,429 :INFO : test_appfilter :already selected filter option is test department
+2026-03-09 11:43:49,442 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-09 11:44:03,202 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-09 11:44:05,346 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-09 11:44:07,515 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-09 11:44:09,671 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-09 11:44:15,973 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-09 11:44:18,141 :INFO : test_actionsonapp :clicking on graph option Bar Chart

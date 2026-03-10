@@ -36,7 +36,7 @@ pipeline {
         always {
             steps {
                 // Archive test results
-                archiveArtifacts artifacts: 'pytest-results/**', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'pytest-results/**', allowEmptyArchive: True
             }
         }
     }

@@ -23,11 +23,14 @@ class Testone(BaseClass):
 
     
     def test_appclendar(self):
-        
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.appsandwebsite(self)
         self.driver.get(app)
+        log.info(app)
+        log.info(app)
+        log.info(app)
         cel=By.XPATH,"//input[@placeholder='Select Date']"
         celandar=wait.until(EC.presence_of_element_located(cel))
         celandar.click()
