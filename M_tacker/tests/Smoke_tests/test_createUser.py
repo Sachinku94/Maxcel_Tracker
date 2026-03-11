@@ -57,7 +57,7 @@ class Testone(BaseClass):
         user=HomePage.User(self)
         self.driver.get(user)
         time.sleep(5)
-        single_click=self.driver.find_element(By.CSS_SELECTOR,".themeBtn:nth-child(2)")
+        single_click=self.driver.find_element(By.XPATH,"//div/div/div/button[@class='themeBtn flex w-full md:w-auto']")
         single_click.click()
         time.sleep(3)
         user_data=pd.read_excel("/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx")
@@ -77,17 +77,17 @@ class Testone(BaseClass):
         full_names=self.driver.find_elements(By.XPATH,"//input[@placeholder='Full Name']")
         Employee_ids=self.driver.find_elements(By.XPATH,"//input[@placeholder='Employee ID']")
         for row, email_field,full_name, Employee_id in zip(user_data.itertuples(index=False), email_fields, full_names, Employee_ids):
-                email_field.send_keys(row.email)
-                full_name.send_keys(row.name)
-                Employee_id.send_keys(row.employeeId)
+                email_field.send_keys(row.Email)
+                full_name.send_keys(row.Name)
+                Employee_id.send_keys(row.Employee_ID)
 
         flat_data = []
 
         for _, row in user_data.iterrows():
-            flat_data.extend([row['role'], row['shift'], row['department']])
+            flat_data.extend([row['Role'], row['Shift'], row['Department'],row['Work Type']])
 
         #"//div[@class='flex lg:grid flex flex-col lg:grid-cols-12 gap-4 mb-[24px] font-semibold']/div/div/div"
-        input=By.XPATH,"//div[@class='flex flex-col col-span-2']/div/div"
+        input=By.XPATH,"//div[contains(text(),'Select...')]"
         input_fields = wait.until(EC.presence_of_all_elements_located(input))
 
         # Debugging output
@@ -122,21 +122,29 @@ class Testone(BaseClass):
         user_data=pd.read_excel("/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample_user.xlsx")
         count=len(user_data)
         log.info(f"Total number of users: {len(user_data)}")
+        flat_data = []
+
+        for _, row in user_data.iterrows():
+            flat_data.extend([row['role'], row['department'], row['user'], row['shift'],row['device']])
         
-        for filter_button, (_, row) in zip(filter_buttons, user_data.iterrows()):
+        for filter_button,value in zip(filter_buttons, flat_data):
             try:
                 filter_button.click()
                 time.sleep(2)
-                filter_input=self.driver.find_element(By.CSS_SELECTOR,".css-1d8n9bt-input")
-                filter_input.send_keys(row.name)
+                # filter_input=self.driver.find_element(By.CSS_SELECTOR,".css-1d8n9bt-input")
+                # filter_input.send_keys(row.name)
                 time.sleep(2)
                 options=self.driver.find_elements(By.CSS_SELECTOR,".css-144zqx9 div")
+                n=0
                 for option in options:
-                    if option.text==row.name:
+                    log.info(f"clicking on filter option {option.text}")
+                    log.info(f"comparing {option.text} with {value}")
+                    if option.text==value:
                         log.info(f"Clicking on option: {option.text}")
                         option.click()
-                        log.info(f"Selected value: {row.name}")
+                        log.info(f"Selected value: {value}")
                         break
+                    
                 time.sleep(5)
             except NoSuchElementException as e:
                 log.error(f"Element not found: {e}")

@@ -1,26 +1,192 @@
-2026-03-09 11:43:18,165 :INFO : test_appfilter :Total number of users: 4
-2026-03-09 11:43:20,281 :INFO : test_appfilter :already selected filter option is Global Department
-2026-03-09 11:43:20,295 :INFO : test_appfilter :already selected filter option is Morning Shift
-2026-03-09 11:43:24,395 :INFO : test_appfilter :already selected filter option is Global Department
-2026-03-09 11:43:24,409 :INFO : test_appfilter :already selected filter option is Morning Shift
-2026-03-09 11:43:28,495 :INFO : test_appfilter :already selected filter option is Global Department
-2026-03-09 11:43:28,509 :INFO : test_appfilter :already selected filter option is Morning Shift
-2026-03-09 11:43:28,515 :INFO : test_appfilter :clicking on filter option Noon Shift
-2026-03-09 11:43:32,767 :INFO : test_appfilter :already selected filter option is test department
-2026-03-09 11:43:32,781 :INFO : test_appfilter :already selected filter option is Morning Shift
-2026-03-09 11:43:36,875 :INFO : test_appfilter :already selected filter option is test department
-2026-03-09 11:43:36,888 :INFO : test_appfilter :already selected filter option is Morning Shift
-2026-03-09 11:43:36,895 :INFO : test_appfilter :clicking on filter option Evening
-2026-03-09 11:43:41,090 :INFO : test_appfilter :already selected filter option is Global Department
-2026-03-09 11:43:41,103 :INFO : test_appfilter :already selected filter option is Morning Shift
-2026-03-09 11:43:45,202 :INFO : test_appfilter :already selected filter option is Global Department
-2026-03-09 11:43:45,215 :INFO : test_appfilter :already selected filter option is Morning Shift
-2026-03-09 11:43:45,221 :INFO : test_appfilter :clicking on filter option Morning Shift
-2026-03-09 11:43:49,429 :INFO : test_appfilter :already selected filter option is test department
-2026-03-09 11:43:49,442 :INFO : test_appfilter :already selected filter option is Morning Shift
-2026-03-09 11:44:03,202 :INFO : test_actionsonapp :clicking on graph option Line Chart
-2026-03-09 11:44:05,346 :INFO : test_actionsonapp :clicking on graph option Bar Chart
-2026-03-09 11:44:07,515 :INFO : test_actionsonapp :clicking on graph option Pie Chart
-2026-03-09 11:44:09,671 :INFO : test_actionsonapp :clicking on graph option Area Chart
-2026-03-09 11:44:15,973 :INFO : test_actionsonapp :clicking on graph option Line Chart
-2026-03-09 11:44:18,141 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-11 10:53:21,050 :INFO : test_filteruser :Total number of users: 2
+2026-03-11 10:53:25,191 :INFO : test_filteruser :Clicking on option: Employee
+2026-03-11 10:53:25,303 :INFO : test_filteruser :Selected value: 0
+2026-03-11 10:55:49,804 :INFO : test_filteruser :Total number of users: 2
+2026-03-11 10:55:53,968 :INFO : test_filteruser :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-11 10:55:53,993 :INFO : test_filteruser :comparing L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com with Employee
+2026-03-11 10:55:54,033 :INFO : test_filteruser :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-11 10:55:54,052 :INFO : test_filteruser :comparing L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com with test department
+2026-03-11 10:55:54,089 :INFO : test_filteruser :clicking on filter option LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-11 10:55:54,102 :INFO : test_filteruser :comparing LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com with Untracked
+2026-03-11 10:55:54,124 :INFO : test_filteruser :clicking on filter option LoginLogout
+(lol)
+2026-03-11 10:55:54,135 :INFO : test_filteruser :comparing LoginLogout
+(lol) with Morning Shift
+2026-03-11 10:55:54,154 :INFO : test_filteruser :clicking on filter option pradeep.jangra+111@truinc.com
+2026-03-11 10:55:54,163 :INFO : test_filteruser :comparing pradeep.jangra+111@truinc.com with All OS
+2026-03-11 10:55:54,186 :INFO : test_filteruser :clicking on filter option 
+2026-03-11 10:57:10,290 :INFO : test_filteruser :Total number of users: 2
+2026-03-11 10:57:14,416 :INFO : test_filteruser :clicking on filter option Employee
+2026-03-11 10:57:14,425 :INFO : test_filteruser :comparing Employee with Employee
+2026-03-11 10:57:14,441 :INFO : test_filteruser :Clicking on option: Employee
+2026-03-11 10:57:14,535 :INFO : test_filteruser :Selected value: 0
+2026-03-11 10:57:23,641 :INFO : test_filteruser :clicking on filter option Global Department
+2026-03-11 10:57:23,648 :INFO : test_filteruser :comparing Global Department with Manager
+2026-03-11 10:57:23,664 :INFO : test_filteruser :clicking on filter option pinky
+2026-03-11 10:57:23,672 :INFO : test_filteruser :comparing pinky with test department
+2026-03-11 10:57:23,687 :INFO : test_filteruser :clicking on filter option test department
+2026-03-11 10:57:23,695 :INFO : test_filteruser :comparing test department with Untracked
+2026-03-11 10:57:23,711 :INFO : test_filteruser :clicking on filter option Default Department
+2026-03-11 10:57:23,718 :INFO : test_filteruser :comparing Default Department with Morning Shift
+2026-03-11 11:26:39,898 :INFO : test_filteruser :Total number of users: 5
+2026-03-11 11:26:44,026 :INFO : test_filteruser :clicking on filter option Employee
+2026-03-11 11:26:44,034 :INFO : test_filteruser :comparing Employee with Employee
+2026-03-11 11:26:44,049 :INFO : test_filteruser :Clicking on option: Employee
+2026-03-11 11:26:44,163 :INFO : test_filteruser :Selected value: 0
+2026-03-11 11:26:53,269 :INFO : test_filteruser :clicking on filter option Global Department
+2026-03-11 11:26:53,277 :INFO : test_filteruser :comparing Global Department with test department
+2026-03-11 11:26:53,292 :INFO : test_filteruser :clicking on filter option pinky
+2026-03-11 11:26:53,300 :INFO : test_filteruser :comparing pinky with test department
+2026-03-11 11:26:53,315 :INFO : test_filteruser :clicking on filter option test department
+2026-03-11 11:54:35,825 :INFO : test_filteruser :Total number of users: 2
+2026-03-11 11:54:39,939 :INFO : test_filteruser :clicking on filter option Employee
+2026-03-11 11:54:39,945 :INFO : test_filteruser :comparing Employee with Employee
+2026-03-11 11:54:39,958 :INFO : test_filteruser :Clicking on option: Employee
+2026-03-11 11:54:40,062 :INFO : test_filteruser :Selected value: Employee
+2026-03-11 11:54:49,160 :INFO : test_filteruser :clicking on filter option Global Department
+2026-03-11 11:54:49,167 :INFO : test_filteruser :comparing Global Department with test department
+2026-03-11 11:54:49,180 :INFO : test_filteruser :clicking on filter option pinky
+2026-03-11 11:54:49,186 :INFO : test_filteruser :comparing pinky with test department
+2026-03-11 11:54:49,199 :INFO : test_filteruser :clicking on filter option test department
+2026-03-11 11:54:49,205 :INFO : test_filteruser :comparing test department with test department
+2026-03-11 11:54:49,217 :INFO : test_filteruser :Clicking on option: test department
+2026-03-11 11:54:49,309 :INFO : test_filteruser :Selected value: test department
+2026-03-11 11:54:58,402 :INFO : test_filteruser :clicking on filter option All Users
+2026-03-11 11:54:58,409 :INFO : test_filteruser :comparing All Users with Untracked
+2026-03-11 11:54:58,422 :INFO : test_filteruser :clicking on filter option Tracked
+2026-03-11 11:54:58,430 :INFO : test_filteruser :comparing Tracked with Untracked
+2026-03-11 11:54:58,444 :INFO : test_filteruser :clicking on filter option Untracked
+2026-03-11 11:54:58,451 :INFO : test_filteruser :comparing Untracked with Untracked
+2026-03-11 11:54:58,466 :INFO : test_filteruser :Clicking on option: Untracked
+2026-03-11 11:54:58,576 :INFO : test_filteruser :Selected value: Untracked
+2026-03-11 11:55:07,697 :INFO : test_filteruser :clicking on filter option All Shift
+2026-03-11 11:55:07,704 :INFO : test_filteruser :comparing All Shift with Morning Shift
+2026-03-11 11:55:07,721 :INFO : test_filteruser :clicking on filter option LoginLout
+2026-03-11 11:55:07,728 :INFO : test_filteruser :comparing LoginLout with Morning Shift
+2026-03-11 11:55:07,745 :INFO : test_filteruser :clicking on filter option reg
+2026-03-11 11:55:07,755 :INFO : test_filteruser :comparing reg with Morning Shift
+2026-03-11 11:55:07,771 :INFO : test_filteruser :clicking on filter option pinky test regression
+2026-03-11 11:55:07,778 :INFO : test_filteruser :comparing pinky test regression with Morning Shift
+2026-03-11 11:55:07,795 :INFO : test_filteruser :clicking on filter option First shift
+2026-03-11 11:55:07,805 :INFO : test_filteruser :comparing First shift with Morning Shift
+2026-03-11 11:55:07,821 :INFO : test_filteruser :clicking on filter option Evening
+2026-03-11 11:55:07,828 :INFO : test_filteruser :comparing Evening with Morning Shift
+2026-03-11 11:55:07,844 :INFO : test_filteruser :clicking on filter option Noon Shift
+2026-03-11 11:55:07,854 :INFO : test_filteruser :comparing Noon Shift with Morning Shift
+2026-03-11 11:55:07,871 :INFO : test_filteruser :clicking on filter option Morning Shift
+2026-03-11 11:55:07,877 :INFO : test_filteruser :comparing Morning Shift with Morning Shift
+2026-03-11 11:55:07,894 :INFO : test_filteruser :Clicking on option: Morning Shift
+2026-03-11 11:55:08,022 :INFO : test_filteruser :Selected value: Morning Shift
+2026-03-11 11:55:17,117 :INFO : test_filteruser :clicking on filter option All OS
+2026-03-11 11:55:17,124 :INFO : test_filteruser :comparing All OS with All OS
+2026-03-11 11:55:17,137 :INFO : test_filteruser :Clicking on option: All OS
+2026-03-11 11:55:17,209 :INFO : test_filteruser :Selected value: All OS
+2026-03-11 12:41:31,909 :INFO : test_filteruser :Total number of users: 2
+2026-03-11 12:41:36,106 :INFO : test_filteruser :clicking on filter option Employee
+2026-03-11 12:41:36,123 :INFO : test_filteruser :comparing Employee with Employee
+2026-03-11 12:41:36,154 :INFO : test_filteruser :Clicking on option: Employee
+2026-03-11 12:41:36,310 :INFO : test_filteruser :Selected value: Employee
+2026-03-11 12:41:45,408 :INFO : test_filteruser :clicking on filter option Global Department
+2026-03-11 12:41:45,415 :INFO : test_filteruser :comparing Global Department with test department
+2026-03-11 12:41:45,430 :INFO : test_filteruser :clicking on filter option pinky
+2026-03-11 12:41:45,436 :INFO : test_filteruser :comparing pinky with test department
+2026-03-11 12:41:45,451 :INFO : test_filteruser :clicking on filter option test department
+2026-03-11 12:41:45,458 :INFO : test_filteruser :comparing test department with test department
+2026-03-11 12:41:45,487 :INFO : test_filteruser :Clicking on option: test department
+2026-03-11 12:41:45,747 :INFO : test_filteruser :Selected value: test department
+2026-03-11 12:41:54,935 :INFO : test_filteruser :clicking on filter option All Users
+2026-03-11 12:41:54,969 :INFO : test_filteruser :comparing All Users with Untracked
+2026-03-11 12:41:55,019 :INFO : test_filteruser :clicking on filter option Tracked
+2026-03-11 12:41:55,053 :INFO : test_filteruser :comparing Tracked with Untracked
+2026-03-11 12:41:55,103 :INFO : test_filteruser :clicking on filter option Untracked
+2026-03-11 12:41:55,120 :INFO : test_filteruser :comparing Untracked with Untracked
+2026-03-11 12:41:55,161 :INFO : test_filteruser :Clicking on option: Untracked
+2026-03-11 12:41:55,336 :INFO : test_filteruser :Selected value: Untracked
+2026-03-11 12:42:04,437 :INFO : test_filteruser :clicking on filter option All Shift
+2026-03-11 12:42:04,444 :INFO : test_filteruser :comparing All Shift with Morning Shift
+2026-03-11 12:42:04,458 :INFO : test_filteruser :clicking on filter option LoginLout
+2026-03-11 12:42:04,466 :INFO : test_filteruser :comparing LoginLout with Morning Shift
+2026-03-11 12:42:04,495 :INFO : test_filteruser :clicking on filter option reg
+2026-03-11 12:42:04,509 :INFO : test_filteruser :comparing reg with Morning Shift
+2026-03-11 12:42:04,541 :INFO : test_filteruser :clicking on filter option pinky test regression
+2026-03-11 12:42:04,556 :INFO : test_filteruser :comparing pinky test regression with Morning Shift
+2026-03-11 12:42:04,594 :INFO : test_filteruser :clicking on filter option First shift
+2026-03-11 12:42:04,614 :INFO : test_filteruser :comparing First shift with Morning Shift
+2026-03-11 12:42:04,650 :INFO : test_filteruser :clicking on filter option Evening
+2026-03-11 12:42:04,668 :INFO : test_filteruser :comparing Evening with Morning Shift
+2026-03-11 12:42:04,712 :INFO : test_filteruser :clicking on filter option Noon Shift
+2026-03-11 12:42:04,729 :INFO : test_filteruser :comparing Noon Shift with Morning Shift
+2026-03-11 12:42:04,760 :INFO : test_filteruser :clicking on filter option Morning Shift
+2026-03-11 12:42:04,775 :INFO : test_filteruser :comparing Morning Shift with Morning Shift
+2026-03-11 12:42:04,804 :INFO : test_filteruser :Clicking on option: Morning Shift
+2026-03-11 12:42:04,955 :INFO : test_filteruser :Selected value: Morning Shift
+2026-03-11 12:42:14,091 :INFO : test_filteruser :clicking on filter option All OS
+2026-03-11 12:42:14,105 :INFO : test_filteruser :comparing All OS with All OS
+2026-03-11 12:42:14,133 :INFO : test_filteruser :Clicking on option: All OS
+2026-03-11 12:42:14,229 :INFO : test_filteruser :Selected value: All OS
+2026-03-11 13:25:24,925 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-11 13:25:27,039 :INFO : test_createUserSingle :4
+2026-03-11 13:25:29,132 :INFO : test_createUserSingle :4
+2026-03-11 13:25:31,248 :INFO : test_createUserSingle :4
+2026-03-11 14:47:58,548 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-11 14:48:00,642 :INFO : test_createUserSingle :4
+2026-03-11 14:48:02,755 :INFO : test_createUserSingle :4
+2026-03-11 14:48:04,847 :INFO : test_createUserSingle :4
+2026-03-11 14:50:23,059 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-11 14:50:25,175 :INFO : test_createUserSingle :4
+2026-03-11 14:50:27,264 :INFO : test_createUserSingle :4
+2026-03-11 14:50:29,348 :INFO : test_createUserSingle :4
+2026-03-11 15:06:06,359 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-11 15:06:08,543 :INFO : test_createUserSingle :4
+2026-03-11 15:06:10,687 :INFO : test_createUserSingle :4
+2026-03-11 15:06:12,809 :INFO : test_createUserSingle :4
+2026-03-11 15:06:15,872 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-03-11 15:06:15,873 :INFO : test_createUserSingle :Total input fields found: 17
+2026-03-11 15:06:15,873 :WARNING : test_createUserSingle :Mismatch between flat_data and input_fields. Check your XPath or data.
+2026-03-11 15:10:46,067 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-11 15:10:48,239 :INFO : test_createUserSingle :4
+2026-03-11 15:10:50,364 :INFO : test_createUserSingle :4
+2026-03-11 15:10:52,496 :INFO : test_createUserSingle :4
+2026-03-11 15:10:56,606 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-03-11 15:10:56,607 :INFO : test_createUserSingle :Total input fields found: 17
+2026-03-11 15:10:56,607 :WARNING : test_createUserSingle :Mismatch between flat_data and input_fields. Check your XPath or data.
+2026-03-11 15:18:21,584 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-11 15:18:23,768 :INFO : test_createUserSingle :4
+2026-03-11 15:18:25,869 :INFO : test_createUserSingle :4
+2026-03-11 15:18:27,956 :INFO : test_createUserSingle :4
+2026-03-11 15:18:31,279 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-03-11 15:18:31,280 :INFO : test_createUserSingle :Total input fields found: 17
+2026-03-11 15:18:31,280 :WARNING : test_createUserSingle :Mismatch between flat_data and input_fields. Check your XPath or data.
+2026-03-11 16:18:41,109 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-11 16:18:43,228 :INFO : test_createUserSingle :4
+2026-03-11 16:18:45,322 :INFO : test_createUserSingle :4
+2026-03-11 16:18:47,414 :INFO : test_createUserSingle :4
+2026-03-11 16:18:49,229 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-03-11 16:18:49,229 :INFO : test_createUserSingle :Total input fields found: 17
+2026-03-11 16:18:49,229 :WARNING : test_createUserSingle :Mismatch between flat_data and input_fields. Check your XPath or data.
+2026-03-11 17:04:58,002 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-11 17:05:00,117 :INFO : test_createUserSingle :4
+2026-03-11 17:05:02,208 :INFO : test_createUserSingle :4
+2026-03-11 17:05:04,304 :INFO : test_createUserSingle :4
+2026-03-11 17:49:00,068 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-11 17:49:02,286 :INFO : test_createUserSingle :4
+2026-03-11 17:49:04,527 :INFO : test_createUserSingle :4
+2026-03-11 17:49:06,675 :INFO : test_createUserSingle :4
+2026-03-11 17:49:10,064 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-03-11 17:49:10,065 :INFO : test_createUserSingle :Total input fields found: 16
