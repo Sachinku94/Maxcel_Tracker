@@ -87,7 +87,7 @@ class Testone(BaseClass):
             flat_data.extend([row['Role'], row['Shift'], row['Department'],row['Work Type']])
 
         #"//div[@class='flex lg:grid flex flex-col lg:grid-cols-12 gap-4 mb-[24px] font-semibold']/div/div/div"
-        input=By.XPATH,"//div[contains(text(),'Select...')]"
+        input=By.XPATH,"//div[@class='flex flex-wrap items-start gap-4 w-full mb-4']/div/div"
         input_fields = wait.until(EC.presence_of_all_elements_located(input))
 
         # Debugging output

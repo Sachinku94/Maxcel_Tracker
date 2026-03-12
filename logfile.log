@@ -190,3 +190,77 @@ pradeep.jangra+111@truinc.com with Untracked
 2026-03-11 17:49:06,675 :INFO : test_createUserSingle :4
 2026-03-11 17:49:10,064 :INFO : test_createUserSingle :Total flat_data values: 16
 2026-03-11 17:49:10,065 :INFO : test_createUserSingle :Total input fields found: 16
+2026-03-12 10:03:37,956 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-12 10:03:40,075 :INFO : test_createUserSingle :4
+2026-03-12 10:03:42,169 :INFO : test_createUserSingle :4
+2026-03-12 10:03:44,290 :INFO : test_createUserSingle :4
+2026-03-12 10:03:46,096 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-03-12 10:03:46,096 :INFO : test_createUserSingle :Total input fields found: 16
+2026-03-12 11:03:48,804 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-12 11:03:51,000 :INFO : test_createUserSingle :4
+2026-03-12 11:03:53,167 :INFO : test_createUserSingle :4
+2026-03-12 11:03:55,262 :INFO : test_createUserSingle :4
+2026-03-12 11:03:59,209 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-03-12 11:03:59,210 :INFO : test_createUserSingle :Total input fields found: 16
+2026-03-12 11:04:01,355 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-12 11:04:01,513 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-12 11:04:09,027 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-03-12 11:04:09,145 :INFO : test_createUserSingle :Selected value: Evening
+2026-03-12 11:04:23,875 :INFO : test_createUserSingle :Clicking on option: WFO
+2026-03-12 11:04:24,020 :INFO : test_createUserSingle :Selected value: WFO
+2026-03-12 11:04:31,234 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-12 11:04:31,355 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-12 11:04:38,840 :INFO : test_createUserSingle :Clicking on option: Noon Shift
+2026-03-12 11:04:39,041 :INFO : test_createUserSingle :Selected value: Noon Shift
+2026-03-12 11:04:46,235 :INFO : test_createUserSingle :Clicking on option: test department
+2026-03-12 11:04:46,364 :INFO : test_createUserSingle :Selected value: test department
+2026-03-12 11:05:00,898 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-12 11:05:01,017 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-12 11:05:08,260 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-03-12 11:05:08,382 :INFO : test_createUserSingle :Selected value: Evening
+2026-03-12 11:05:23,078 :INFO : test_createUserSingle :Clicking on option: WFH
+2026-03-12 11:05:23,216 :INFO : test_createUserSingle :Selected value: WFH
+2026-03-12 11:05:30,562 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-12 11:05:30,735 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-12 11:05:38,019 :INFO : test_createUserSingle :Clicking on option: Morning Shift
+2026-03-12 11:05:38,142 :INFO : test_createUserSingle :Selected value: Morning Shift
+2026-03-12 11:05:45,288 :INFO : test_createUserSingle :Clicking on option: test department
+2026-03-12 11:05:45,412 :INFO : test_createUserSingle :Selected value: test department
+2026-03-12 11:16:55,873 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-12 11:16:58,030 :INFO : test_createUserSingle :4
+2026-03-12 11:17:00,202 :INFO : test_createUserSingle :4
+2026-03-12 11:17:02,318 :INFO : test_createUserSingle :4
+2026-03-12 11:17:06,170 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-03-12 11:17:06,170 :INFO : test_createUserSingle :Total input fields found: 16
+2026-03-12 11:17:08,279 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-12 11:17:08,381 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-12 11:17:15,659 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-03-12 11:17:15,799 :INFO : test_createUserSingle :Selected value: Evening
+2026-03-12 11:17:23,011 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-03-12 11:17:23,126 :INFO : test_createUserSingle :Selected value: Default Department
+2026-03-12 11:17:30,249 :INFO : test_createUserSingle :Clicking on option: WFO
+2026-03-12 11:17:30,339 :INFO : test_createUserSingle :Selected value: WFO
+2026-03-12 11:17:37,504 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-12 11:17:37,646 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-12 11:17:45,181 :INFO : test_createUserSingle :Clicking on option: Noon Shift
+2026-03-12 11:17:45,260 :INFO : test_createUserSingle :Selected value: Noon Shift
+2026-03-12 11:17:52,407 :INFO : test_createUserSingle :Clicking on option: test department
+2026-03-12 11:17:52,582 :INFO : test_createUserSingle :Selected value: test department
+2026-03-12 11:17:59,846 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-03-12 11:17:59,992 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-03-12 11:18:07,186 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-12 11:18:07,330 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-12 11:18:14,739 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-03-12 11:18:14,968 :INFO : test_createUserSingle :Selected value: Evening
+2026-03-12 11:18:22,203 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-03-12 11:18:22,301 :INFO : test_createUserSingle :Selected value: Default Department
+2026-03-12 11:18:29,511 :INFO : test_createUserSingle :Clicking on option: WFH
+2026-03-12 11:18:29,708 :INFO : test_createUserSingle :Selected value: WFH
+2026-03-12 11:18:36,917 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-12 11:18:37,071 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-12 11:18:44,277 :INFO : test_createUserSingle :Clicking on option: Morning Shift
+2026-03-12 11:18:44,382 :INFO : test_createUserSingle :Selected value: Morning Shift
+2026-03-12 11:18:51,603 :INFO : test_createUserSingle :Clicking on option: test department
+2026-03-12 11:18:51,741 :INFO : test_createUserSingle :Selected value: test department
+2026-03-12 11:18:59,027 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-03-12 11:18:59,166 :INFO : test_createUserSingle :Selected value: Hybrid
