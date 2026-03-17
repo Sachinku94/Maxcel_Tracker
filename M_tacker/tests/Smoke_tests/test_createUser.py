@@ -283,12 +283,12 @@ class Testone(BaseClass):
                     log.info("Navigated back to user page successfully")
                 time.sleep(5)
             
-            random.choice(action_button).click()
+            
             try:
                 random.choice(action_button).click()
             except Exception as e:
                 log.error(f"Exception occurred while clicking action button: {e}")
-                if Exception == True:
+                if e == True:
                     self.driver.get(user)
                     random.choice(action_button).click()
             time.sleep(5)
