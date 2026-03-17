@@ -264,3 +264,204 @@ pradeep.jangra+111@truinc.com with Untracked
 2026-03-12 11:18:51,741 :INFO : test_createUserSingle :Selected value: test department
 2026-03-12 11:18:59,027 :INFO : test_createUserSingle :Clicking on option: Hybrid
 2026-03-12 11:18:59,166 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-03-17 11:59:35,597 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-17 11:59:37,719 :INFO : test_createUserSingle :4
+2026-03-17 11:59:39,844 :INFO : test_createUserSingle :4
+2026-03-17 11:59:41,940 :INFO : test_createUserSingle :4
+2026-03-17 11:59:43,558 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-03-17 11:59:43,559 :INFO : test_createUserSingle :Total input fields found: 16
+2026-03-17 11:59:45,682 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-17 11:59:45,758 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-17 11:59:53,076 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-03-17 11:59:53,175 :INFO : test_createUserSingle :Selected value: Evening
+2026-03-17 12:00:00,303 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-03-17 12:00:00,383 :INFO : test_createUserSingle :Selected value: Default Department
+2026-03-17 12:00:07,510 :INFO : test_createUserSingle :Clicking on option: WFO
+2026-03-17 12:00:07,589 :INFO : test_createUserSingle :Selected value: WFO
+2026-03-17 12:00:14,702 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-17 12:00:14,784 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-17 12:00:21,949 :INFO : test_createUserSingle :Clicking on option: Noon Shift
+2026-03-17 12:00:22,039 :INFO : test_createUserSingle :Selected value: Noon Shift
+2026-03-17 12:00:29,204 :INFO : test_createUserSingle :Clicking on option: test department
+2026-03-17 12:00:29,291 :INFO : test_createUserSingle :Selected value: test department
+2026-03-17 12:00:36,412 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-03-17 12:00:36,492 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-03-17 12:00:43,610 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-17 12:00:43,688 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-17 12:00:50,830 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-03-17 12:00:50,906 :INFO : test_createUserSingle :Selected value: Evening
+2026-03-17 12:00:58,033 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-03-17 12:00:58,117 :INFO : test_createUserSingle :Selected value: Default Department
+2026-03-17 12:01:05,227 :INFO : test_createUserSingle :Clicking on option: WFH
+2026-03-17 12:01:05,306 :INFO : test_createUserSingle :Selected value: WFH
+2026-03-17 12:01:12,421 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-17 12:01:12,503 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-17 12:01:19,645 :INFO : test_createUserSingle :Clicking on option: Morning Shift
+2026-03-17 12:01:19,727 :INFO : test_createUserSingle :Selected value: Morning Shift
+2026-03-17 12:01:26,853 :INFO : test_createUserSingle :Clicking on option: test department
+2026-03-17 12:01:26,937 :INFO : test_createUserSingle :Selected value: test department
+2026-03-17 12:01:34,089 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-03-17 12:01:34,178 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-03-17 12:02:04,396 :INFO : test_filteruser :Total number of users: 2
+2026-03-17 12:02:08,505 :INFO : test_filteruser :clicking on filter option Employee
+2026-03-17 12:02:08,512 :INFO : test_filteruser :comparing Employee with Employee
+2026-03-17 12:02:08,526 :INFO : test_filteruser :Clicking on option: Employee
+2026-03-17 12:02:08,641 :INFO : test_filteruser :Selected value: Employee
+2026-03-17 12:02:17,767 :INFO : test_filteruser :clicking on filter option Global Department
+2026-03-17 12:02:17,775 :INFO : test_filteruser :comparing Global Department with test department
+2026-03-17 12:02:17,788 :INFO : test_filteruser :clicking on filter option pinky
+2026-03-17 12:02:17,794 :INFO : test_filteruser :comparing pinky with test department
+2026-03-17 12:02:17,810 :INFO : test_filteruser :clicking on filter option test department
+2026-03-17 12:02:17,816 :INFO : test_filteruser :comparing test department with test department
+2026-03-17 12:02:17,832 :INFO : test_filteruser :Clicking on option: test department
+2026-03-17 12:02:17,974 :INFO : test_filteruser :Selected value: test department
+2026-03-17 12:02:27,068 :INFO : test_filteruser :clicking on filter option All Users
+2026-03-17 12:02:27,075 :INFO : test_filteruser :comparing All Users with Untracked
+2026-03-17 12:02:27,088 :INFO : test_filteruser :clicking on filter option Tracked
+2026-03-17 12:02:27,095 :INFO : test_filteruser :comparing Tracked with Untracked
+2026-03-17 12:02:27,109 :INFO : test_filteruser :clicking on filter option Untracked
+2026-03-17 12:02:27,116 :INFO : test_filteruser :comparing Untracked with Untracked
+2026-03-17 12:02:27,129 :INFO : test_filteruser :Clicking on option: Untracked
+2026-03-17 12:02:27,209 :INFO : test_filteruser :Selected value: Untracked
+2026-03-17 12:02:36,335 :INFO : test_filteruser :clicking on filter option All Shift
+2026-03-17 12:02:36,342 :INFO : test_filteruser :comparing All Shift with Morning Shift
+2026-03-17 12:02:36,355 :INFO : test_filteruser :clicking on filter option LoginLout
+2026-03-17 12:02:36,361 :INFO : test_filteruser :comparing LoginLout with Morning Shift
+2026-03-17 12:02:36,375 :INFO : test_filteruser :clicking on filter option reg
+2026-03-17 12:02:36,381 :INFO : test_filteruser :comparing reg with Morning Shift
+2026-03-17 12:02:36,395 :INFO : test_filteruser :clicking on filter option pinky test regression
+2026-03-17 12:02:36,401 :INFO : test_filteruser :comparing pinky test regression with Morning Shift
+2026-03-17 12:02:36,415 :INFO : test_filteruser :clicking on filter option First shift
+2026-03-17 12:02:36,422 :INFO : test_filteruser :comparing First shift with Morning Shift
+2026-03-17 12:02:36,435 :INFO : test_filteruser :clicking on filter option Evening
+2026-03-17 12:02:36,442 :INFO : test_filteruser :comparing Evening with Morning Shift
+2026-03-17 12:02:36,454 :INFO : test_filteruser :clicking on filter option Noon Shift
+2026-03-17 12:02:36,461 :INFO : test_filteruser :comparing Noon Shift with Morning Shift
+2026-03-17 12:02:36,474 :INFO : test_filteruser :clicking on filter option Morning Shift
+2026-03-17 12:02:36,481 :INFO : test_filteruser :comparing Morning Shift with Morning Shift
+2026-03-17 12:02:36,494 :INFO : test_filteruser :Clicking on option: Morning Shift
+2026-03-17 12:02:36,637 :INFO : test_filteruser :Selected value: Morning Shift
+2026-03-17 12:02:45,765 :INFO : test_filteruser :clicking on filter option All OS
+2026-03-17 12:02:45,772 :INFO : test_filteruser :comparing All OS with All OS
+2026-03-17 12:02:45,785 :INFO : test_filteruser :Clicking on option: All OS
+2026-03-17 12:02:45,894 :INFO : test_filteruser :Selected value: All OS
+2026-03-17 12:02:55,020 :INFO : test_filteruser :clicking on filter option All Versions
+2026-03-17 12:02:55,027 :INFO : test_filteruser :comparing All Versions with Manager
+2026-03-17 12:02:55,040 :INFO : test_filteruser :clicking on filter option 0.0.7
+2026-03-17 12:02:55,047 :INFO : test_filteruser :comparing 0.0.7 with Manager
+2026-03-17 12:02:55,060 :INFO : test_filteruser :clicking on filter option 0.0.8
+2026-03-17 12:02:55,066 :INFO : test_filteruser :comparing 0.0.8 with Manager
+2026-03-17 12:33:33,640 :INFO : test_useractions :clicking on action option Un-track
+2026-03-17 12:33:53,793 :INFO : test_useractions :clicking on action option 
+2026-03-17 12:50:01,234 :INFO : test_useractions :clicking on action option 
+2026-03-17 12:55:45,928 :INFO : test_useractions :clicking on action option Track
+2026-03-17 12:56:05,942 :INFO : test_useractions :clicked on action option Disable Password
+2026-03-17 12:56:06,100 :INFO : test_useractions :clicking on action option 
+2026-03-17 12:56:26,112 :INFO : test_useractions :clicked on action option 
+2026-03-17 13:00:05,563 :INFO : test_useractions :clicking on action option Track
+2026-03-17 13:00:25,580 :INFO : test_useractions :clicked on action option Enable Password
+2026-03-17 13:00:30,833 :INFO : test_useractions :clicking on action option 
+2026-03-17 13:00:50,847 :INFO : test_useractions :clicked on action option 
+2026-03-17 13:08:10,643 :INFO : test_useractions :clicking on action option Track
+2026-03-17 13:08:30,660 :INFO : test_useractions :clicked on action option Info
+2026-03-17 13:13:09,865 :INFO : test_useractions :clicking on action option Track
+2026-03-17 13:13:29,888 :INFO : test_useractions :clicked on action option Track
+2026-03-17 13:13:40,182 :INFO : test_useractions :clicking on action option 
+2026-03-17 13:14:00,196 :INFO : test_useractions :clicked on action option 
+2026-03-17 13:25:23,330 :INFO : test_useractions :clicking on action option Track
+2026-03-17 13:25:43,347 :INFO : test_useractions :clicked on action option Track
+2026-03-17 14:35:52,494 :INFO : test_useractions :clicking on action option Track
+2026-03-17 14:36:12,507 :INFO : test_useractions :clicked on action option Disable Password
+2026-03-17 14:40:02,759 :INFO : test_useractions :clicking on action option Track
+2026-03-17 14:40:22,774 :INFO : test_useractions :clicked on action option Track
+2026-03-17 14:40:43,007 :INFO : test_useractions :clicking on action option 
+2026-03-17 14:41:03,021 :INFO : test_useractions :clicked on action option 
+2026-03-17 15:14:35,484 :INFO : test_useractions :clicking on action option Track
+2026-03-17 15:14:55,501 :INFO : test_useractions :clicked on action option Track
+2026-03-17 15:15:15,981 :INFO : test_useractions :clicking on action option 
+2026-03-17 15:15:35,991 :INFO : test_useractions :clicked on action option 
+2026-03-17 15:27:07,666 :INFO : test_useractions :clicking on action option Track
+2026-03-17 15:27:27,683 :INFO : test_useractions :clicked on action option Logs
+2026-03-17 15:31:01,299 :INFO : test_useractions :clicking on action option Track
+2026-03-17 15:31:21,314 :INFO : test_useractions :clicked on action option Logs
+2026-03-17 15:57:42,963 :INFO : test_useractions :clicking on action option Track
+2026-03-17 15:58:02,980 :INFO : test_useractions :clicked on action option [Deactivate]
+2026-03-17 15:58:05,309 :INFO : test_useractions :User deactivated successfully
+2026-03-17 15:58:30,402 :INFO : test_useractions :clicking on action option 
+2026-03-17 15:58:50,418 :INFO : test_useractions :clicked on action option []
+2026-03-17 16:03:07,910 :INFO : test_useractions :clicking on action option Track
+2026-03-17 16:03:27,927 :INFO : test_useractions :clicked on action option [Edit]
+2026-03-17 16:03:30,020 :INFO : test_useractions :edit user screen opened successfully
+2026-03-17 16:09:28,285 :INFO : test_useractions :clicking on action option Un-track
+2026-03-17 16:09:48,297 :INFO : test_useractions :clicked on action option [Disable Password]
+2026-03-17 16:09:50,376 :INFO : test_useractions :Password enabled/disabled successfully
+2026-03-17 16:10:15,462 :INFO : test_useractions :clicking on action option 
+2026-03-17 16:10:35,475 :INFO : test_useractions :clicked on action option []
+2026-03-17 16:11:00,664 :INFO : test_useractions :clicking on action option 
+2026-03-17 16:11:20,681 :INFO : test_useractions :clicked on action option []
+2026-03-17 16:11:45,849 :INFO : test_useractions :clicking on action option 
+2026-03-17 16:12:05,867 :INFO : test_useractions :clicked on action option []
+2026-03-17 16:27:24,336 :INFO : test_useractions :clicking on action option Track
+2026-03-17 16:27:34,364 :INFO : test_useractions :clicked on action option [Activate]
+2026-03-17 16:27:59,538 :INFO : test_useractions :clicking on action option 
+2026-03-17 16:28:09,552 :INFO : test_useractions :clicked on action option []
+2026-03-17 16:32:08,059 :INFO : test_useractions :clicking on action option Track
+2026-03-17 16:32:18,088 :INFO : test_useractions :clicked on action option [Edit]
+2026-03-17 16:32:20,279 :INFO : test_useractions :edit user screen opened successfully
+2026-03-17 16:32:47,527 :INFO : test_useractions :clicking on action option 
+2026-03-17 16:32:57,539 :INFO : test_useractions :clicked on action option []
+2026-03-17 16:33:22,743 :INFO : test_useractions :clicking on action option 
+2026-03-17 16:33:32,764 :INFO : test_useractions :clicked on action option []
+2026-03-17 16:43:59,093 :INFO : test_useractions :clicking on action option Track
+2026-03-17 16:44:09,112 :INFO : test_useractions :clicked on action option [Logs]
+2026-03-17 16:44:14,296 :INFO : test_useractions :navigated to user logs page successfully
+2026-03-17 16:47:24,226 :INFO : test_useractions :clicking on action option Track
+2026-03-17 16:47:34,244 :INFO : test_useractions :clicked on action option [Logs]
+2026-03-17 16:47:39,361 :INFO : test_useractions :navigated to user logs page successfully
+2026-03-17 16:47:43,742 :INFO : test_useractions :navigated back to user page successfully
+2026-03-17 16:47:43,750 :INFO : test_useractions :current url after navigating back: https://stg-fe.maxeltracker.com/organisation/dashboard/users
+2026-03-17 16:48:08,755 :INFO : test_useractions :Logs
+2026-03-17 16:48:08,756 :INFO : test_useractions :Already navigated to Logs page, no need to click action button again.
+2026-03-17 16:48:08,762 :INFO : test_useractions :Current URL after Logs action: https://stg-fe.maxeltracker.com/organisation/dashboard/users
+2026-03-17 16:54:47,312 :INFO : test_useractions :clicking on action option Un-track
+2026-03-17 16:54:57,328 :INFO : test_useractions :clicked on action option [Disable Password]
+2026-03-17 16:54:59,387 :INFO : test_useractions :Password enabled/disabled successfully
+2026-03-17 16:55:19,391 :INFO : test_useractions :Disable Password
+2026-03-17 16:55:24,491 :INFO : test_useractions :clicking on action option 
+2026-03-17 16:55:34,500 :INFO : test_useractions :clicked on action option []
+2026-03-17 16:55:54,606 :INFO : test_useractions :
+2026-03-17 17:16:05,537 :INFO : test_useractions :clicking on action option Track
+2026-03-17 17:16:15,561 :INFO : test_useractions :clicked on action option [Disable Password]
+2026-03-17 17:16:17,725 :INFO : test_useractions :Password enabled/disabled successfully
+2026-03-17 17:16:37,732 :INFO : test_useractions :Disable Password
+2026-03-17 17:16:42,842 :INFO : test_useractions :clicking on action option 
+2026-03-17 17:16:52,860 :INFO : test_useractions :clicked on action option []
+2026-03-17 17:17:12,924 :INFO : test_useractions :
+2026-03-17 17:17:18,082 :INFO : test_useractions :clicking on action option 
+2026-03-17 17:17:28,099 :INFO : test_useractions :clicked on action option []
+2026-03-17 17:17:48,213 :INFO : test_useractions :
+2026-03-17 17:17:53,390 :INFO : test_useractions :clicking on action option 
+2026-03-17 17:18:03,346 :INFO : test_useractions :clicked on action option []
+2026-03-17 17:18:23,383 :INFO : test_useractions :
+2026-03-17 17:18:28,495 :INFO : test_useractions :clicking on action option 
+2026-03-17 17:18:38,509 :INFO : test_useractions :clicked on action option []
+2026-03-17 17:18:58,552 :INFO : test_useractions :
+2026-03-17 17:39:08,081 :INFO : test_useractions :clicking on action option Track
+2026-03-17 17:39:18,105 :INFO : test_useractions :clicked on action option [Edit]
+2026-03-17 17:39:20,240 :INFO : test_useractions :edit user screen opened successfully
+2026-03-17 17:39:42,343 :INFO : test_useractions :Edit
+2026-03-17 17:39:47,532 :INFO : test_useractions :clicking on action option 
+2026-03-17 17:39:57,548 :INFO : test_useractions :clicked on action option []
+2026-03-17 17:40:17,635 :INFO : test_useractions :
+2026-03-17 17:40:22,843 :INFO : test_useractions :clicking on action option 
+2026-03-17 17:40:32,862 :INFO : test_useractions :clicked on action option []
+2026-03-17 17:40:52,963 :INFO : test_useractions :
+2026-03-17 17:40:58,160 :INFO : test_useractions :clicking on action option 
+2026-03-17 17:41:08,176 :INFO : test_useractions :clicked on action option []
+2026-03-17 17:41:28,230 :INFO : test_useractions :
+2026-03-17 17:41:33,383 :INFO : test_useractions :clicking on action option 
+2026-03-17 17:41:43,396 :INFO : test_useractions :clicked on action option []
+2026-03-17 17:42:03,453 :INFO : test_useractions :
+2026-03-17 17:42:08,629 :INFO : test_useractions :clicking on action option 
+2026-03-17 17:42:18,645 :INFO : test_useractions :clicked on action option []
+2026-03-17 17:42:38,700 :INFO : test_useractions :
