@@ -34,7 +34,7 @@ class Testone(BaseClass):
         cel=By.XPATH,"//input[@placeholder='Select Date']"
         celandar=wait.until(EC.presence_of_element_located(cel))
         celandar.click()
-        time.sleep(2)
+        time.sleep(5)
         filter_days=By.XPATH,"//div[@class='flex flex-col lg:flex-row py-2']/div/ul/li"
         filter_days=wait.until(EC.presence_of_all_elements_located(filter_days))
         for i in filter_days:
@@ -43,6 +43,7 @@ class Testone(BaseClass):
             celandar.click()
 
     def test_appfilter(self):
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.appsandwebsite(self)
@@ -58,7 +59,7 @@ class Testone(BaseClass):
         filter_but=By.CSS_SELECTOR,".css-c2frko-control"
         filter_button=wait.until(EC.presence_of_all_elements_located(filter_but))
         for _, row in user_data.iterrows():
-            flat_data.extend([row['shift'], row['department']])
+            flat_data.extend([row['Shift'], row['Department']])
             for i in filter_button:
                 i.click()
                 time.sleep(2)
@@ -68,14 +69,14 @@ class Testone(BaseClass):
                     log.info(f"already selected filter option is {i.text}")
                     al_opt.append(i.text)
 
-                
-                
-                if row['shift'] and row['department'] not in al_opt:
-                            log.info(f"clicking on filter option {row['shift']or row['department']}")
+
+
+                if row['Shift'] and row['Department'] not in al_opt:
+                            log.info(f"clicking on filter option {row['Shift'] or row['Department']}")
                             option_shift_department=By.CSS_SELECTOR,".css-fygc7l-option"
                             option_shift_d=wait.until(EC.visibility_of_all_elements_located(option_shift_department))
                             for e in option_shift_d:
-                                if e.text==row['shift'] or e.text==row['department']:
+                                if e.text==row['Shift'] or e.text==row['Department']:
                                     e.click()
                                     break
                 al_opt.clear()               
@@ -83,6 +84,7 @@ class Testone(BaseClass):
             # shift filter not responding  
                     
     def test_actionsonapp(self):
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.appsandwebsite(self)

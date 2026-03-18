@@ -21,6 +21,13 @@ class HomePage(BaseClass):
         # user=self.driver.find_element(By.XPATH,"//span[@class='user-name']")
         user=env_url+"organisation/dashboard/users"
         return user
+    def Userreport(self):
+        # log= self.getLogger()
+        # log.info("Clicking on User tab")
+        time.sleep(5)
+        # user=self.driver.find_element(By.XPATH,"//span[@class='user-name']")
+        user=env_url+"organisation/dashboard/user-reports"
+        return user
 
     def appsandwebsite(self):
         time.sleep(5)

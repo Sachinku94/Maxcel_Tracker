@@ -3,3 +3,7 @@ __pycache__
 .vscode
 *.exe
 .env
+.venv
+venv
+env
+allure-results

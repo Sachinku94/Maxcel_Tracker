@@ -517,3 +517,1859 @@ deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
 json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
 receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:179:30
 
+2026-03-18 11:13:01,816 :INFO : test_useractions :clicking on action option Track
+2026-03-18 11:13:11,835 :INFO : test_useractions :clicked on action option [Edit]
+2026-03-18 11:13:13,937 :INFO : test_useractions :edit user screen opened successfully
+2026-03-18 11:13:36,042 :INFO : test_useractions :Edit
+2026-03-18 11:13:41,134 :INFO : test_useractions :clicking on action option Info
+2026-03-18 11:13:51,150 :INFO : test_useractions :clicked on action option [Enable Password]
+2026-03-18 11:13:53,202 :INFO : test_useractions :Password enabled/disabled successfully
+2026-03-18 11:14:13,210 :INFO : test_useractions :Enable Password
+2026-03-18 11:14:18,311 :INFO : test_useractions :clicking on action option 
+2026-03-18 11:14:28,323 :INFO : test_useractions :clicked on action option []
+2026-03-18 11:14:48,375 :INFO : test_useractions :
+2026-03-18 11:14:53,466 :INFO : test_useractions :clicking on action option 
+2026-03-18 11:15:03,478 :INFO : test_useractions :clicked on action option []
+2026-03-18 11:15:23,497 :INFO : test_useractions :
+2026-03-18 11:15:23,504 :ERROR : test_useractions :Exception occurred while clicking action button: Message: The element with the reference 73ac6a42-611f-44c7-b480-ea4e561a34bd is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:412:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:270:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:179:30
+
+2026-03-18 11:15:28,509 :ERROR : test_useractions :Exception occurred during user actions test: Message: The element with the reference a2c1286c-dea4-485a-b8e5-be0c60d89e9a is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:412:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:270:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:179:30
+
+2026-03-18 11:38:43,381 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-03-18 11:38:43,381 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-03-18 11:38:43,382 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-03-18 11:38:43,382 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-03-18 11:38:43,382 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-03-18 11:38:43,382 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-03-18 11:45:31,755 :INFO : test_appfilter :Total number of users: 4
+2026-03-18 11:46:31,729 :INFO : test_appfilter :Total number of users: 4
+2026-03-18 11:46:31,729 :INFO : test_appfilter :Total number of users: 4
+2026-03-18 11:49:18,397 :INFO : test_appfilterproductive :Total number of users: 4
+2026-03-18 11:50:18,666 :INFO : test_appfilter :Total number of users: 4
+2026-03-18 11:50:20,797 :INFO : test_appfilter :already selected filter option is Global Department
+2026-03-18 11:50:20,813 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-18 11:52:59,232 :INFO : test_appfilterproductive :Total number of users: 4
+2026-03-18 11:53:58,225 :INFO : test_appfilter :Total number of users: 4
+2026-03-18 11:54:00,348 :INFO : test_appfilter :already selected filter option is Global Department
+2026-03-18 11:54:00,362 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-18 11:54:00,368 :INFO : test_appfilter :clicking on filter option Evening
+2026-03-18 11:58:26,682 :INFO : test_appfilterproductive :Total number of users: 4
+2026-03-18 11:59:42,855 :INFO : test_appfilter :Total number of users: 4
+2026-03-18 11:59:44,993 :INFO : test_appfilter :already selected filter option is Global Department
+2026-03-18 11:59:45,007 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-18 11:59:45,014 :INFO : test_appfilter :clicking on filter option Evening
+2026-03-18 12:03:43,142 :INFO : test_appfilterproductive :Total number of users: 4
+2026-03-18 12:04:47,000 :INFO : test_appfilter :Total number of users: 4
+2026-03-18 12:04:49,115 :INFO : test_appfilter :already selected filter option is Global Department
+2026-03-18 12:04:49,128 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-18 12:04:49,135 :INFO : test_appfilter :clicking on filter option Evening
+2026-03-18 12:04:53,405 :INFO : test_appfilter :already selected filter option is Default Department
+2026-03-18 12:04:53,417 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-18 12:04:57,520 :INFO : test_appfilter :already selected filter option is Default Department
+2026-03-18 12:04:57,533 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-18 12:04:57,541 :INFO : test_appfilter :clicking on filter option Noon Shift
+2026-03-18 12:05:01,779 :INFO : test_appfilter :already selected filter option is test department
+2026-03-18 12:05:01,798 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-18 12:05:05,899 :INFO : test_appfilter :already selected filter option is test department
+2026-03-18 12:05:05,913 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-18 12:05:05,921 :INFO : test_appfilter :clicking on filter option Evening
+2026-03-18 12:05:10,186 :INFO : test_appfilter :already selected filter option is Default Department
+2026-03-18 12:05:10,199 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-18 12:05:14,321 :INFO : test_appfilter :already selected filter option is Default Department
+2026-03-18 12:05:14,335 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-18 12:05:14,341 :INFO : test_appfilter :clicking on filter option Morning Shift
+2026-03-18 12:05:18,607 :INFO : test_appfilter :already selected filter option is test department
+2026-03-18 12:05:18,621 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-18 12:14:30,143 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-18 12:14:32,307 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-18 12:14:34,459 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-18 12:14:36,619 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-18 12:14:42,913 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-18 12:14:45,060 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-18 12:14:47,208 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-18 12:14:49,359 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-18 12:39:50,090 :INFO : test_logsdatewise :Exception occurred while selecting option: Message: 
+
+2026-03-18 13:05:34,032 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 13:06:51,915 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 13:06:51,915 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 13:09:04,152 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 13:09:04,262 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:09:06,276 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:09:06,297 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 13:09:06,319 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 13:09:08,523 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:09:10,550 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 13:09:10,607 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 13:09:10,663 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 13:09:10,723 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 13:09:10,780 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 13:09:10,838 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 13:09:10,897 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 13:09:10,958 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 13:09:11,095 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:09:13,109 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 13:09:13,131 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:09:13,154 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 13:09:15,338 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:09:17,363 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 13:09:17,419 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 13:09:17,475 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 13:09:17,533 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 13:09:17,590 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 13:09:17,651 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 13:09:17,711 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 13:09:17,779 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 13:09:17,840 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 13:09:17,957 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:09:19,976 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 13:09:20,004 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:09:20,027 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 13:09:22,241 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:09:24,267 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 13:09:24,324 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 13:09:24,381 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 13:09:24,437 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 13:09:24,492 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 13:09:24,547 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 13:09:24,606 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 13:09:24,672 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 13:09:24,810 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:09:26,828 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 13:09:26,848 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:09:26,870 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 13:09:29,072 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:09:31,098 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 13:09:31,155 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 13:09:31,210 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 13:09:31,267 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 13:09:31,325 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 13:09:31,383 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 13:09:31,442 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 13:09:31,496 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 13:09:31,554 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 13:10:33,160 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 13:10:33,160 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 13:16:14,822 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 13:16:14,924 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:16:16,936 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:16:16,957 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 13:16:16,979 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 13:16:19,180 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:16:21,208 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 13:16:21,264 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 13:16:21,320 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 13:16:21,378 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 13:16:21,434 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 13:16:21,490 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 13:16:21,548 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 13:16:21,604 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 13:16:21,735 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:16:23,750 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 13:16:23,772 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:16:23,793 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 13:16:25,995 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:16:28,019 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 13:16:28,077 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 13:16:28,142 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 13:16:28,201 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 13:16:28,268 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 13:16:28,325 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 13:16:28,383 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 13:16:28,441 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 13:16:28,498 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 13:16:28,630 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:16:30,648 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 13:16:30,668 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:16:30,689 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 13:16:32,903 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:16:34,932 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 13:16:34,989 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 13:16:35,046 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 13:16:35,103 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 13:16:35,159 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 13:16:35,216 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 13:16:35,275 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 13:16:35,334 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 13:16:35,455 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:16:37,470 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 13:16:37,491 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:16:37,512 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 13:16:39,715 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:16:41,740 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 13:16:41,794 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 13:16:41,848 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 13:16:41,903 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 13:16:41,959 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 13:16:42,019 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 13:16:42,077 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 13:16:42,133 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 13:16:42,189 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 13:17:48,549 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 13:17:48,549 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 13:23:44,570 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 13:23:44,678 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:23:46,695 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:23:46,716 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 13:23:46,736 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 13:23:46,851 :INFO : test_logsfilter :entered Optimus Prim in filter search box
+2026-03-18 13:23:48,948 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:23:50,979 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 13:23:51,037 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 13:23:51,100 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 13:23:51,161 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 13:23:51,220 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 13:23:51,279 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 13:23:51,339 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 13:23:51,406 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 13:23:51,530 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:23:53,542 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 13:23:53,566 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:23:53,587 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 13:23:53,683 :INFO : test_logsfilter :entered John Wicaa in filter search box
+2026-03-18 13:23:55,774 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:23:57,799 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 13:23:57,856 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 13:23:57,914 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 13:23:57,972 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 13:23:58,030 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 13:23:58,088 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 13:23:58,146 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 13:23:58,207 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 13:23:58,267 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 13:23:58,415 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:24:00,431 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 13:24:00,454 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:24:00,480 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 13:24:00,584 :INFO : test_logsfilter :entered Opt Prime in filter search box
+2026-03-18 13:24:02,712 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:24:04,742 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 13:24:04,802 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 13:24:04,862 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 13:24:04,918 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 13:24:04,975 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 13:24:05,031 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 13:24:05,096 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 13:24:05,154 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 13:24:05,290 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:24:07,303 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 13:24:07,324 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 13:24:07,346 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 13:24:07,446 :INFO : test_logsfilter :entered John Wi in filter search box
+2026-03-18 13:24:09,554 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 13:24:11,581 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 13:24:11,640 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 13:24:11,698 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 13:24:11,755 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 13:24:11,812 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 13:24:11,874 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 13:24:11,930 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 13:24:11,986 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 13:24:12,042 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 13:25:09,607 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 13:25:09,607 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 14:46:51,803 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 14:46:51,803 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 14:49:20,438 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 14:49:20,549 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 14:49:22,567 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 14:49:22,590 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 14:49:22,610 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 14:49:22,729 :INFO : test_logsfilter :entered Team Member in filter search box
+2026-03-18 14:49:24,816 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 14:49:26,844 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 14:49:26,901 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 14:49:26,959 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 14:49:27,019 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 14:49:27,077 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 14:49:27,135 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 14:49:27,193 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 14:49:27,252 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 14:49:27,392 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 14:49:29,408 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 14:49:29,435 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 14:49:29,458 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 14:49:29,564 :INFO : test_logsfilter :entered Pinku in filter search box
+2026-03-18 14:49:31,663 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 14:49:33,687 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 14:49:33,746 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 14:49:33,805 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 14:49:33,874 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 14:49:33,934 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 14:49:33,993 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 14:49:34,055 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 14:49:34,113 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 14:49:34,170 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 14:49:34,322 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 14:49:36,335 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 14:49:36,353 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 14:49:36,380 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 14:49:36,482 :INFO : test_logsfilter :entered Opt Prime in filter search box
+2026-03-18 14:49:38,595 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 14:49:40,624 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 14:49:40,674 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 14:49:40,731 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 14:49:40,788 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 14:49:40,845 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 14:49:40,902 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 14:49:40,959 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 14:49:41,019 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 14:49:41,150 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 14:49:43,166 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 14:49:43,190 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 14:49:43,213 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 14:49:43,338 :INFO : test_logsfilter :entered John Wi in filter search box
+2026-03-18 14:49:45,430 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__control react-select__control--is-focused react-select__control--menu-is-open css-3vvonm-control"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 14:49:47,453 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 14:49:47,510 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 14:49:47,566 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 14:49:47,621 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 14:49:47,676 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 14:49:47,723 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 14:49:47,777 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 14:49:47,825 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 14:49:47,877 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 14:50:52,294 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 14:50:52,294 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 15:02:15,938 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 15:02:16,058 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 15:02:18,073 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 15:02:18,096 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 15:02:18,118 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 15:02:18,222 :INFO : test_logsfilter :entered Team Member in filter search box
+2026-03-18 15:02:20,332 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 15:02:22,372 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 15:02:22,460 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 15:02:22,535 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 15:02:22,607 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 15:02:22,684 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 15:02:22,771 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 15:02:22,840 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 15:02:22,902 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 15:02:23,025 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 15:02:25,039 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 15:02:25,059 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 15:02:25,082 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 15:02:25,207 :INFO : test_logsfilter :entered Pinku in filter search box
+2026-03-18 15:02:27,314 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 15:02:29,346 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 15:02:29,430 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 15:02:29,505 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 15:02:29,583 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 15:02:29,661 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 15:02:29,741 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 15:02:29,815 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 15:02:29,915 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 15:02:29,986 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 15:02:30,144 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 15:02:32,163 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 15:02:32,186 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 15:02:32,208 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 15:02:32,330 :INFO : test_logsfilter :entered Opt Prime in filter search box
+2026-03-18 15:02:34,420 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 15:02:36,448 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 15:02:36,507 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 15:02:36,567 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 15:02:36,628 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 15:02:36,689 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 15:02:36,754 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 15:02:36,819 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 15:02:36,892 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 15:02:37,044 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 15:02:39,053 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 15:02:39,082 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 15:02:39,105 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 15:02:39,207 :INFO : test_logsfilter :entered John Wi in filter search box
+2026-03-18 15:02:41,309 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 15:02:43,341 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 15:02:43,404 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 15:02:43,466 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 15:02:43,528 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 15:02:43,593 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 15:02:43,657 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 15:02:43,723 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 15:02:43,796 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 15:02:43,859 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 15:03:54,576 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 15:03:54,576 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:00:02,347 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:03:18,633 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:04:31,645 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:04:31,645 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:06:18,633 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:07:24,627 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:07:24,627 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:08:44,818 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:08:44,925 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 16:08:46,943 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 16:08:46,963 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 16:08:46,984 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 16:08:47,100 :INFO : test_logsfilter :entered Team Member in filter search box
+2026-03-18 16:08:49,187 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 16:08:51,214 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 16:08:51,269 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 16:08:51,324 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 16:08:51,382 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 16:08:51,438 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 16:08:51,494 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 16:08:51,552 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 16:08:51,609 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 16:08:51,753 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 16:08:53,767 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 16:08:53,790 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 16:08:53,825 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 16:08:53,944 :INFO : test_logsfilter :entered Pinku in filter search box
+2026-03-18 16:08:56,036 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 16:08:58,061 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 16:08:58,119 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 16:08:58,177 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 16:08:58,230 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 16:08:58,279 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 16:08:58,333 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 16:08:58,389 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 16:08:58,448 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 16:08:58,506 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 16:08:58,642 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 16:09:00,654 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 16:09:00,675 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 16:09:00,698 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-03-18 16:09:00,807 :INFO : test_logsfilter :entered Opt Prime in filter search box
+2026-03-18 16:09:02,926 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 16:09:04,953 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-18 16:09:05,009 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-18 16:09:05,066 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-18 16:09:05,122 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-18 16:09:05,177 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-18 16:09:05,229 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-18 16:09:05,282 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-18 16:09:05,347 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-18 16:09:05,466 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 16:09:07,478 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-03-18 16:09:07,500 :INFO : test_logsfilter :clicking on filter option pinky
+2026-03-18 16:09:07,522 :INFO : test_logsfilter :clicking on filter option test department
+2026-03-18 16:09:07,636 :INFO : test_logsfilter :entered John Wi in filter search box
+2026-03-18 16:09:09,721 :INFO : test_logsfilter :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-18 16:09:11,752 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-18 16:09:11,808 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-18 16:09:11,863 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-18 16:09:11,919 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-18 16:09:11,974 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-18 16:09:12,037 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-18 16:09:12,094 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-18 16:09:12,152 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 16:09:12,209 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-18 16:10:26,827 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:10:26,827 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:16:20,102 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:16:22,240 :INFO : test_logsfilter :Clicking on option: Default Department
+2026-03-18 16:16:22,345 :INFO : test_logsfilter :Selected value: Default Department
+2026-03-18 16:17:28,813 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:17:28,813 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:23:07,467 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:24:33,546 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:24:33,546 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:29:46,195 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:29:48,303 :INFO : test_logsfilter :filter option is Default Department
+2026-03-18 16:29:48,312 :INFO : test_logsfilter :filter option is Default Department
+2026-03-18 16:29:48,319 :INFO : test_logsfilter :filter option is Default Department
+2026-03-18 16:29:48,333 :INFO : test_logsfilter :Clicking on option: Default Department
+2026-03-18 16:29:48,443 :INFO : test_logsfilter :Selected value: Default Department
+2026-03-18 16:29:55,549 :INFO : test_logsfilter :filter option is Team Member
+2026-03-18 16:29:55,570 :INFO : test_logsfilter :filter option is Team Member
+2026-03-18 16:29:55,588 :INFO : test_logsfilter :filter option is Team Member
+2026-03-18 16:29:55,607 :INFO : test_logsfilter :filter option is Team Member
+2026-03-18 16:29:55,626 :INFO : test_logsfilter :filter option is Team Member
+2026-03-18 16:29:55,645 :INFO : test_logsfilter :filter option is Team Member
+2026-03-18 16:29:55,664 :INFO : test_logsfilter :filter option is Team Member
+2026-03-18 16:29:55,683 :INFO : test_logsfilter :filter option is Team Member
+2026-03-18 16:31:01,431 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:31:01,431 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:46:15,747 :INFO : test_logsfilter :Checking option: 'pinky' vs target 'Default Department'
+2026-03-18 16:46:15,755 :INFO : test_logsfilter :Checking option: 'test department' vs target 'Default Department'
+2026-03-18 16:46:15,763 :INFO : test_logsfilter :Checking option: 'Default Department' vs target 'Default Department'
+2026-03-18 16:46:15,854 :INFO : test_logsfilter :Selected value: Default Department
+2026-03-18 16:46:17,129 :INFO : test_logsfilter :Checking option: 'L\nLoginLogout\n(lol)\npradeep.jangra+111@truinc.com' vs target 'Team Member'
+2026-03-18 16:46:17,153 :INFO : test_logsfilter :Checking option: 'P\nPinku\n(232)\npinky+1@truinc.com' vs target 'Team Member'
+2026-03-18 16:46:17,175 :INFO : test_logsfilter :Checking option: 'T\nTest\n(1215)\npinky1@truinc.com' vs target 'Team Member'
+2026-03-18 16:46:17,207 :INFO : test_logsfilter :Checking option: 'OP\nOptimus Prime\n(New3456)\noptimus@maxeltracker.com' vs target 'Team Member'
+2026-03-18 16:46:17,228 :INFO : test_logsfilter :Checking option: 'JW\nJohn Wick\n(Old457)\njohnwick@maxeltracker.com' vs target 'Team Member'
+2026-03-18 16:46:17,247 :INFO : test_logsfilter :Checking option: 'ST\nSach Test\n(hiugg)\noptimus034@truinc.com' vs target 'Team Member'
+2026-03-18 16:46:17,267 :INFO : test_logsfilter :Checking option: 'P\nPinky\n(2010)\npinky00@turinc.com' vs target 'Team Member'
+2026-03-18 16:46:17,287 :INFO : test_logsfilter :Checking option: 'QA\nQA After Fix\n(qa)\npradeep.jangra@truinc.com' vs target 'Team Member'
+2026-03-18 16:47:24,929 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:47:24,929 :INFO : test_logsfilter :Total number of users: 4
+2026-03-18 16:50:28,774 :INFO : test_logsfilter :Checking option: 'L\nLoginLogout\n(lol)\npradeep.jangra+111@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:28,792 :INFO : test_logsfilter :Checking option: 'P\nPinku\n(232)\npinky+1@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:28,810 :INFO : test_logsfilter :Checking option: 'T\nTest\n(1215)\npinky1@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:28,827 :INFO : test_logsfilter :Checking option: 'P\nPinky\n(12100)\npinky+99@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:28,845 :INFO : test_logsfilter :Checking option: 'TM\nTeam Member\n(EMP1022226)\nTM@teammember.com' vs target 'Default Department'
+2026-03-18 16:50:28,863 :INFO : test_logsfilter :Checking option: 'QT\nQA Team Testing Account\n(EMP18082)\npinky@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:28,880 :INFO : test_logsfilter :Checking option: 'KD\nKamal Dhami\n(1367)\nkamal.dhami@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:28,898 :INFO : test_logsfilter :Checking option: 'JW\nJohn Wick\n(Old457)\njohnwick@maxeltracker.com' vs target 'Default Department'
+2026-03-18 16:50:28,916 :INFO : test_logsfilter :Checking option: 'P\nPinky\n(33)\npinky+33@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:28,934 :INFO : test_logsfilter :Checking option: 'OP\nOptimus Prime\n(New3456)\noptimus@maxeltracker.com' vs target 'Default Department'
+2026-03-18 16:50:28,952 :INFO : test_logsfilter :Checking option: 'T\nTest\n(1210)\nperla25@qualityth.com' vs target 'Default Department'
+2026-03-18 16:50:28,978 :INFO : test_logsfilter :Checking option: 'ST\nSah Test\n(hi1211)\noptimus03125@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:28,997 :INFO : test_logsfilter :Checking option: 'ST\nSach Test\n(hi111)\noptimus009@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:29,015 :INFO : test_logsfilter :Checking option: 'ST\nSah Test\n(hi12)\noptimus03115@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:29,033 :INFO : test_logsfilter :Checking option: 'ST\nSach Test\n(hi1)\noptimus0341@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:29,051 :INFO : test_logsfilter :Checking option: 'ST\nSah Test\n(hi)\noptimus0315@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:29,071 :INFO : test_logsfilter :Checking option: 'ST\nSach Test\n(hiugg)\noptimus034@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:29,090 :INFO : test_logsfilter :Checking option: 'Q\nQay\n(14uhy)\nde@ymail.com' vs target 'Default Department'
+2026-03-18 16:50:29,108 :INFO : test_logsfilter :Checking option: 'P\nPinky\n(2010)\npinky00@turinc.com' vs target 'Default Department'
+2026-03-18 16:50:29,126 :INFO : test_logsfilter :Checking option: 'QA\nQA After Fix\n(qa)\npradeep.jangra@truinc.com' vs target 'Default Department'
+2026-03-18 16:50:29,497 :INFO : test_logsfilter :No matching option found for value: Default Department
+2026-03-18 16:50:30,974 :INFO : test_logsfilter :Checking option: 'L\nLoginLogout\n(lol)\npradeep.jangra+111@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:30,992 :INFO : test_logsfilter :Checking option: 'P\nPinku\n(232)\npinky+1@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,012 :INFO : test_logsfilter :Checking option: 'T\nTest\n(1215)\npinky1@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,030 :INFO : test_logsfilter :Checking option: 'P\nPinky\n(12100)\npinky+99@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,049 :INFO : test_logsfilter :Checking option: 'TM\nTeam Member\n(EMP1022226)\nTM@teammember.com' vs target 'Team Member'
+2026-03-18 16:50:31,073 :INFO : test_logsfilter :Checking option: 'QT\nQA Team Testing Account\n(EMP18082)\npinky@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,093 :INFO : test_logsfilter :Checking option: 'KD\nKamal Dhami\n(1367)\nkamal.dhami@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,111 :INFO : test_logsfilter :Checking option: 'JW\nJohn Wick\n(Old457)\njohnwick@maxeltracker.com' vs target 'Team Member'
+2026-03-18 16:50:31,129 :INFO : test_logsfilter :Checking option: 'P\nPinky\n(33)\npinky+33@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,147 :INFO : test_logsfilter :Checking option: 'OP\nOptimus Prime\n(New3456)\noptimus@maxeltracker.com' vs target 'Team Member'
+2026-03-18 16:50:31,164 :INFO : test_logsfilter :Checking option: 'T\nTest\n(1210)\nperla25@qualityth.com' vs target 'Team Member'
+2026-03-18 16:50:31,184 :INFO : test_logsfilter :Checking option: 'ST\nSah Test\n(hi1211)\noptimus03125@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,204 :INFO : test_logsfilter :Checking option: 'ST\nSach Test\n(hi111)\noptimus009@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,223 :INFO : test_logsfilter :Checking option: 'ST\nSah Test\n(hi12)\noptimus03115@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,241 :INFO : test_logsfilter :Checking option: 'ST\nSach Test\n(hi1)\noptimus0341@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,259 :INFO : test_logsfilter :Checking option: 'ST\nSah Test\n(hi)\noptimus0315@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,277 :INFO : test_logsfilter :Checking option: 'ST\nSach Test\n(hiugg)\noptimus034@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,295 :INFO : test_logsfilter :Checking option: 'Q\nQay\n(14uhy)\nde@ymail.com' vs target 'Team Member'
+2026-03-18 16:50:31,314 :INFO : test_logsfilter :Checking option: 'P\nPinky\n(2010)\npinky00@turinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,332 :INFO : test_logsfilter :Checking option: 'QA\nQA After Fix\n(qa)\npradeep.jangra@truinc.com' vs target 'Team Member'
+2026-03-18 16:50:31,708 :INFO : test_logsfilter :No matching option found for value: Team Member
+2026-03-18 16:50:32,864 :INFO : test_logsfilter :Checking option: 'LoginLout' vs target 'test department'
+2026-03-18 16:50:32,872 :INFO : test_logsfilter :Checking option: 'reg' vs target 'test department'
+2026-03-18 16:50:32,879 :INFO : test_logsfilter :Checking option: 'pinky test regression' vs target 'test department'
+2026-03-18 16:50:32,886 :INFO : test_logsfilter :Checking option: 'First shift' vs target 'test department'
+2026-03-18 16:50:32,893 :INFO : test_logsfilter :Checking option: 'Evening' vs target 'test department'
+2026-03-18 16:50:32,900 :INFO : test_logsfilter :Checking option: 'Noon Shift' vs target 'test department'
+2026-03-18 16:50:32,944 :INFO : test_logsfilter :No matching option found for value: test department
+2026-03-18 16:50:33,945 :WARNING : test_logsfilter :No filter button for index 3 (value=Pinku)
+2026-03-18 16:52:00,016 :INFO : test_logsfilter :Checking option: 'pinky' vs target 'Default Department'
+2026-03-18 16:52:00,023 :INFO : test_logsfilter :Checking option: 'test department' vs target 'Default Department'
+2026-03-18 16:52:00,031 :INFO : test_logsfilter :Checking option: 'Default Department' vs target 'Default Department'
+2026-03-18 16:52:00,120 :INFO : test_logsfilter :Selected value: Default Department
+2026-03-18 16:52:01,386 :INFO : test_logsfilter :Checking option: 'L\nLoginLogout\n(lol)\npradeep.jangra+111@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,407 :INFO : test_logsfilter :Checking option: 'P\nPinku\n(232)\npinky+1@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,427 :INFO : test_logsfilter :Checking option: 'T\nTest\n(1215)\npinky1@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,446 :INFO : test_logsfilter :Checking option: 'P\nPinky\n(12100)\npinky+99@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,467 :INFO : test_logsfilter :Checking option: 'TM\nTeam Member\n(EMP1022226)\nTM@teammember.com' vs target 'Team Member'
+2026-03-18 16:52:01,487 :INFO : test_logsfilter :Checking option: 'QT\nQA Team Testing Account\n(EMP18082)\npinky@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,508 :INFO : test_logsfilter :Checking option: 'KD\nKamal Dhami\n(1367)\nkamal.dhami@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,529 :INFO : test_logsfilter :Checking option: 'JW\nJohn Wick\n(Old457)\njohnwick@maxeltracker.com' vs target 'Team Member'
+2026-03-18 16:52:01,549 :INFO : test_logsfilter :Checking option: 'P\nPinky\n(33)\npinky+33@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,569 :INFO : test_logsfilter :Checking option: 'OP\nOptimus Prime\n(New3456)\noptimus@maxeltracker.com' vs target 'Team Member'
+2026-03-18 16:52:01,589 :INFO : test_logsfilter :Checking option: 'T\nTest\n(1210)\nperla25@qualityth.com' vs target 'Team Member'
+2026-03-18 16:52:01,609 :INFO : test_logsfilter :Checking option: 'ST\nSah Test\n(hi1211)\noptimus03125@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,629 :INFO : test_logsfilter :Checking option: 'ST\nSach Test\n(hi111)\noptimus009@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,648 :INFO : test_logsfilter :Checking option: 'ST\nSah Test\n(hi12)\noptimus03115@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,667 :INFO : test_logsfilter :Checking option: 'ST\nSach Test\n(hi1)\noptimus0341@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,687 :INFO : test_logsfilter :Checking option: 'ST\nSah Test\n(hi)\noptimus0315@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,707 :INFO : test_logsfilter :Checking option: 'ST\nSach Test\n(hiugg)\noptimus034@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,729 :INFO : test_logsfilter :Checking option: 'Q\nQay\n(14uhy)\nde@ymail.com' vs target 'Team Member'
+2026-03-18 16:52:01,750 :INFO : test_logsfilter :Checking option: 'P\nPinky\n(2010)\npinky00@turinc.com' vs target 'Team Member'
+2026-03-18 16:52:01,771 :INFO : test_logsfilter :Checking option: 'QA\nQA After Fix\n(qa)\npradeep.jangra@truinc.com' vs target 'Team Member'
+2026-03-18 16:52:02,187 :INFO : test_logsfilter :No matching option found for value: Team Member
+2026-03-18 16:52:03,188 :WARNING : test_logsfilter :No filter button for index 2 (value=test department)
+2026-03-18 16:58:54,842 :INFO : test_logsdatewise :Exception occurred while selecting option: Message: 
+
+2026-03-18 17:01:36,085 :INFO : test_logsdatewise :Exception occurred while selecting option: Message: 
+
+2026-03-18 17:04:34,940 :INFO : test_dashboardsearch :item chosen for search is ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-18 17:04:38,046 :INFO : test_dashboardsearch :verifying the search item Sah Test (Hi)
+2026-03-18 17:04:38,054 :INFO : test_dashboardsearch :['Sah Test (Hi)']
+2026-03-18 17:07:22,849 :INFO : test_view_all_redirections :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity/most-productive with current url https://stg-fe.maxeltracker.com/organisation/dashboard/productivity/most-productive
+2026-03-18 17:09:21,579 :INFO : test_view_all_redirections :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity/most-productive with current url https://stg-fe.maxeltracker.com/organisation/dashboard/productivity/most-productive
+2026-03-18 17:13:32,493 :INFO : test_view_all_redirections :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity/most-productive with current url https://stg-fe.maxeltracker.com/organisation/dashboard/productivity/most-productive
+2026-03-18 17:30:43,517 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:58,609 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/users with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:58,609 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/users' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/users
+  ?            ++++++
+2026-03-18 17:30:58,701 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:58,701 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...-and-websites' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/apps-and-websites
+2026-03-18 17:30:58,782 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/screenshots with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:58,782 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/screenshots' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/screenshots
+2026-03-18 17:30:58,862 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/logs with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:58,863 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ashboard/logs' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/logs
+  ?            +++++
+2026-03-18 17:30:58,943 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:58,944 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../productivity' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/productivity
+2026-03-18 17:30:59,024 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/department-teams with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:59,025 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...artment-teams' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/department-teams
+2026-03-18 17:30:59,105 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/kpis-kras with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:59,105 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ard/kpis-kras' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/kpis-kras
+2026-03-18 17:30:59,188 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/roles with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:59,188 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/roles' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/roles
+  ?            ++++++
+2026-03-18 17:30:59,267 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/live-stream with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:59,267 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/live-stream' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/live-stream
+2026-03-18 17:30:59,350 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/alerts with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:59,351 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...hboard/alerts' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/alerts
+  ?            +++++++
+2026-03-18 17:30:59,430 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/integrations with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:59,431 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../integrations' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/integrations
+2026-03-18 17:30:59,508 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/ai-summary with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:59,508 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...rd/ai-summary' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/ai-summary
+2026-03-18 17:30:59,585 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/settings with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:59,585 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...oard/settings' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/settings
+2026-03-18 17:30:59,663 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/installation with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:59,664 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../installation' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/installation
+2026-03-18 17:30:59,742 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/demo-videos with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:30:59,742 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/demo-videos' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/demo-videos
+2026-03-18 17:30:59,742 :INFO : test_sidebarclick :Finished verifying sidebar button redirections.
+2026-03-18 17:40:53,214 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:08,309 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/users with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:08,312 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/users' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/users
+  ?            ++++++
+2026-03-18 17:41:08,401 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:08,401 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...-and-websites' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/apps-and-websites
+2026-03-18 17:41:08,482 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/screenshots with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:08,483 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/screenshots' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/screenshots
+2026-03-18 17:41:08,559 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/logs with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:08,559 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ashboard/logs' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/logs
+  ?            +++++
+2026-03-18 17:41:08,639 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:08,639 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../productivity' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/productivity
+2026-03-18 17:41:08,716 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/department-teams with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:08,717 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...artment-teams' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/department-teams
+2026-03-18 17:41:08,795 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/kpis-kras with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:08,796 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ard/kpis-kras' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/kpis-kras
+2026-03-18 17:41:08,875 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/roles with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:08,875 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/roles' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/roles
+  ?            ++++++
+2026-03-18 17:41:08,957 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/live-stream with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:08,958 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/live-stream' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/live-stream
+2026-03-18 17:41:09,041 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/alerts with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:09,042 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...hboard/alerts' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/alerts
+  ?            +++++++
+2026-03-18 17:41:09,124 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/integrations with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:09,125 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../integrations' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/integrations
+2026-03-18 17:41:09,205 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/ai-summary with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:09,206 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...rd/ai-summary' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/ai-summary
+2026-03-18 17:41:09,284 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/settings with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:09,284 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...oard/settings' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/settings
+2026-03-18 17:41:09,358 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/installation with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:09,358 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../installation' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/installation
+2026-03-18 17:41:09,440 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/demo-videos with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+2026-03-18 17:41:09,440 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/demo-videos' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/demo-videos
+2026-03-18 17:41:09,440 :INFO : test_sidebarclick :Finished verifying sidebar button redirections.

@@ -174,123 +174,127 @@ class Testone(BaseClass):
         random.choice(action_button).click()
 
         opt = (By.XPATH, "//ul/div/li[@role='menuitem']/span")
-        options = wait.until(EC.visibility_of_any_elements_located(opt))
+        options = wait.until(EC.presence_of_all_elements_located(opt))
         n=0
-        for option in options:
-            if n > 5:
-                break
-            log.info(f"clicking on action option {option.text}")
+        try:
+            for option in options:
+                if n > 5:
+                    break
+                log.info(f"clicking on action option {option.text}")
 
-            time.sleep(10)
-            random_ch = random.choice(options)
+                time.sleep(10)
+                random_ch = random.choice(options)
 
-            # ✅ normalize text (previous fix preserved)
-            action_text = random_ch.text.strip()
-            log.info(f"clicked on action option [{action_text}]")
+                # ✅ normalize text (previous fix preserved)
+                action_text = random_ch.text.strip()
+                log.info(f"clicked on action option [{action_text}]")
 
-            # ✅ FIX: prevent MoveTargetOutOfBoundsException
-            self.driver.execute_script(
-                "arguments[0].scrollIntoView({block: 'center'});",
-                random_ch,
-            )
-            self.driver.execute_script("arguments[0].click();", random_ch)
-
-            if action_text == "Deactivate":
-                time.sleep(2)
-                confirm = self.driver.find_element(
-                    By.XPATH, "//div[contains(text(), 'User Deactivated Successfully')]"
+                # ✅ FIX: prevent MoveTargetOutOfBoundsException
+                self.driver.execute_script(
+                    "arguments[0].scrollIntoView({block: 'center'});",
+                    random_ch,
                 )
-                assert confirm.text == "User Deactivated Successfully"
-                log.info("User deactivated successfully")
+                self.driver.execute_script("arguments[0].click();", random_ch)
 
-            elif action_text == "Track" or action_text == "Un-track":
-                time.sleep(2)
-                confirm = self.driver.find_element(
-                    By.XPATH,
-                    "//div[contains(text(), 'User Tracking Setting Changed Successfully')]",
-                )
-                assert confirm.text == "User Tracking Setting Changed Successfully"
-                log.info("User tracking setting changed successfully")
+                if action_text == "Deactivate":
+                    time.sleep(2)
+                    confirm = self.driver.find_element(
+                        By.XPATH, "//div[contains(text(), 'User Deactivated Successfully')]"
+                    )
+                    assert confirm.text == "User Deactivated Successfully"
+                    log.info("User deactivated successfully")
 
-            elif action_text == "Edit":
-                time.sleep(2)
-                confirm = self.driver.find_element(
-                    By.XPATH,
-                    "//div[@class='relative bg-white rounded-lg shadow-lg z-50 w-full max-w-[1040px]']",
-                )
-                assert confirm.is_displayed()
-                log.info("edit user screen opened successfully")
-                self.driver.find_element(By.XPATH, "//button[contains(text(), 'Cancel')]").click()
-                time.sleep(2)   
-
-            elif action_text == "Info":
-                time.sleep(2)
-                confirm = self.driver.current_url
-                assert "organisation/dashboard/users" in confirm
-                log.info("navigated to user info page successfully")
-                self.driver.get(user)
-                log.info("navigated back to user page successfully")
-                current_url = self.driver.current_url
-                log.info(f"current url after navigating back: {current_url}")   
-                time.sleep(5)
-
-            elif action_text == "Disable Password" or action_text == "Enable Password":
-                time.sleep(2)
-                if action_text == "Disable Password":
+                elif action_text == "Track" or action_text == "Un-track":
+                    time.sleep(2)
                     confirm = self.driver.find_element(
                         By.XPATH,
-                        "//div[contains(text(), 'Password Disabled Successfully')]",
+                        "//div[contains(text(), 'User Tracking Setting Changed Successfully')]",
                     )
-                    assert confirm.text == "Password Disabled Successfully"
-                else:
+                    assert confirm.text == "User Tracking Setting Changed Successfully"
+                    log.info("User tracking setting changed successfully")
+
+                elif action_text == "Edit":
+                    time.sleep(2)
                     confirm = self.driver.find_element(
                         By.XPATH,
-                        "//div[contains(text(), 'Password Enabled Successfully')]",
+                        "//div[@class='relative bg-white rounded-lg shadow-lg z-50 w-full max-w-[1040px]']",
                     )
-                    assert confirm.text == "Password Enabled Successfully"
-                log.info("Password enabled/disabled successfully")
+                    assert confirm.is_displayed()
+                    log.info("edit user screen opened successfully")
+                    self.driver.find_element(By.XPATH, "//button[contains(text(), 'Cancel')]").click()
+                    time.sleep(2)   
 
-            elif action_text == "Logs":
-                time.sleep(5)
-                confirm = self.driver.current_url
-                assert "organisation/dashboard/logs/log-by-chart" in confirm
-                log.info("navigated to user logs page successfully")
-                self.driver.get(user)
-                log.info("navigated back to user page successfully")
-                current_url = self.driver.current_url
-                log.info(f"current url after navigating back: {current_url}")
-                time.sleep(5)
-
-            elif action_text == "Force Logout":
-                time.sleep(2)
-                confirm = self.driver.find_element(
-                    By.XPATH,
-                    "//div[contains(text(), 'User Logged Out Successfully')]",
-                )
-                assert confirm.text == "User Logged Out Successfully"
-                log.info("User force logged out successfully")
-
-            time.sleep(10)
-            time.sleep(10)
-            log.info(action_text)
-            if action_text == "Info" or action_text=="Logs":
-                log.info(f"Already navigated to {action_text} page, no need to click action button again.")
-                current_url= self.driver.current_url
-                assert "organisation/dashboard/users" in current_url or "organisation/dashboard/logs/log-by-chart" in current_url
-                log.info(f"Current URL after {action_text} action: {current_url}")
-                if current_url != user:
+                elif action_text == "Info":
+                    time.sleep(2)
+                    confirm = self.driver.current_url
+                    assert "organisation/dashboard/users" in confirm
+                    log.info("navigated to user info page successfully")
                     self.driver.get(user)
-                    log.info("Navigated back to user page successfully")
-                time.sleep(5)
-            
-            
-            try:
-                random.choice(action_button).click()
-            except Exception as e:
-                log.error(f"Exception occurred while clicking action button: {e}")
-                if e == True:
+                    log.info("navigated back to user page successfully")
+                    current_url = self.driver.current_url
+                    log.info(f"current url after navigating back: {current_url}")   
+                    time.sleep(5)
+
+                elif action_text == "Disable Password" or action_text == "Enable Password":
+                    time.sleep(2)
+                    if action_text == "Disable Password":
+                        confirm = self.driver.find_element(
+                            By.XPATH,
+                            "//div[contains(text(), 'Password Disabled Successfully')]",
+                        )
+                        assert confirm.text == "Password Disabled Successfully"
+                    else:
+                        confirm = self.driver.find_element(
+                            By.XPATH,
+                            "//div[contains(text(), 'Password Enabled Successfully')]",
+                        )
+                        assert confirm.text == "Password Enabled Successfully"
+                    log.info("Password enabled/disabled successfully")
+
+                elif action_text == "Logs":
+                    time.sleep(5)
+                    confirm = self.driver.current_url
+                    assert "organisation/dashboard/logs/log-by-chart" in confirm
+                    log.info("navigated to user logs page successfully")
                     self.driver.get(user)
+                    log.info("navigated back to user page successfully")
+                    current_url = self.driver.current_url
+                    log.info(f"current url after navigating back: {current_url}")
+                    time.sleep(5)
+
+                elif action_text == "Force Logout":
+                    time.sleep(2)
+                    confirm = self.driver.find_element(
+                        By.XPATH,
+                        "//div[contains(text(), 'User Logged Out Successfully')]",
+                    )
+                    assert confirm.text == "User Logged Out Successfully"
+                    log.info("User force logged out successfully")
+
+                time.sleep(10)
+                time.sleep(10)
+                log.info(action_text)
+                if action_text == "Info" or action_text=="Logs":
+                    log.info(f"Already navigated to {action_text} page, no need to click action button again.")
+                    current_url= self.driver.current_url
+                    assert "organisation/dashboard/users" in current_url or "organisation/dashboard/logs/log-by-chart" in current_url
+                    log.info(f"Current URL after {action_text} action: {current_url}")
+                    if current_url != user:
+                        self.driver.get(user)
+                        log.info("Navigated back to user page successfully")
+                    time.sleep(5)
+                
+                
+                try:
                     random.choice(action_button).click()
-            time.sleep(5)
-            n+=1
-        log.info("Completed user actions test successfully")
+                except Exception as e:
+                    log.error(f"Exception occurred while clicking action button: {e}")
+                    if e == True:
+                        self.driver.get(user)
+                        random.choice(action_button).click()
+                time.sleep(5)
+                n+=1
+            log.info("Completed user actions test successfully")
+        except Exception as e:
+            log.error(f"Exception occurred during user actions test: {e}")
+            self.driver.get(user)

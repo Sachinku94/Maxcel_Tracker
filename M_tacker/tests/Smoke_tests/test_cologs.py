@@ -27,6 +27,7 @@ class Testone(BaseClass):
         
        
         log = self.getLogger()
+        time.sleep(10)
         
         wait=WebDriverWait(self.driver,20)
         app=HomePage.cologs(self)
@@ -42,7 +43,8 @@ class Testone(BaseClass):
             time.sleep(3)
             celandar.click()
    
-    def test_logsfilter(self):
+    def test_logsfilter(self):#need to checked
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.cologs(self)
@@ -50,35 +52,33 @@ class Testone(BaseClass):
         time.sleep(5)
         
         time.sleep(2)
-        user_data=pd.read_excel("/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx")
+        user_data=pd.read_excel("/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample_1.xlsx")
         count=len(user_data)
         log.info(f"Total number of users: {len(user_data)}")
         flat_data = []
         al_opt=[]
-        filter_but=By.CSS_SELECTOR,".css-c2frko-control"
+        filter_but=By.CSS_SELECTOR,".css-19bb58m"
         filter_button=wait.until(EC.presence_of_all_elements_located(filter_but))
         for _, row in user_data.iterrows():
-            flat_data.extend([row['shift'], row['name']])
-            for i in filter_button:
-                i.click() 
-                try:
-                    i.send_keys(row['name'])
-                except Exception as e:
-                    log.info(f"Exception occurred: {e}")
-                    time.sleep(2)
-                try:
-                    options=By.CSS_SELECTOR,".css-fygc7l-option"
-                    options=wait.until(EC.presence_of_all_elements_located(options))
-                    for opt in options:
-                        log.info(f"clicking on filter option {opt.text}")
-                        if opt.text==row['name'] or opt.text==row['department']:
-                            opt.click()
-                            time.sleep(2)
-                            break
-                except Exception as e:
-                    log.info(f"Exception occurred while selecting option: {e}")
+            flat_data.extend([row['Department'], row['Name']])
+        for value, field in zip(flat_data, filter_button):
+                field.click()
+                time.sleep(2)
+                # self.driver.execute_script(f"document.querySelector('select.form-control').value = {value};")
+                drop_down=self.driver.find_elements(By.CSS_SELECTOR,".css-fygc7l-option")
+                for option in drop_down:
+                    if option.text==value:
+                        log.info(f"Clicking on option: {option.text}")
+                        option.click()
+                        log.info(f"Selected value: {value}")
+                        break
+                time.sleep(5)
+                    
+                time.sleep(5)
+        log.info(f"Finished processing filter option: {value}")
 
     def test_logsdatewise(self):
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.cologs(self)

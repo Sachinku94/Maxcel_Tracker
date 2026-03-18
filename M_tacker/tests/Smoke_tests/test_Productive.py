@@ -22,7 +22,7 @@ import pyperclip
 class Testone(BaseClass):
 
     
-    def test_appclendar(self):
+    def test_appclendarproductive(self):
         
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
@@ -39,7 +39,7 @@ class Testone(BaseClass):
             time.sleep(1)
             celandar.click()
 
-    def test_appfilter(self):
+    def test_appfilterproductive(self):
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.productive(self)
@@ -79,7 +79,7 @@ class Testone(BaseClass):
                 time.sleep(2)
             # shift filter not responding  
                     
-    def test_actionsonapp(self):
+    def test_actionsonappproductive(self):
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.productive(self)

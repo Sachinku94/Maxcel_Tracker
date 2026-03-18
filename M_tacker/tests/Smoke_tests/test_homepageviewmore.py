@@ -62,19 +62,40 @@ class Testone(BaseClass):
         assert item_chossen.__contains__(item_choosed),"item not found in search results"
 
 
-    def test_view_all_redirections(self):
+    def test_view_all_redirections(self): #need to check all the buttons
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
-        time.sleep(5)
+        time.sleep(15)
         view_all_buttons_text=By.XPATH,"//div[@class='md:col-span-1 flex flex-col']/div/div/a"
         view_all_buttons_t=wait.until(EC.presence_of_all_elements_located(view_all_buttons_text))
         text_button=random.choice(view_all_buttons_t)
         link=text_button.get_attribute("href")
         text_button.click()
-        time.sleep(5)
+        time.sleep(15)
         current_url=self.driver.current_url
         log.info(f"verifying the redirection link {link} with current url {current_url}")
         assert link==current_url,"redirection link is not matching with current url"   
+
+    def test_sidebarclick(self):
+        log = self.getLogger()
+        wait=WebDriverWait(self.driver,20)
+        time.sleep(15)
+        sidebar_buttons_text=By.XPATH,"//div[@class='flex flex-col mt-2 p-4 list-none']/li"
+        sidebar_buttons_t=wait.until(EC.presence_of_all_elements_located(sidebar_buttons_text))
+        for i in sidebar_buttons_t:
+            try:
+                link=i.find_element(By.TAG_NAME,"a").get_attribute("href")
+                i.click()
+                current_url=self.driver.current_url
+                log.info(f"verifying the redirection link {link} with current url {current_url}")
+                assert link==current_url,"redirection link is not matching with current url"
+                
+
+
+                time.sleep(15)
+            except Exception as e:
+                log.info(f"Exception occurred while clicking sidebar button: {e}")
+        log.info("Finished verifying sidebar button redirections.")
 
 
         

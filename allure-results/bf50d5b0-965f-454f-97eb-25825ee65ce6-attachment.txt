@@ -1,0 +1,111 @@
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/users with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/users' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/users
+  ?            ++++++
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...-and-websites' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/apps-and-websites
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/screenshots with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/screenshots' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/screenshots
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/logs with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ashboard/logs' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/logs
+  ?            +++++
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../productivity' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/productivity
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/department-teams with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...artment-teams' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/department-teams
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/kpis-kras with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ard/kpis-kras' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/kpis-kras
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/roles with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/roles' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/roles
+  ?            ++++++
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/live-stream with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/live-stream' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/live-stream
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/alerts with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...hboard/alerts' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/alerts
+  ?            +++++++
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/integrations with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../integrations' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/integrations
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/ai-summary with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...rd/ai-summary' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/ai-summary
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/settings with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...oard/settings' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/settings
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/installation with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../installation' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/installation
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:90 verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/demo-videos with current url https://stg-fe.maxeltracker.com/organisation/dashboard
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:97 Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/demo-videos' == 'https://stg-...ion/dashboard'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard
+  + n/dashboard/demo-videos
+[32mINFO    [0m test_sidebarclick:test_homepageviewmore.py:98 Finished verifying sidebar button redirections.
