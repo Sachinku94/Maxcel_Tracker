@@ -74,3 +74,7 @@ class HomePage(BaseClass):
         time.sleep(5)
         best_per=env_url+"organisation/dashboard/productivity/best-performance"
         return best_per
+    def department(self):
+        time.sleep(5)
+        depr=env_url+"organisation/dashboard/department-teams"
+        return depr

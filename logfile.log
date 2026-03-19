@@ -2373,3 +2373,114 @@ assert 'https://stg-...d/demo-videos' == 'https://stg-...ion/dashboard'
   - n/dashboard
   + n/dashboard/demo-videos
 2026-03-18 17:41:09,440 :INFO : test_sidebarclick :Finished verifying sidebar button redirections.
+2026-03-19 11:22:46,970 :INFO : test_Departmentsearch :Total number of users: 4
+2026-03-19 11:24:39,605 :INFO : test_Departmentsearch :Total number of users: 4
+2026-03-19 11:24:43,944 :INFO : test_Departmentsearch :verifying the search item Default Department
+2026-03-19 11:25:02,480 :INFO : test_Departmentsearch :verifying the search item Pinky
+2026-03-19 11:32:17,359 :INFO : test_Departmentsearch :Total number of users: 4
+2026-03-19 11:32:21,621 :INFO : test_Departmentsearch :verifying the search item Default Department
+2026-03-19 11:32:25,807 :INFO : test_Departmentsearch :verifying the search item Test Department
+2026-03-19 13:20:01,844 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 15:33:45,342 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 15:37:48,253 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 15:47:42,841 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 15:49:21,486 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 15:51:20,259 :INFO : test_Departmentsearch :Total number of users: 4
+2026-03-19 15:51:24,741 :INFO : test_Departmentsearch :verifying the search item Default Department
+2026-03-19 15:53:38,311 :INFO : test_Departmentsearch :Total number of users: 4
+2026-03-19 15:58:56,547 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 16:02:16,312 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 16:23:34,845 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 16:28:52,030 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 16:35:51,449 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 16:39:38,234 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 16:46:07,234 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 17:00:38,622 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 17:06:24,478 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 17:09:28,284 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 17:12:48,923 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 17:13:06,994 :INFO : test_DepartmentCreation :Exception occurred: Message: Element <div class="select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-19 17:13:18,598 :INFO : test_DepartmentCreation :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-19 17:13:29,721 :INFO : test_DepartmentCreation :Exception occurred: Message: Element <div class="react-select__input-container css-19bb58m"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-19 17:23:43,833 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 17:24:01,219 :INFO : test_DepartmentCreation :Exception occurred: Message: Element <div id="react-select-2-placeholder" class="select__placeholder css-124myos-placeholder"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-19 17:24:12,482 :INFO : test_DepartmentCreation :Exception occurred: Message: Element <div id="react-select-3-placeholder" class="react-select__placeholder css-124myos-placeholder"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-19 17:24:23,607 :INFO : test_DepartmentCreation :Exception occurred: Message: Element <div id="react-select-4-placeholder" class="react-select__placeholder css-124myos-placeholder"> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:371:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:667:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:639:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:624:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:272:31
+
+2026-03-19 17:29:53,840 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 17:34:15,017 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 17:34:32,393 :INFO : test_DepartmentCreation :Exception occurred: Human Resource
+2026-03-19 17:34:43,694 :INFO : test_DepartmentCreation :Exception occurred: 232
+2026-03-19 17:34:54,840 :INFO : test_DepartmentCreation :Exception occurred: Default Department
+2026-03-19 17:41:53,371 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 17:42:10,736 :INFO : test_DepartmentCreation :Entering value: Human Resource into field: <selenium.webdriver.remote.webelement.WebElement (session="edcdc0ff-f715-4151-8125-230444e6d10a", element="5ad9fb78-dbba-4f4f-b458-2c7e83b4f19e")>
+2026-03-19 17:42:10,740 :INFO : test_DepartmentCreation :Value entered: Human Resource
+2026-03-19 17:42:22,014 :INFO : test_DepartmentCreation :Entering value: 232 into field: <selenium.webdriver.remote.webelement.WebElement (session="edcdc0ff-f715-4151-8125-230444e6d10a", element="55020ea4-5a9c-4a65-941c-f220d7946183")>
+2026-03-19 17:42:22,018 :INFO : test_DepartmentCreation :Value entered: 232
+2026-03-19 17:42:33,152 :INFO : test_DepartmentCreation :Entering value: Default Department into field: <selenium.webdriver.remote.webelement.WebElement (session="edcdc0ff-f715-4151-8125-230444e6d10a", element="670fccd9-0ebb-4928-acfc-9d695948d620")>
+2026-03-19 17:42:33,157 :INFO : test_DepartmentCreation :Value entered: Default Department
+2026-03-19 17:46:49,517 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 17:47:05,896 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-19 17:47:09,997 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-19 17:47:14,130 :INFO : test_DepartmentCreation :Entering value: Default Department
+2026-03-19 17:49:54,918 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 17:50:11,311 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-19 17:50:15,583 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-19 17:50:19,735 :INFO : test_DepartmentCreation :Entering value: Default Department
+2026-03-19 18:12:29,168 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-19 18:12:47,536 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-19 18:12:55,737 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-19 18:13:03,878 :INFO : test_DepartmentCreation :Entering value: Default Department
