@@ -78,3 +78,7 @@ class HomePage(BaseClass):
         time.sleep(5)
         depr=env_url+"organisation/dashboard/department-teams"
         return depr
+    def kpi(self):
+        time.sleep(5)
+        kpi=env_url+"/organisation/dashboard/kpis-kras"
+        return kpi

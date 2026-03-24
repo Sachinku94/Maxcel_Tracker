@@ -2557,3 +2557,122 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-03-20 16:13:58,262 :INFO : test_Departmentaction :clicking on action option Manage Productivity
 2026-03-20 16:14:08,277 :INFO : test_Departmentaction :clicked on action option [Manage Productivity]
 2026-03-20 16:14:13,293 :INFO : test_Departmentaction :Completed user actions test successfully
+2026-03-20 17:54:49,660 :INFO : test_kpisearch :Total number of users: 4
+2026-03-20 17:57:11,983 :INFO : test_kpisearch :Total number of users: 4
+2026-03-20 18:16:02,776 :INFO : test_Departmentsearch :Total number of users: 4
+2026-03-20 18:16:07,054 :INFO : test_Departmentsearch :verifying the search item Default Department
+2026-03-20 18:16:11,289 :INFO : test_Departmentsearch :verifying the search item Test Department
+2026-03-20 18:17:09,681 :INFO : test_kpisearch :Total number of users: 4
+2026-03-20 18:18:27,262 :INFO : test_dashboardsearch :item chosen for search is ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-20 18:18:30,387 :INFO : test_dashboardsearch :verifying the search item Sach Test (Hi1)
+2026-03-20 18:18:30,395 :INFO : test_dashboardsearch :['Sach Test (Hi1)']
+2026-03-23 10:20:58,378 :INFO : test_Departmentaction :clicking on action option Edit Department
+2026-03-23 10:21:08,495 :INFO : test_Departmentaction :clicked on action option [Delete]
+2026-03-23 10:21:10,646 :INFO : test_Departmentaction :edit user screen opened successfully
+2026-03-23 10:21:12,737 :INFO : test_Departmentaction :Delete confirmation appeared successfully
+2026-03-23 10:21:17,746 :ERROR : test_Departmentaction :Exception occurred during user actions test: Message: The element with the reference 1acd7ee8-48f3-41b8-a8a1-ed5a18fc0450 is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:412:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:270:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:179:30
+
+2026-03-23 10:23:39,164 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:23:57,602 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:24:05,796 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:26:11,408 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:26:29,830 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:26:38,018 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:28:15,710 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:28:34,190 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:28:42,384 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:30:31,570 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:30:50,008 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:30:58,206 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:32:46,021 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:33:04,438 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:33:12,618 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:34:55,413 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:35:13,823 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:35:22,008 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:37:07,725 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:37:26,152 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:37:34,343 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:39:11,924 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:39:30,348 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:39:38,526 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:41:25,078 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:41:43,492 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:41:51,666 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:43:39,682 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:43:58,133 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:44:06,325 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:45:45,192 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:46:03,594 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:46:11,778 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:48:03,241 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:48:21,687 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:48:29,866 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:50:33,246 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:50:51,646 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:50:59,819 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:53:06,374 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-23 10:53:24,793 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-23 10:53:32,978 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-23 10:53:41,110 :INFO : test_DepartmentCreation :Entering value: Default Department
+2026-03-23 10:56:38,987 :INFO : test_Departmentaction :clicking on action option Manage Productivity
+2026-03-23 10:56:49,010 :INFO : test_Departmentaction :clicked on action option [Manage Productivity]
+2026-03-23 10:56:54,028 :INFO : test_Departmentaction :Completed user actions test successfully
+2026-03-23 10:59:14,418 :INFO : test_Departmentaction :clicking on action option Manage Productivity
+2026-03-23 10:59:24,435 :INFO : test_Departmentaction :clicked on action option [Manage Productivity]
+2026-03-23 10:59:29,454 :INFO : test_Departmentaction :Completed user actions test successfully
+2026-03-23 11:01:19,204 :INFO : test_Departmentaction :clicking on action option Manage Productivity
+2026-03-23 11:01:29,224 :INFO : test_Departmentaction :clicked on action option [Manage Productivity]
+2026-03-23 11:01:34,245 :INFO : test_Departmentaction :Completed user actions test successfully
+2026-03-24 12:43:38,820 :INFO : test_Departmentaction :clicking on action option Edit Department
+2026-03-24 12:43:48,843 :INFO : test_Departmentaction :clicked on action option [Edit Department]
+2026-03-24 12:43:50,901 :ERROR : test_Departmentaction :Exception occurred during user actions test: type object 'By' has no attribute 'CSS_SELECTO'
+2026-03-24 12:48:09,534 :INFO : test_Departmentaction :clicking on action option Edit Department
+2026-03-24 12:48:19,550 :INFO : test_Departmentaction :clicked on action option [Edit Department]
+2026-03-24 12:48:21,601 :ERROR : test_Departmentaction :Exception occurred during user actions test: type object 'By' has no attribute 'CSS_SELECTO'
+2026-03-24 12:50:41,717 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-24 12:51:00,141 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-24 12:51:08,319 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-24 12:52:54,752 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-24 12:53:13,159 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-24 12:53:21,336 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-24 13:03:42,813 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-24 13:04:01,190 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-24 13:04:09,358 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-24 13:04:17,480 :INFO : test_DepartmentCreation :Entering value: Default Department
+2026-03-24 14:39:14,013 :INFO : test_kpicreation :Total number of users: 2
+2026-03-24 14:43:10,319 :INFO : test_kpicreation :Total number of users: 2
+2026-03-24 15:23:20,128 :INFO : test_kpicreation :Total number of users: 2
+2026-03-24 15:23:43,901 :INFO : test_kpicreation :Entering value: E
+2026-03-24 15:26:09,464 :INFO : test_kpicreation :Total number of users: 2
+2026-03-24 15:26:33,263 :INFO : test_kpicreation :Entering value: E
+2026-03-24 15:31:23,766 :INFO : test_kpicreation :Total number of users: 2
+2026-03-24 15:35:16,159 :INFO : test_kpicreation :Total number of users: 2
+2026-03-24 15:35:39,965 :INFO : test_kpicreation :Entering value: ('E',)
+2026-03-24 15:35:48,160 :INFO : test_kpicreation :Entering value: ('m',)
+2026-03-24 15:35:56,265 :INFO : test_kpicreation :Entering value: ('p',)
+2026-03-24 15:36:04,361 :INFO : test_kpicreation :Entering value: ('l',)
+2026-03-24 15:36:12,446 :INFO : test_kpicreation :Entering value: ('o',)
+2026-03-24 15:36:20,527 :INFO : test_kpicreation :Entering value: ('y',)
+2026-03-24 15:36:28,609 :INFO : test_kpicreation :Entering value: ('e',)
+2026-03-24 15:36:36,697 :INFO : test_kpicreation :Entering value: ('e',)
+2026-03-24 15:36:44,802 :INFO : test_kpicreation :Entering value: ('M',)
+2026-03-24 15:36:52,905 :INFO : test_kpicreation :Entering value: ('a',)
+2026-03-24 15:37:00,987 :INFO : test_kpicreation :Entering value: ('n',)
+2026-03-24 15:37:09,065 :INFO : test_kpicreation :Entering value: ('a',)
+2026-03-24 15:37:17,148 :INFO : test_kpicreation :Entering value: ('g',)
+2026-03-24 15:37:25,232 :INFO : test_kpicreation :Entering value: ('e',)
+2026-03-24 15:37:33,327 :INFO : test_kpicreation :Entering value: ('r',)
