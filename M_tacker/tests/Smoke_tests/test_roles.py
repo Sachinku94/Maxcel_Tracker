@@ -18,15 +18,16 @@ import asyncio
 import random
 import pandas as pd
 import requests
+from selenium.webdriver.common.keys import Keys
 
 class Testone(BaseClass):
 
 
-    def test_kpisearch(self):
+    def test_rolesearch(self):
         log = self.getLogger()
         time.sleep(10)
         wait=WebDriverWait(self.driver,20)
-        app=HomePage.kpi(self)
+        app=HomePage.roles(self)
         self.driver.get(app)
         time.sleep(5)
         time.sleep(2)
@@ -35,7 +36,7 @@ class Testone(BaseClass):
         log.info(f"Total number of users: {len(user_data)}")
         flat_data = []
         al_opt=[]
-        filter_but=By.XPATH,"//input[@placeholder='Search by Title or Description']"
+        filter_but=By.XPATH,"//input[@placeholder='Search Roles']"
         filter_button=wait.until(EC.presence_of_all_elements_located(filter_but))
         for _, row in user_data.iterrows():
             flat_data.extend([ row['Department']])
@@ -54,12 +55,12 @@ class Testone(BaseClass):
         log.info("Department search functionality is working fine")
 
 
-    def test_kpicreation(self): #need to create a proper data in excel file and crate click is pending in the kpi page
+    def test_rolescreation(self): #need to create a proper data in excel file and crate click is pending in the kpi page
         # .themeBtn
         log = self.getLogger()
         time.sleep(10)
         wait=WebDriverWait(self.driver,20)
-        app=HomePage.kpi(self)
+        app=HomePage.roles(self)
         self.driver.get(app)
         time.sleep(5)
         time.sleep(2)
@@ -75,7 +76,7 @@ class Testone(BaseClass):
         flat_data = []
         al_opt=[]
         for _, row in user_data.iterrows():
-            al_opt.extend([row['role'], row['user'], row['department'], row['shift'], row['device']])
+            al_opt.extend([row['role']])
         for value, field in zip(al_opt, field_name):
                 field.click()
                 time.sleep(2)
@@ -83,15 +84,13 @@ class Testone(BaseClass):
                 time.sleep(2)
         user_data=pd.read_excel("/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample_user.xlsx") 
         for _, row in user_data.iterrows():
-            flat_data.extend(row['role'])      
+            flat_data.extend([row['user']])      
         send_data=By.CSS_SELECTOR,".css-19bb58m input"
         send_button=wait.until(EC.visibility_of_element_located(send_data))
         for value in zip(flat_data):
             send_button.click()
-            send_button.clear()
-            log.info("cleared the input field")
             time.sleep(3)
-
+            send_button.clear()
             log.info(f"Entering value: {value}")
 
             send_button.send_keys(value)
@@ -106,11 +105,22 @@ class Testone(BaseClass):
                     log.info(f"Selected value: {value}")
                     break
                 else:
-                    log.info("not found in this iterations")
+                    log.info("not found in this itera")
                     continue
-            
+             
+        time.sleep(10)
+        check_box=By.CSS_SELECTOR,".checkmark"
+        check_box=wait.until(EC.presence_of_all_elements_located(check_box))
 
-            time.sleep(2)
+
+        chek_click=random.choice(check_box)
+        chek_click.click()
+        time.sleep(2)
+        chek_click.click()
+        log.info("Role creation functionality is working fine")
+        
+        time.sleep(2)
+
 
     
 

@@ -82,3 +82,7 @@ class HomePage(BaseClass):
         time.sleep(5)
         kpi=env_url+"/organisation/dashboard/kpis-kras"
         return kpi
+    def roles(self):
+        time.sleep(5)
+        kpi=env_url+"/organisation/dashboard/roles"
+        return kpi

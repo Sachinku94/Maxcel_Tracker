@@ -52,6 +52,14 @@ class Testone(BaseClass):
 
         done=self.driver.find_element(By.XPATH,"//button[contains(text(),'Send Invitations')]")
         done.click()
+        
+    def test_userreport(self):
+        log=self.getLogger()
+        time.sleep(10)
+        user=HomePage.Userreport(self)
+        self.driver.get(user)
+        time.sleep(5)
+
 
     def test_createUserSingle(self):
         wait=WebDriverWait(self.driver,20)
@@ -157,6 +165,7 @@ class Testone(BaseClass):
         
     
     def test_useractions(self):
+
         log = self.getLogger()
         wait = WebDriverWait(self.driver, 20)
 

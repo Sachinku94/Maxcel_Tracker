@@ -2676,3 +2676,438 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-03-24 15:37:17,148 :INFO : test_kpicreation :Entering value: ('g',)
 2026-03-24 15:37:25,232 :INFO : test_kpicreation :Entering value: ('e',)
 2026-03-24 15:37:33,327 :INFO : test_kpicreation :Entering value: ('r',)
+2026-03-24 18:23:13,710 :INFO : test_Departmentsearch :Total number of users: 4
+2026-03-24 18:23:17,959 :INFO : test_Departmentsearch :verifying the search item Default Department
+2026-03-24 18:23:22,154 :INFO : test_Departmentsearch :verifying the search item Test Department
+2026-03-24 18:23:49,299 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-24 18:24:07,647 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-24 18:24:15,802 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-24 18:24:23,920 :INFO : test_DepartmentCreation :Entering value: Default Department
+2026-03-24 18:25:04,922 :INFO : test_Departmentaction :clicking on action option Manage Productivity
+2026-03-24 18:25:14,940 :INFO : test_Departmentaction :clicked on action option [Manage Productivity]
+2026-03-24 18:25:19,963 :INFO : test_Departmentaction :Completed user actions test successfully
+2026-03-24 18:26:29,166 :INFO : test_kpisearch :Total number of users: 4
+2026-03-24 18:27:22,334 :INFO : test_kpicreation :Total number of users: 2
+2026-03-24 18:27:46,160 :INFO : test_kpicreation :Entering value: ('E',)
+2026-03-24 18:27:54,386 :INFO : test_kpicreation :Entering value: ('m',)
+2026-03-24 18:28:02,503 :INFO : test_kpicreation :Entering value: ('p',)
+2026-03-24 18:28:10,604 :INFO : test_kpicreation :Entering value: ('l',)
+2026-03-24 18:28:18,705 :INFO : test_kpicreation :Entering value: ('o',)
+2026-03-24 18:28:26,668 :INFO : test_kpicreation :Entering value: ('y',)
+2026-03-24 18:28:34,783 :INFO : test_kpicreation :Entering value: ('e',)
+2026-03-24 18:28:42,886 :INFO : test_kpicreation :Entering value: ('e',)
+2026-03-24 18:28:50,977 :INFO : test_kpicreation :Entering value: ('M',)
+2026-03-24 18:28:59,070 :INFO : test_kpicreation :Entering value: ('a',)
+2026-03-24 18:29:07,175 :INFO : test_kpicreation :Entering value: ('n',)
+2026-03-24 18:29:15,277 :INFO : test_kpicreation :Entering value: ('a',)
+2026-03-24 18:29:23,369 :INFO : test_kpicreation :Entering value: ('g',)
+2026-03-24 18:29:31,480 :INFO : test_kpicreation :Entering value: ('e',)
+2026-03-24 18:29:39,591 :INFO : test_kpicreation :Entering value: ('r',)
+2026-03-24 18:31:23,256 :INFO : test_appfilterproductive :Total number of users: 4
+2026-03-24 18:31:34,866 :INFO : test_actionsonappproductive :clicking on graph option Line Chart
+2026-03-24 18:31:37,010 :INFO : test_actionsonappproductive :clicking on graph option Bar Chart
+2026-03-24 18:31:39,172 :INFO : test_actionsonappproductive :clicking on graph option Pie Chart
+2026-03-24 18:31:41,321 :INFO : test_actionsonappproductive :clicking on graph option Area Chart
+2026-03-24 18:31:47,606 :INFO : test_actionsonappproductive :clicking on graph option Line Chart
+2026-03-24 18:31:49,761 :INFO : test_actionsonappproductive :clicking on graph option Bar Chart
+2026-03-24 18:31:51,906 :INFO : test_actionsonappproductive :clicking on graph option Pie Chart
+2026-03-24 18:31:54,045 :INFO : test_actionsonappproductive :clicking on graph option Area Chart
+2026-03-24 18:33:09,144 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-03-24 18:33:09,146 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-03-24 18:33:09,146 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-03-24 18:33:48,042 :INFO : test_appfilter :Total number of users: 4
+2026-03-24 18:33:50,162 :INFO : test_appfilter :already selected filter option is Global Department
+2026-03-24 18:33:50,175 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-24 18:33:50,182 :INFO : test_appfilter :clicking on filter option Evening
+2026-03-24 18:33:54,441 :INFO : test_appfilter :already selected filter option is Default Department
+2026-03-24 18:33:54,454 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-24 18:33:58,549 :INFO : test_appfilter :already selected filter option is Default Department
+2026-03-24 18:33:58,561 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-24 18:33:58,568 :INFO : test_appfilter :clicking on filter option Noon Shift
+2026-03-24 18:34:02,794 :INFO : test_appfilter :already selected filter option is test department
+2026-03-24 18:34:02,807 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-24 18:34:06,898 :INFO : test_appfilter :already selected filter option is test department
+2026-03-24 18:34:06,911 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-24 18:34:06,917 :INFO : test_appfilter :clicking on filter option Evening
+2026-03-24 18:34:11,142 :INFO : test_appfilter :already selected filter option is Default Department
+2026-03-24 18:34:11,155 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-24 18:34:15,251 :INFO : test_appfilter :already selected filter option is Default Department
+2026-03-24 18:34:15,264 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-24 18:34:15,270 :INFO : test_appfilter :clicking on filter option Morning Shift
+2026-03-24 18:34:19,498 :INFO : test_appfilter :already selected filter option is test department
+2026-03-24 18:34:19,512 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-03-24 18:34:43,234 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-24 18:34:45,382 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-24 18:34:47,531 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-24 18:34:49,694 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-24 18:34:55,974 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-24 18:34:58,133 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-24 18:35:00,292 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-24 18:35:02,434 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-24 18:36:43,674 :INFO : test_logsfilter :Total number of users: 4
+2026-03-24 18:36:45,804 :INFO : test_logsfilter :Clicking on option: Default Department
+2026-03-24 18:36:45,895 :INFO : test_logsfilter :Selected value: Default Department
+2026-03-24 18:37:08,147 :INFO : test_logsfilter :Finished processing filter option: Team Member
+2026-03-24 18:37:52,851 :INFO : test_logsdatewise :Exception occurred while selecting option: Message: 
+
+2026-03-24 18:37:58,066 :INFO : test_logsdatewise :Exception occurred while selecting option: Message: Element <li class="disabled"> is not clickable at point (1199,264) because another element <div class="absolute right-[0px] w-[32px] h-[32px] flex items-center justify-center rounded-[8px] text-[24px] border border-Custom-Grey-200"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:354:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:326:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:205:31
+
+2026-03-24 18:39:00,691 :INFO : test_CreateUserBulk :/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx
+2026-03-24 18:39:00,692 :INFO : test_CreateUserBulk :/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx
+2026-03-24 18:39:00,731 :INFO : test_CreateUserBulk :file path copied to clipboard
+2026-03-24 18:39:00,973 :INFO : test_CreateUserBulk :file path pasted in the dialog box
+2026-03-24 18:39:01,096 :INFO : test_CreateUserBulk :pressed enter key
+2026-03-24 18:39:31,791 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-24 18:39:33,902 :INFO : test_createUserSingle :4
+2026-03-24 18:39:35,989 :INFO : test_createUserSingle :4
+2026-03-24 18:39:38,078 :INFO : test_createUserSingle :4
+2026-03-24 18:39:39,557 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-03-24 18:39:39,557 :INFO : test_createUserSingle :Total input fields found: 16
+2026-03-24 18:39:41,661 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-24 18:39:41,741 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-24 18:39:48,872 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-03-24 18:39:48,951 :INFO : test_createUserSingle :Selected value: Evening
+2026-03-24 18:39:56,057 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-03-24 18:39:56,132 :INFO : test_createUserSingle :Selected value: Default Department
+2026-03-24 18:40:03,239 :INFO : test_createUserSingle :Clicking on option: WFO
+2026-03-24 18:40:03,313 :INFO : test_createUserSingle :Selected value: WFO
+2026-03-24 18:40:10,411 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-24 18:40:10,488 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-24 18:40:17,620 :INFO : test_createUserSingle :Clicking on option: Noon Shift
+2026-03-24 18:40:17,699 :INFO : test_createUserSingle :Selected value: Noon Shift
+2026-03-24 18:40:24,833 :INFO : test_createUserSingle :Clicking on option: test department
+2026-03-24 18:40:24,917 :INFO : test_createUserSingle :Selected value: test department
+2026-03-24 18:40:32,060 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-03-24 18:40:32,151 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-03-24 18:40:39,252 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-24 18:40:39,328 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-24 18:40:46,452 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-03-24 18:40:46,531 :INFO : test_createUserSingle :Selected value: Evening
+2026-03-24 18:40:53,641 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-03-24 18:40:53,721 :INFO : test_createUserSingle :Selected value: Default Department
+2026-03-24 18:41:00,820 :INFO : test_createUserSingle :Clicking on option: WFH
+2026-03-24 18:41:00,895 :INFO : test_createUserSingle :Selected value: WFH
+2026-03-24 18:41:07,992 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-24 18:41:08,076 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-24 18:41:15,214 :INFO : test_createUserSingle :Clicking on option: Morning Shift
+2026-03-24 18:41:15,294 :INFO : test_createUserSingle :Selected value: Morning Shift
+2026-03-24 18:41:22,400 :INFO : test_createUserSingle :Clicking on option: test department
+2026-03-24 18:41:22,473 :INFO : test_createUserSingle :Selected value: test department
+2026-03-24 18:41:29,614 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-03-24 18:41:29,700 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-03-24 18:42:00,069 :INFO : test_filteruser :Total number of users: 2
+2026-03-24 18:42:04,169 :INFO : test_filteruser :clicking on filter option Employee
+2026-03-24 18:42:04,176 :INFO : test_filteruser :comparing Employee with Employee
+2026-03-24 18:42:04,189 :INFO : test_filteruser :Clicking on option: Employee
+2026-03-24 18:42:04,300 :INFO : test_filteruser :Selected value: Employee
+2026-03-24 18:42:13,422 :INFO : test_filteruser :clicking on filter option Global Department
+2026-03-24 18:42:13,430 :INFO : test_filteruser :comparing Global Department with test department
+2026-03-24 18:42:13,443 :INFO : test_filteruser :clicking on filter option pinky
+2026-03-24 18:42:13,450 :INFO : test_filteruser :comparing pinky with test department
+2026-03-24 18:42:13,462 :INFO : test_filteruser :clicking on filter option test department
+2026-03-24 18:42:13,469 :INFO : test_filteruser :comparing test department with test department
+2026-03-24 18:42:13,481 :INFO : test_filteruser :Clicking on option: test department
+2026-03-24 18:42:13,610 :INFO : test_filteruser :Selected value: test department
+2026-03-24 18:42:22,697 :INFO : test_filteruser :clicking on filter option All Users
+2026-03-24 18:42:22,704 :INFO : test_filteruser :comparing All Users with Untracked
+2026-03-24 18:42:22,717 :INFO : test_filteruser :clicking on filter option Tracked
+2026-03-24 18:42:22,723 :INFO : test_filteruser :comparing Tracked with Untracked
+2026-03-24 18:42:22,737 :INFO : test_filteruser :clicking on filter option Untracked
+2026-03-24 18:42:22,743 :INFO : test_filteruser :comparing Untracked with Untracked
+2026-03-24 18:42:22,756 :INFO : test_filteruser :Clicking on option: Untracked
+2026-03-24 18:42:22,832 :INFO : test_filteruser :Selected value: Untracked
+2026-03-24 18:42:31,922 :INFO : test_filteruser :clicking on filter option All Shift
+2026-03-24 18:42:31,929 :INFO : test_filteruser :comparing All Shift with Morning Shift
+2026-03-24 18:42:31,944 :INFO : test_filteruser :clicking on filter option LoginLout
+2026-03-24 18:42:31,950 :INFO : test_filteruser :comparing LoginLout with Morning Shift
+2026-03-24 18:42:31,963 :INFO : test_filteruser :clicking on filter option reg
+2026-03-24 18:42:31,971 :INFO : test_filteruser :comparing reg with Morning Shift
+2026-03-24 18:42:31,985 :INFO : test_filteruser :clicking on filter option pinky test regression
+2026-03-24 18:42:31,993 :INFO : test_filteruser :comparing pinky test regression with Morning Shift
+2026-03-24 18:42:32,006 :INFO : test_filteruser :clicking on filter option First shift
+2026-03-24 18:42:32,012 :INFO : test_filteruser :comparing First shift with Morning Shift
+2026-03-24 18:42:32,025 :INFO : test_filteruser :clicking on filter option Evening
+2026-03-24 18:42:32,035 :INFO : test_filteruser :comparing Evening with Morning Shift
+2026-03-24 18:42:32,049 :INFO : test_filteruser :clicking on filter option Noon Shift
+2026-03-24 18:42:32,056 :INFO : test_filteruser :comparing Noon Shift with Morning Shift
+2026-03-24 18:42:32,069 :INFO : test_filteruser :clicking on filter option Morning Shift
+2026-03-24 18:42:32,075 :INFO : test_filteruser :comparing Morning Shift with Morning Shift
+2026-03-24 18:42:32,088 :INFO : test_filteruser :Clicking on option: Morning Shift
+2026-03-24 18:42:32,221 :INFO : test_filteruser :Selected value: Morning Shift
+2026-03-24 18:42:41,321 :INFO : test_filteruser :clicking on filter option All OS
+2026-03-24 18:42:41,329 :INFO : test_filteruser :comparing All OS with All OS
+2026-03-24 18:42:41,342 :INFO : test_filteruser :Clicking on option: All OS
+2026-03-24 18:42:41,443 :INFO : test_filteruser :Selected value: All OS
+2026-03-24 18:42:50,542 :INFO : test_filteruser :clicking on filter option All Versions
+2026-03-24 18:42:50,549 :INFO : test_filteruser :comparing All Versions with Manager
+2026-03-24 18:42:50,562 :INFO : test_filteruser :clicking on filter option 0.0.7
+2026-03-24 18:42:50,569 :INFO : test_filteruser :comparing 0.0.7 with Manager
+2026-03-24 18:42:50,582 :INFO : test_filteruser :clicking on filter option 0.0.8
+2026-03-24 18:42:50,589 :INFO : test_filteruser :comparing 0.0.8 with Manager
+2026-03-24 18:43:31,024 :INFO : test_useractions :clicking on action option Track
+2026-03-24 18:43:41,037 :INFO : test_useractions :clicked on action option [Activate]
+2026-03-24 18:44:01,104 :INFO : test_useractions :Activate
+2026-03-24 18:44:06,189 :INFO : test_useractions :clicking on action option Info
+2026-03-24 18:44:16,201 :INFO : test_useractions :clicked on action option [Deactivate]
+2026-03-24 18:44:18,237 :INFO : test_useractions :User deactivated successfully
+2026-03-24 18:44:38,240 :INFO : test_useractions :Deactivate
+2026-03-24 18:44:43,334 :INFO : test_useractions :clicking on action option 
+2026-03-24 18:44:53,342 :INFO : test_useractions :clicked on action option []
+2026-03-24 18:45:13,386 :INFO : test_useractions :
+2026-03-24 18:45:18,471 :INFO : test_useractions :clicking on action option 
+2026-03-24 18:45:28,480 :INFO : test_useractions :clicked on action option []
+2026-03-24 18:45:48,518 :INFO : test_useractions :
+2026-03-24 18:45:48,532 :ERROR : test_useractions :Exception occurred while clicking action button: Message: The element with the reference 162a1aff-74e5-4d80-839f-a1d557951a4a is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:412:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:270:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:174:30
+
+2026-03-24 18:45:53,540 :ERROR : test_useractions :Exception occurred during user actions test: Message: The element with the reference 4cfd37dd-13bf-4ff6-8777-781a9007475c is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:412:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:270:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:174:30
+
+2026-03-24 18:47:01,587 :INFO : test_dashboardsearch :item chosen for search is QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-24 18:47:05,203 :INFO : test_dashboardsearch :verifying the search item QA Team Testing Account (EMP18082)
+2026-03-24 18:47:05,210 :INFO : test_dashboardsearch :['QA Team Testing Account (EMP18082)']
+2026-03-24 18:47:55,585 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:55,597 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ion/dashboard' == 'https://stg-.../log-by-chart'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard/logs/log-by-chart
+  + n/dashboard
+2026-03-24 18:47:55,690 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/users with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:55,690 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/users' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/users
+2026-03-24 18:47:55,774 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:55,775 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...-and-websites' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/apps-and-websites
+2026-03-24 18:47:55,856 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/screenshots with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:55,857 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/screenshots' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/screenshots
+2026-03-24 18:47:55,939 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/logs with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:55,939 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ashboard/logs' == 'https://stg-.../log-by-chart'
+  
+  Skipping 48 identical leading characters in diff, use -v to show
+  - hboard/logs/log-by-chart
+  + hboard/logs
+2026-03-24 18:47:56,022 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,022 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../productivity' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/productivity
+2026-03-24 18:47:56,105 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/department-teams with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,106 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...artment-teams' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/department-teams
+2026-03-24 18:47:56,188 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/kpis-kras with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,188 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ard/kpis-kras' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/kpis-kras
+2026-03-24 18:47:56,266 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/roles with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,266 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/roles' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/roles
+2026-03-24 18:47:56,342 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/live-stream with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,342 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/live-stream' == 'https://stg-.../log-by-chart'
+  
+  Skipping 46 identical leading characters in diff, use -v to show
+  - ashboard/logs/log-by-chart
+  + ashboard/live-stream
+2026-03-24 18:47:56,420 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/video-recording with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,421 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...deo-recording' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/video-recording
+2026-03-24 18:47:56,498 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/alerts with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,499 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...hboard/alerts' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/alerts
+2026-03-24 18:47:56,578 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/integrations with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,579 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../integrations' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/integrations
+2026-03-24 18:47:56,656 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/ai-summary with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,657 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...rd/ai-summary' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/ai-summary
+2026-03-24 18:47:56,738 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/settings with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,758 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...oard/settings' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/settings
+2026-03-24 18:47:56,838 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/installation with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,839 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../installation' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/installation
+2026-03-24 18:47:56,919 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/demo-videos with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-24 18:47:56,920 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/demo-videos' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/demo-videos
+2026-03-24 18:47:56,920 :INFO : test_sidebarclick :Finished verifying sidebar button redirections.
+2026-03-24 18:49:31,609 :INFO : test_logsfilter :Total number of users: 4
+2026-03-24 18:49:31,609 :INFO : test_logsfilter :Total number of users: 4
+2026-03-24 18:49:43,482 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-24 18:49:43,482 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-24 18:49:45,632 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-24 18:49:45,632 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-24 18:49:47,800 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-24 18:49:47,800 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-24 18:49:49,952 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-24 18:49:49,952 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-24 18:49:56,249 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-24 18:49:56,249 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-24 18:49:58,408 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-24 18:49:58,408 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-24 18:50:00,566 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-24 18:50:00,566 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-24 18:50:02,715 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-24 18:50:02,715 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-24 18:50:09,025 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-24 18:50:09,025 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-24 18:50:11,189 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-24 18:50:11,189 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-24 18:50:13,351 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-24 18:50:13,351 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-24 18:50:15,499 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-24 18:50:15,499 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-24 18:50:21,850 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-24 18:50:21,850 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-24 18:50:24,020 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-24 18:50:24,020 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-24 18:50:26,185 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-24 18:50:26,185 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-24 18:50:28,342 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-24 18:50:28,342 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-25 15:33:10,786 :INFO : test_rolesearch :Total number of users: 4
+2026-03-25 15:42:45,149 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 15:42:52,430 :INFO : test_rolescreation :Entering value: ('U',)
+2026-03-25 15:43:00,736 :INFO : test_rolescreation :Entering value: ('n',)
+2026-03-25 15:43:08,853 :INFO : test_rolescreation :Entering value: ('t',)
+2026-03-25 15:43:16,961 :INFO : test_rolescreation :Entering value: ('r',)
+2026-03-25 15:43:25,061 :INFO : test_rolescreation :Entering value: ('a',)
+2026-03-25 15:43:33,139 :INFO : test_rolescreation :Entering value: ('c',)
+2026-03-25 15:43:41,219 :INFO : test_rolescreation :Entering value: ('k',)
+2026-03-25 15:43:49,302 :INFO : test_rolescreation :Entering value: ('e',)
+2026-03-25 15:43:57,389 :INFO : test_rolescreation :Entering value: ('d',)
+2026-03-25 15:44:05,470 :INFO : test_rolescreation :Entering value: ('U',)
+2026-03-25 15:44:13,565 :INFO : test_rolescreation :Entering value: ('n',)
+2026-03-25 15:44:21,667 :INFO : test_rolescreation :Entering value: ('t',)
+2026-03-25 15:44:29,760 :INFO : test_rolescreation :Entering value: ('r',)
+2026-03-25 15:44:37,844 :INFO : test_rolescreation :Entering value: ('a',)
+2026-03-25 15:44:45,932 :INFO : test_rolescreation :Entering value: ('c',)
+2026-03-25 15:44:54,023 :INFO : test_rolescreation :Entering value: ('k',)
+2026-03-25 15:45:02,106 :INFO : test_rolescreation :Entering value: ('e',)
+2026-03-25 15:45:10,194 :INFO : test_rolescreation :Entering value: ('d',)
+2026-03-25 15:58:07,348 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 15:58:14,425 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 15:59:51,940 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 15:59:59,181 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:03:21,152 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 16:03:28,416 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:03:34,561 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:06:23,977 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 16:06:31,210 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:06:37,348 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:08:50,484 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 16:08:57,712 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:09:03,848 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:11:20,686 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 16:11:27,925 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:11:34,060 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:30:16,314 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 16:30:23,587 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:30:29,752 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:33:50,884 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 16:33:58,153 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:34:04,303 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:38:41,414 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 16:38:48,706 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:38:54,870 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:41:28,998 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 16:41:36,257 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:41:42,438 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:47:18,624 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 16:47:25,925 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:47:32,127 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:49:13,727 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 16:49:20,956 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 16:49:27,146 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 17:05:52,233 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 17:05:59,496 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 17:06:05,667 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 17:06:18,759 :INFO : test_rolescreation :Role creation functionality is working fine
+2026-03-25 17:22:49,614 :INFO : test_rolescreation :Total number of users: 2
+2026-03-25 17:22:56,903 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 17:23:03,109 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-03-25 17:23:18,385 :INFO : test_rolescreation :Role creation functionality is working fine
