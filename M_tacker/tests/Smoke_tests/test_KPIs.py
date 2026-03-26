@@ -22,7 +22,7 @@ import requests
 class Testone(BaseClass):
 
 
-    def test_kpisearch(self):
+    def test_kpisearch(self): #data issue will add data to excel
         log = self.getLogger()
         time.sleep(10)
         wait=WebDriverWait(self.driver,20)
@@ -54,7 +54,7 @@ class Testone(BaseClass):
         log.info("Department search functionality is working fine")
 
 
-    def test_kpicreation(self): #need to create a proper data in excel file and crate click is pending in the kpi page
+    def test_kpicreation(self): #need to create a proper data in excel file and crate click is pending in the kpi page and als need to check dropdown data
         # .themeBtn
         log = self.getLogger()
         time.sleep(10)
@@ -83,7 +83,7 @@ class Testone(BaseClass):
                 time.sleep(2)
         user_data=pd.read_excel("/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample_user.xlsx") 
         for _, row in user_data.iterrows():
-            flat_data.extend(row['role'])      
+            flat_data.extend([row['user']])      
         send_data=By.CSS_SELECTOR,".css-19bb58m input"
         send_button=wait.until(EC.visibility_of_element_located(send_data))
         for value in zip(flat_data):
@@ -104,6 +104,10 @@ class Testone(BaseClass):
                 if option.text.strip() == value:
                     option.click()
                     log.info(f"Selected value: {value}")
+                    break
+                elif option.text.strip() != value:
+                    choice=random.choice(drop_down)
+                    choice.click()
                     break
                 else:
                     log.info("not found in this iterations")

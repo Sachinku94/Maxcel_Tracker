@@ -23,7 +23,7 @@ import random
 class Testone(BaseClass):
 
   
-    def test_screensshotclendar(self):
+    def test_screensshotclendar(self): #need to check
         
         time.sleep(100)
         log = self.getLogger()
@@ -42,7 +42,7 @@ class Testone(BaseClass):
             celandar.click()
     
 
-    def test_screenshotfilter(self):
+    def test_screenshotfilter(self): #need to verify
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.screen_shot(self)

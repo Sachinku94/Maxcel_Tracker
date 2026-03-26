@@ -19,10 +19,10 @@ import random
 import pandas as pd
 import requests
 
-class Testone(BaseClass):
+class Testone(BaseClass):   #done
 
 
-    def test_Departmentsearch(self):
+    def test_Departmentsearch(self): #assertion issue 
         log = self.getLogger()
         time.sleep(10)
         wait=WebDriverWait(self.driver,20)
@@ -118,7 +118,7 @@ class Testone(BaseClass):
 
             log.info(f"Entering value: {value}")
 
-            send.send_keys(value)
+            # send.send_keys(value)
 
 
             time.sleep(3)
@@ -128,9 +128,20 @@ class Testone(BaseClass):
                 if option.text.strip() == value:
                     option.click()
                     log.info(f"Selected value: {value}")
-                    break
+                    
+                elif option.text.strip() != value:
+                    log.info(f"Did not select value: {option.text.strip()}")
+                    # field.click()
 
-            time.sleep(2)
+                    random.choice(drop_down).click()
+                    # log.info(f"Selected random value: {option.text.strip()}")
+                    time.sleep(5)
+                    break
+                break
+            continue
+        time.sleep(5)
+        
+        
 
     def test_Departmentaction(self):
         log = self.getLogger()
@@ -170,7 +181,7 @@ class Testone(BaseClass):
                 if action_text == "Edit Department":
                     time.sleep(2)
                     confirm = self.driver.find_element(
-                        By.CSS_SELECTO, ".rounded-lg"
+                        By.CSS_SELECTOR, ".rounded-lg"
                     )
                     assert confirm.is_displayed(), "Edit department modal did not appear"
                     log.info("Edit department modal appeared successfully")

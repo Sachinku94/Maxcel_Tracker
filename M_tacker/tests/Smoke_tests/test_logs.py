@@ -22,7 +22,7 @@ import pyperclip
 class Testone(BaseClass):
 
   
-    def test_logsclendar(self):
+    def test_logsclendar(self): #need to check
         
        
         log = self.getLogger()
@@ -41,7 +41,7 @@ class Testone(BaseClass):
             time.sleep(3)
             celandar.click()
    
-    def test_logsfilter(self):
+    def test_logsfilter(self): #need to checked
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.graph_logs(self)
