@@ -24,7 +24,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 class Testone(BaseClass):
 
-    def test_CreateUserBulk(self):
+    def test_CreateUserBulk(self):  #need to check
         log=self.getLogger()
         time.sleep(10)
         user=HomePage.User(self)

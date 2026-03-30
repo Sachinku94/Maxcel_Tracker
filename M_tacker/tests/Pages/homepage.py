@@ -86,3 +86,7 @@ class HomePage(BaseClass):
         time.sleep(5)
         kpi=env_url+"/organisation/dashboard/roles"
         return kpi
+    def livestream(self):
+        time.sleep(5)
+        liv=env_url+"/organisation/dashboard/live-stream"
+        return liv

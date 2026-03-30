@@ -4062,3 +4062,1032 @@ assert 'https://stg-...d/demo-videos' == 'https://stg-...ion/dashboard'
 2026-03-26 17:02:17,136 :INFO : test_kpicreation :Entering value: ('Untracked',)
 2026-03-26 17:02:22,318 :INFO : test_kpicreation :cleared the input field
 2026-03-26 17:02:25,319 :INFO : test_kpicreation :Entering value: ('Untracked',)
+2026-03-27 10:25:36,697 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-03-27 10:25:38,808 :INFO : test_createUserSingle :4
+2026-03-27 10:25:40,894 :INFO : test_createUserSingle :4
+2026-03-27 10:25:42,984 :INFO : test_createUserSingle :4
+2026-03-27 10:25:44,533 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-03-27 10:25:44,534 :INFO : test_createUserSingle :Total input fields found: 16
+2026-03-27 10:25:46,650 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-27 10:25:46,729 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-27 10:25:53,870 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-03-27 10:25:53,953 :INFO : test_createUserSingle :Selected value: Evening
+2026-03-27 10:26:01,102 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-03-27 10:26:01,213 :INFO : test_createUserSingle :Selected value: Default Department
+2026-03-27 10:26:08,328 :INFO : test_createUserSingle :Clicking on option: WFO
+2026-03-27 10:26:08,405 :INFO : test_createUserSingle :Selected value: WFO
+2026-03-27 10:26:15,511 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-27 10:26:15,593 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-27 10:26:22,741 :INFO : test_createUserSingle :Clicking on option: Noon Shift
+2026-03-27 10:26:22,827 :INFO : test_createUserSingle :Selected value: Noon Shift
+2026-03-27 10:26:30,087 :INFO : test_createUserSingle :Clicking on option: test department
+2026-03-27 10:26:30,167 :INFO : test_createUserSingle :Selected value: test department
+2026-03-27 10:26:37,286 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-03-27 10:26:37,362 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-03-27 10:26:44,456 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-27 10:26:44,523 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-27 10:26:51,665 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-03-27 10:26:51,754 :INFO : test_createUserSingle :Selected value: Evening
+2026-03-27 10:26:58,889 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-03-27 10:26:59,036 :INFO : test_createUserSingle :Selected value: Default Department
+2026-03-27 10:27:06,171 :INFO : test_createUserSingle :Clicking on option: WFH
+2026-03-27 10:27:06,279 :INFO : test_createUserSingle :Selected value: WFH
+2026-03-27 10:27:13,381 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-03-27 10:27:13,454 :INFO : test_createUserSingle :Selected value: Employee
+2026-03-27 10:27:20,599 :INFO : test_createUserSingle :Clicking on option: Morning Shift
+2026-03-27 10:27:20,676 :INFO : test_createUserSingle :Selected value: Morning Shift
+2026-03-27 10:27:27,800 :INFO : test_createUserSingle :Clicking on option: test department
+2026-03-27 10:27:27,877 :INFO : test_createUserSingle :Selected value: test department
+2026-03-27 10:27:34,989 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-03-27 10:27:35,068 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-03-27 10:28:04,813 :INFO : test_filteruser :Total number of users: 2
+2026-03-27 10:28:08,912 :INFO : test_filteruser :clicking on filter option Employee
+2026-03-27 10:28:08,918 :INFO : test_filteruser :comparing Employee with Employee
+2026-03-27 10:28:08,930 :INFO : test_filteruser :Clicking on option: Employee
+2026-03-27 10:28:09,033 :INFO : test_filteruser :Selected value: Employee
+2026-03-27 10:28:18,158 :INFO : test_filteruser :clicking on filter option Global Department
+2026-03-27 10:28:18,165 :INFO : test_filteruser :comparing Global Department with test department
+2026-03-27 10:28:18,179 :INFO : test_filteruser :clicking on filter option pinky
+2026-03-27 10:28:18,186 :INFO : test_filteruser :comparing pinky with test department
+2026-03-27 10:28:18,201 :INFO : test_filteruser :clicking on filter option test department
+2026-03-27 10:28:18,208 :INFO : test_filteruser :comparing test department with test department
+2026-03-27 10:28:18,222 :INFO : test_filteruser :Clicking on option: test department
+2026-03-27 10:28:18,341 :INFO : test_filteruser :Selected value: test department
+2026-03-27 10:28:27,454 :INFO : test_filteruser :clicking on filter option All Users
+2026-03-27 10:28:27,462 :INFO : test_filteruser :comparing All Users with Untracked
+2026-03-27 10:28:27,475 :INFO : test_filteruser :clicking on filter option Tracked
+2026-03-27 10:28:27,481 :INFO : test_filteruser :comparing Tracked with Untracked
+2026-03-27 10:28:27,493 :INFO : test_filteruser :clicking on filter option Untracked
+2026-03-27 10:28:27,500 :INFO : test_filteruser :comparing Untracked with Untracked
+2026-03-27 10:28:27,513 :INFO : test_filteruser :Clicking on option: Untracked
+2026-03-27 10:28:27,623 :INFO : test_filteruser :Selected value: Untracked
+2026-03-27 10:28:36,723 :INFO : test_filteruser :clicking on filter option All Shift
+2026-03-27 10:28:36,730 :INFO : test_filteruser :comparing All Shift with Morning Shift
+2026-03-27 10:28:36,743 :INFO : test_filteruser :clicking on filter option LoginLout
+2026-03-27 10:28:36,750 :INFO : test_filteruser :comparing LoginLout with Morning Shift
+2026-03-27 10:28:36,764 :INFO : test_filteruser :clicking on filter option reg
+2026-03-27 10:28:36,770 :INFO : test_filteruser :comparing reg with Morning Shift
+2026-03-27 10:28:36,783 :INFO : test_filteruser :clicking on filter option pinky test regression
+2026-03-27 10:28:36,790 :INFO : test_filteruser :comparing pinky test regression with Morning Shift
+2026-03-27 10:28:36,803 :INFO : test_filteruser :clicking on filter option First shift
+2026-03-27 10:28:36,813 :INFO : test_filteruser :comparing First shift with Morning Shift
+2026-03-27 10:28:36,826 :INFO : test_filteruser :clicking on filter option Evening
+2026-03-27 10:28:36,833 :INFO : test_filteruser :comparing Evening with Morning Shift
+2026-03-27 10:28:36,846 :INFO : test_filteruser :clicking on filter option Noon Shift
+2026-03-27 10:28:36,853 :INFO : test_filteruser :comparing Noon Shift with Morning Shift
+2026-03-27 10:28:36,866 :INFO : test_filteruser :clicking on filter option Morning Shift
+2026-03-27 10:28:36,873 :INFO : test_filteruser :comparing Morning Shift with Morning Shift
+2026-03-27 10:28:36,886 :INFO : test_filteruser :Clicking on option: Morning Shift
+2026-03-27 10:28:36,973 :INFO : test_filteruser :Selected value: Morning Shift
+2026-03-27 10:28:46,076 :INFO : test_filteruser :clicking on filter option All OS
+2026-03-27 10:28:46,082 :INFO : test_filteruser :comparing All OS with All OS
+2026-03-27 10:28:46,094 :INFO : test_filteruser :Clicking on option: All OS
+2026-03-27 10:28:46,170 :INFO : test_filteruser :Selected value: All OS
+2026-03-27 10:28:55,249 :INFO : test_filteruser :clicking on filter option All Versions
+2026-03-27 10:28:55,256 :INFO : test_filteruser :comparing All Versions with Manager
+2026-03-27 10:28:55,269 :INFO : test_filteruser :clicking on filter option 0.0.7
+2026-03-27 10:28:55,275 :INFO : test_filteruser :comparing 0.0.7 with Manager
+2026-03-27 10:28:55,288 :INFO : test_filteruser :clicking on filter option 0.0.8
+2026-03-27 10:28:55,295 :INFO : test_filteruser :comparing 0.0.8 with Manager
+2026-03-27 10:29:36,213 :INFO : test_useractions :clicking on action option Track
+2026-03-27 10:29:46,231 :INFO : test_useractions :clicked on action option [Info]
+2026-03-27 10:29:48,262 :INFO : test_useractions :navigated to user info page successfully
+2026-03-27 10:29:57,969 :INFO : test_useractions :navigated back to user page successfully
+2026-03-27 10:29:57,971 :INFO : test_useractions :current url after navigating back: https://stg-fe.maxeltracker.com/organisation/dashboard/users/6f011bac-381f-43cd-9c2e-189e2715ea0c
+2026-03-27 10:30:22,978 :INFO : test_useractions :Info
+2026-03-27 10:30:22,978 :INFO : test_useractions :Already navigated to Info page, no need to click action button again.
+2026-03-27 10:30:22,980 :INFO : test_useractions :Current URL after Info action: https://stg-fe.maxeltracker.com/organisation/dashboard/users/6f011bac-381f-43cd-9c2e-189e2715ea0c
+2026-03-27 10:30:27,104 :INFO : test_useractions :Navigated back to user page successfully
+2026-03-27 10:30:32,113 :ERROR : test_useractions :Exception occurred while clicking action button: Message: The element with the reference 03bc61cf-0701-4c3b-af13-4e7ef45c9adb is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:412:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:270:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:174:30
+
+2026-03-27 10:30:37,124 :ERROR : test_useractions :Exception occurred during user actions test: Message: The element with the reference d5f640d8-4d5f-492f-a60b-ce113e9a3fe8 is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:412:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:270:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:174:30
+
+2026-03-27 10:33:44,763 :INFO : test_Departmentsearch :Total number of users: 4
+2026-03-27 10:33:49,020 :INFO : test_Departmentsearch :verifying the search item Default Department
+2026-03-27 10:33:53,196 :INFO : test_Departmentsearch :verifying the search item Test Department
+2026-03-27 10:34:19,690 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-27 10:34:38,030 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-27 10:34:41,058 :INFO : test_DepartmentCreation :Did not select value: Human Resources
+2026-03-27 10:34:49,219 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-27 10:34:52,243 :INFO : test_DepartmentCreation :Did not select value: pinky
+2026-03-27 10:35:00,405 :INFO : test_DepartmentCreation :Entering value: Default Department
+2026-03-27 10:35:03,429 :INFO : test_DepartmentCreation :Did not select value: All
+2026-03-27 10:35:48,271 :INFO : test_Departmentaction :clicking on action option Manage Productivity
+2026-03-27 10:35:58,282 :INFO : test_Departmentaction :clicked on action option [Manage Productivity]
+2026-03-27 10:36:03,299 :INFO : test_Departmentaction :Completed user actions test successfully
+2026-03-27 10:40:12,516 :INFO : test_dashboardsearch :item chosen for search is T
+Test
+(1215)
+pinky1@truinc.com
+2026-03-27 10:40:15,632 :INFO : test_dashboardsearch :verifying the search item Test (1215)
+2026-03-27 10:40:15,640 :INFO : test_dashboardsearch :['Test (1215)']
+2026-03-27 10:41:06,659 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:06,661 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ion/dashboard' == 'https://stg-.../log-by-chart'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard/logs/log-by-chart
+  + n/dashboard
+2026-03-27 10:41:06,754 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/users with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:06,754 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/users' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/users
+2026-03-27 10:41:06,842 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:06,842 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...-and-websites' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/apps-and-websites
+2026-03-27 10:41:06,924 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/screenshots with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:06,925 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/screenshots' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/screenshots
+2026-03-27 10:41:07,013 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/logs with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,013 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ashboard/logs' == 'https://stg-.../log-by-chart'
+  
+  Skipping 48 identical leading characters in diff, use -v to show
+  - hboard/logs/log-by-chart
+  + hboard/logs
+2026-03-27 10:41:07,100 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,100 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../productivity' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/productivity
+2026-03-27 10:41:07,185 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/department-teams with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,186 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...artment-teams' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/department-teams
+2026-03-27 10:41:07,272 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/kpis-kras with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,272 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ard/kpis-kras' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/kpis-kras
+2026-03-27 10:41:07,355 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/roles with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,356 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/roles' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/roles
+2026-03-27 10:41:07,434 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/live-stream with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,434 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/live-stream' == 'https://stg-.../log-by-chart'
+  
+  Skipping 46 identical leading characters in diff, use -v to show
+  - ashboard/logs/log-by-chart
+  + ashboard/live-stream
+2026-03-27 10:41:07,513 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/video-recording with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,513 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...deo-recording' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/video-recording
+2026-03-27 10:41:07,590 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/alerts with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,590 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...hboard/alerts' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/alerts
+2026-03-27 10:41:07,668 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/integrations with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,668 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../integrations' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/integrations
+2026-03-27 10:41:07,746 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/ai-summary with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,746 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...rd/ai-summary' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/ai-summary
+2026-03-27 10:41:07,830 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/settings with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,830 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...oard/settings' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/settings
+2026-03-27 10:41:07,910 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/installation with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,911 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../installation' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/installation
+2026-03-27 10:41:07,990 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/demo-videos with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:41:07,990 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/demo-videos' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/demo-videos
+2026-03-27 10:41:07,990 :INFO : test_sidebarclick :Finished verifying sidebar button redirections.
+2026-03-27 10:43:33,601 :INFO : test_dashboardsearch :item chosen for search is ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-27 10:43:36,707 :INFO : test_dashboardsearch :verifying the search item Sah Test (Hi12)
+2026-03-27 10:43:36,716 :INFO : test_dashboardsearch :['Sah Test (Hi12)']
+2026-03-27 10:44:27,165 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:27,166 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ion/dashboard' == 'https://stg-.../log-by-chart'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard/logs/log-by-chart
+  + n/dashboard
+2026-03-27 10:44:27,261 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/users with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:27,262 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/users' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/users
+2026-03-27 10:44:27,350 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:27,351 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...-and-websites' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/apps-and-websites
+2026-03-27 10:44:27,432 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/screenshots with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:27,432 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/screenshots' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/screenshots
+2026-03-27 10:44:27,515 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/logs with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:27,516 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ashboard/logs' == 'https://stg-.../log-by-chart'
+  
+  Skipping 48 identical leading characters in diff, use -v to show
+  - hboard/logs/log-by-chart
+  + hboard/logs
+2026-03-27 10:44:27,602 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:27,602 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../productivity' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/productivity
+2026-03-27 10:44:27,684 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/department-teams with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:27,685 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...artment-teams' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/department-teams
+2026-03-27 10:44:27,766 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/kpis-kras with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:27,767 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ard/kpis-kras' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/kpis-kras
+2026-03-27 10:44:27,848 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/roles with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:27,849 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/roles' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/roles
+2026-03-27 10:44:27,931 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/live-stream with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:27,932 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/live-stream' == 'https://stg-.../log-by-chart'
+  
+  Skipping 46 identical leading characters in diff, use -v to show
+  - ashboard/logs/log-by-chart
+  + ashboard/live-stream
+2026-03-27 10:44:28,015 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/video-recording with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:28,015 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...deo-recording' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/video-recording
+2026-03-27 10:44:28,099 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/alerts with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:28,100 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...hboard/alerts' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/alerts
+2026-03-27 10:44:28,182 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/integrations with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:28,183 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../integrations' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/integrations
+2026-03-27 10:44:28,265 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/ai-summary with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:28,265 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...rd/ai-summary' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/ai-summary
+2026-03-27 10:44:28,355 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/settings with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:28,356 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...oard/settings' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/settings
+2026-03-27 10:44:28,432 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/installation with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:28,433 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../installation' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/installation
+2026-03-27 10:44:28,514 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/demo-videos with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:44:28,515 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/demo-videos' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/demo-videos
+2026-03-27 10:44:28,515 :INFO : test_sidebarclick :Finished verifying sidebar button redirections.
+2026-03-27 10:53:14,508 :INFO : test_Departmentsearch :Total number of users: 4
+2026-03-27 10:53:18,800 :INFO : test_Departmentsearch :verifying the search item Default Department
+2026-03-27 10:53:23,030 :INFO : test_Departmentsearch :verifying the search item Test Department
+2026-03-27 10:53:50,803 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-27 10:54:09,198 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-27 10:54:12,224 :INFO : test_DepartmentCreation :Did not select value: Human Resources
+2026-03-27 10:54:20,393 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-27 10:54:23,423 :INFO : test_DepartmentCreation :Did not select value: pinky
+2026-03-27 10:54:31,581 :INFO : test_DepartmentCreation :Entering value: Default Department
+2026-03-27 10:54:34,608 :INFO : test_DepartmentCreation :Did not select value: All
+2026-03-27 10:55:19,483 :INFO : test_Departmentaction :clicking on action option Edit Department
+2026-03-27 10:55:29,504 :INFO : test_Departmentaction :clicked on action option [Edit Department]
+2026-03-27 10:55:31,574 :INFO : test_Departmentaction :Edit department modal appeared successfully
+2026-03-27 10:55:36,583 :ERROR : test_Departmentaction :Exception occurred during user actions test: Message: The element with the reference a75013ac-c7fc-4b47-885a-77e6afbfa92e is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:412:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:270:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:174:30
+
+2026-03-27 10:57:33,855 :INFO : test_dashboardsearch :item chosen for search is ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-27 10:57:36,963 :INFO : test_dashboardsearch :verifying the search item Sach Test (Hi1)
+2026-03-27 10:57:36,971 :INFO : test_dashboardsearch :['Sach Test (Hi1)']
+2026-03-27 10:58:27,408 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:27,410 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ion/dashboard' == 'https://stg-.../log-by-chart'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard/logs/log-by-chart
+  + n/dashboard
+2026-03-27 10:58:27,504 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/users with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:27,505 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/users' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/users
+2026-03-27 10:58:27,596 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:27,597 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...-and-websites' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/apps-and-websites
+2026-03-27 10:58:27,678 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/screenshots with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:27,679 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/screenshots' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/screenshots
+2026-03-27 10:58:27,766 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/logs with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:27,766 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ashboard/logs' == 'https://stg-.../log-by-chart'
+  
+  Skipping 48 identical leading characters in diff, use -v to show
+  - hboard/logs/log-by-chart
+  + hboard/logs
+2026-03-27 10:58:27,853 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:27,854 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../productivity' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/productivity
+2026-03-27 10:58:27,937 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/department-teams with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:27,937 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...artment-teams' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/department-teams
+2026-03-27 10:58:28,021 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/kpis-kras with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:28,022 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ard/kpis-kras' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/kpis-kras
+2026-03-27 10:58:28,106 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/roles with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:28,106 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/roles' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/roles
+2026-03-27 10:58:28,190 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/live-stream with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:28,191 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/live-stream' == 'https://stg-.../log-by-chart'
+  
+  Skipping 46 identical leading characters in diff, use -v to show
+  - ashboard/logs/log-by-chart
+  + ashboard/live-stream
+2026-03-27 10:58:28,272 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/video-recording with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:28,273 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...deo-recording' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/video-recording
+2026-03-27 10:58:28,354 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/alerts with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:28,354 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...hboard/alerts' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/alerts
+2026-03-27 10:58:28,432 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/integrations with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:28,433 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../integrations' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/integrations
+2026-03-27 10:58:28,513 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/ai-summary with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:28,514 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...rd/ai-summary' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/ai-summary
+2026-03-27 10:58:28,598 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/settings with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:28,598 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...oard/settings' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/settings
+2026-03-27 10:58:28,677 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/installation with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:28,677 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../installation' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/installation
+2026-03-27 10:58:28,763 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/demo-videos with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 10:58:28,764 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/demo-videos' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/demo-videos
+2026-03-27 10:58:28,764 :INFO : test_sidebarclick :Finished verifying sidebar button redirections.
+2026-03-27 11:24:27,922 :INFO : test_kpisearch :Total number of users: 4
+2026-03-27 11:25:16,375 :INFO : test_kpicreation :Total number of users: 2
+2026-03-27 11:25:37,139 :INFO : test_kpicreation :cleared the input field
+2026-03-27 11:25:40,145 :INFO : test_kpicreation :Entering value: ('Untracked',)
+2026-03-27 11:25:45,284 :INFO : test_kpicreation :cleared the input field
+2026-03-27 11:25:48,289 :INFO : test_kpicreation :Entering value: ('Untracked',)
+2026-03-27 16:20:34,433 :INFO : test_kpisearch :Total number of users: 4
+2026-03-27 16:21:26,336 :INFO : test_kpicreation :Total number of users: 2
+2026-03-27 16:21:47,112 :INFO : test_kpicreation :cleared the input field
+2026-03-27 16:21:50,113 :INFO : test_kpicreation :Entering value: ('Untracked',)
+2026-03-27 16:21:55,247 :INFO : test_kpicreation :cleared the input field
+2026-03-27 16:21:58,252 :INFO : test_kpicreation :Entering value: ('Untracked',)
+2026-03-27 17:15:31,801 :INFO : test_CreateUserBulk :/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx
+2026-03-27 17:15:31,802 :INFO : test_CreateUserBulk :/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx
+2026-03-27 17:15:31,815 :INFO : test_CreateUserBulk :file path copied to clipboard
+2026-03-27 17:15:32,050 :INFO : test_CreateUserBulk :file path pasted in the dialog box
+2026-03-27 17:15:32,172 :INFO : test_CreateUserBulk :pressed enter key
+2026-03-27 17:22:32,832 :INFO : test_Departmentsearch :Total number of users: 4
+2026-03-27 17:22:37,084 :INFO : test_Departmentsearch :verifying the search item Default Department
+2026-03-27 17:22:41,265 :INFO : test_Departmentsearch :verifying the search item Test Department
+2026-03-27 17:23:08,136 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-03-27 17:23:26,467 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-03-27 17:23:29,495 :INFO : test_DepartmentCreation :Did not select value: Human Resources
+2026-03-27 17:23:37,649 :INFO : test_DepartmentCreation :Entering value: 232
+2026-03-27 17:23:40,674 :INFO : test_DepartmentCreation :Did not select value: pinky
+2026-03-27 17:23:48,818 :INFO : test_DepartmentCreation :Entering value: Default Department
+2026-03-27 17:23:51,842 :INFO : test_DepartmentCreation :Did not select value: All
+2026-03-27 17:24:36,919 :INFO : test_Departmentaction :clicking on action option Manage Productivity
+2026-03-27 17:24:46,939 :INFO : test_Departmentaction :clicked on action option [Manage Productivity]
+2026-03-27 17:24:51,962 :INFO : test_Departmentaction :Completed user actions test successfully
+2026-03-27 17:26:32,151 :INFO : test_dashboardsearch :item chosen for search is OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-27 17:26:34,763 :INFO : test_dashboardsearch :verifying the search item Optimus Prime (New3456)
+2026-03-27 17:26:34,770 :INFO : test_dashboardsearch :['Optimus Prime (New3456)']
+2026-03-27 17:27:25,238 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:25,238 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ion/dashboard' == 'https://stg-.../log-by-chart'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard/logs/log-by-chart
+  + n/dashboard
+2026-03-27 17:27:25,328 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/users with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:25,328 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/users' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/users
+2026-03-27 17:27:25,416 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:25,416 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...-and-websites' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/apps-and-websites
+2026-03-27 17:27:25,493 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/screenshots with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:25,493 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/screenshots' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/screenshots
+2026-03-27 17:27:25,575 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/logs with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:25,576 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ashboard/logs' == 'https://stg-.../log-by-chart'
+  
+  Skipping 48 identical leading characters in diff, use -v to show
+  - hboard/logs/log-by-chart
+  + hboard/logs
+2026-03-27 17:27:25,660 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:25,661 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../productivity' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/productivity
+2026-03-27 17:27:25,742 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/department-teams with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:25,743 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...artment-teams' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/department-teams
+2026-03-27 17:27:25,823 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/kpis-kras with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:25,823 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ard/kpis-kras' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/kpis-kras
+2026-03-27 17:27:25,901 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/roles with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:25,901 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/roles' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/roles
+2026-03-27 17:27:25,977 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/live-stream with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:25,977 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/live-stream' == 'https://stg-.../log-by-chart'
+  
+  Skipping 46 identical leading characters in diff, use -v to show
+  - ashboard/logs/log-by-chart
+  + ashboard/live-stream
+2026-03-27 17:27:26,052 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/video-recording with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:26,053 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...deo-recording' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/video-recording
+2026-03-27 17:27:26,126 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/alerts with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:26,127 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...hboard/alerts' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/alerts
+2026-03-27 17:27:26,207 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/integrations with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:26,208 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../integrations' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/integrations
+2026-03-27 17:27:26,282 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/ai-summary with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:26,283 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...rd/ai-summary' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/ai-summary
+2026-03-27 17:27:26,365 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/settings with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:26,366 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...oard/settings' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/settings
+2026-03-27 17:27:26,444 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/installation with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:26,444 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../installation' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/installation
+2026-03-27 17:27:26,525 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/demo-videos with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-03-27 17:27:26,526 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/demo-videos' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/demo-videos
+2026-03-27 17:27:26,526 :INFO : test_sidebarclick :Finished verifying sidebar button redirections.
+2026-03-27 17:29:18,843 :INFO : test_view_all_redirections :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity/most-unproductive with current url https://stg-fe.maxeltracker.com/organisation/dashboard/productivity/most-unproductive
+2026-03-27 17:31:14,948 :INFO : test_kpisearch :Total number of users: 4
+2026-03-27 17:32:07,605 :INFO : test_kpicreation :Total number of users: 2
+2026-03-27 17:32:28,324 :INFO : test_kpicreation :cleared the input field
+2026-03-27 17:32:31,327 :INFO : test_kpicreation :Entering value: ('Untracked',)
+2026-03-27 17:32:36,466 :INFO : test_kpicreation :cleared the input field
+2026-03-27 17:32:39,471 :INFO : test_kpicreation :Entering value: ('Untracked',)
+2026-03-27 17:35:01,352 :INFO : test_logsfilter :Total number of users: 4
+2026-03-27 17:35:15,409 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-27 17:35:17,570 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-27 17:35:19,729 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-27 17:35:21,897 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-27 17:35:28,178 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-27 17:35:30,325 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-27 17:35:32,468 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-27 17:35:34,618 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-27 17:35:40,921 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-27 17:35:43,063 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-27 17:35:45,210 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-27 17:35:47,354 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-27 17:35:53,670 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-03-27 17:35:55,813 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-03-27 17:35:57,961 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-03-27 17:36:00,103 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-03-30 12:56:35,126 :INFO : test_streamsearch :Total number of users: 2
+2026-03-30 13:08:59,544 :INFO : test_streamsearch :Total number of users: 2
+2026-03-30 13:09:03,677 :INFO : test_streamsearch :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-03-30 13:09:03,695 :INFO : test_streamsearch :comparing L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com with test department
+2026-03-30 13:09:03,730 :INFO : test_streamsearch :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-03-30 13:09:03,748 :INFO : test_streamsearch :comparing P
+Pinku
+(232)
+pinky+1@truinc.com with test department
+2026-03-30 13:09:03,784 :INFO : test_streamsearch :clicking on filter option T
+Test
+(1215)
+pinky1@truinc.com
+2026-03-30 13:09:03,802 :INFO : test_streamsearch :comparing T
+Test
+(1215)
+pinky1@truinc.com with test department
+2026-03-30 13:09:03,842 :INFO : test_streamsearch :clicking on filter option P
+Pinky
+(12100)
+pinky+99@truinc.com
+2026-03-30 13:09:03,862 :INFO : test_streamsearch :comparing P
+Pinky
+(12100)
+pinky+99@truinc.com with test department
+2026-03-30 13:09:03,900 :INFO : test_streamsearch :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-03-30 13:09:03,917 :INFO : test_streamsearch :comparing TM
+Team Member
+(EMP1022226)
+TM@teammember.com with test department
+2026-03-30 13:09:03,958 :INFO : test_streamsearch :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-03-30 13:09:03,978 :INFO : test_streamsearch :comparing QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com with test department
+2026-03-30 13:09:04,015 :INFO : test_streamsearch :clicking on filter option KD
+Kamal Dhami
+(1367)
+kamal.dhami@truinc.com
+2026-03-30 13:09:04,035 :INFO : test_streamsearch :comparing KD
+Kamal Dhami
+(1367)
+kamal.dhami@truinc.com with test department
+2026-03-30 13:09:04,071 :INFO : test_streamsearch :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-03-30 13:09:04,090 :INFO : test_streamsearch :comparing OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com with test department
+2026-03-30 13:09:04,138 :INFO : test_streamsearch :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-03-30 13:09:04,156 :INFO : test_streamsearch :comparing P
+Pinky
+(33)
+pinky+33@truinc.com with test department
+2026-03-30 13:09:04,192 :INFO : test_streamsearch :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-03-30 13:09:04,210 :INFO : test_streamsearch :comparing JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com with test department
+2026-03-30 13:09:04,246 :INFO : test_streamsearch :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-03-30 13:09:04,264 :INFO : test_streamsearch :comparing T
+Test
+(1210)
+perla25@qualityth.com with test department
+2026-03-30 13:09:04,305 :INFO : test_streamsearch :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-03-30 13:09:04,323 :INFO : test_streamsearch :comparing ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com with test department
+2026-03-30 13:09:04,359 :INFO : test_streamsearch :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-03-30 13:09:04,376 :INFO : test_streamsearch :comparing ST
+Sach Test
+(hi111)
+optimus009@truinc.com with test department
+2026-03-30 13:09:04,411 :INFO : test_streamsearch :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-03-30 13:09:04,429 :INFO : test_streamsearch :comparing ST
+Sah Test
+(hi12)
+optimus03115@truinc.com with test department
+2026-03-30 13:09:04,466 :INFO : test_streamsearch :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-03-30 13:09:04,483 :INFO : test_streamsearch :comparing ST
+Sach Test
+(hi1)
+optimus0341@truinc.com with test department
+2026-03-30 13:09:04,520 :INFO : test_streamsearch :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-03-30 13:09:04,538 :INFO : test_streamsearch :comparing ST
+Sah Test
+(hi)
+optimus0315@truinc.com with test department
+2026-03-30 13:09:04,573 :INFO : test_streamsearch :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-03-30 13:09:04,592 :INFO : test_streamsearch :comparing ST
+Sach Test
+(hiugg)
+optimus034@truinc.com with test department
+2026-03-30 13:09:04,640 :INFO : test_streamsearch :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-03-30 13:09:04,659 :INFO : test_streamsearch :comparing Q
+Qay
+(14uhy)
+de@ymail.com with test department
+2026-03-30 13:09:04,695 :INFO : test_streamsearch :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-03-30 13:09:04,713 :INFO : test_streamsearch :comparing P
+Pinky
+(2010)
+pinky00@turinc.com with test department
+2026-03-30 13:09:04,749 :INFO : test_streamsearch :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-03-30 13:09:04,767 :INFO : test_streamsearch :comparing QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com with test department
+2026-03-30 13:16:35,317 :INFO : test_streamsearch :Total number of users: 2
+2026-03-30 13:16:39,435 :INFO : test_streamsearch :clicking on filter option pinky
+2026-03-30 13:16:39,442 :INFO : test_streamsearch :comparing pinky with test department
+2026-03-30 13:16:39,456 :INFO : test_streamsearch :clicking on filter option test department
+2026-03-30 13:16:39,463 :INFO : test_streamsearch :comparing test department with test department
+2026-03-30 13:16:39,477 :INFO : test_streamsearch :Clicking on option: test department
+2026-03-30 13:16:39,587 :INFO : test_streamsearch :Selected value: test department
+2026-03-30 14:48:00,142 :INFO : test_userscountsonlineoffline :User status: Search Users
+Global Department
+Morning Shift
+Select Date
+Export Dashboard
+Download MaxelTracker Desktop App
+Download and install the MaxelTracker desktop app to access all features—follow the Installation Guide for quick setup. Need more help? Email at support@maxeltracker.com
+Note: To uninstall/quit the MaxelTracker app, please use this password******************
+Demo Videos
+Installation Guide
+Download App
+Total Employees
+10
+Tracked: 0
+Untracked: 10
+Total Idle Time
+0 hrs 0 min
++ 0 %
+Total Productive Hours
+0 hrs 0 min
++ 0 %
+Total Unproductive Hours
+0 hrs 0 min
++ 0 %
+Best Performance
+Mar 23 - Mar 30, 2026
+Productive/Unproductive
+Most Productive
+View All
+Most Unproductive
+View All
+Top Apps
+View All
+Top Productive Apps
+View All
+App by Category
+View All
+2026-03-30 14:48:00,160 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 14:48:00,166 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 14:48:00,172 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 14:48:00,178 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 14:48:00,184 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 14:48:00,190 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 14:48:00,196 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 14:48:00,202 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 14:48:00,209 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 14:48:00,210 :INFO : test_userscountsonlineoffline :Number of online/offline users: 10
+2026-03-30 14:50:52,707 :INFO : test_userscountsonlineoffline :User status: Online
+0
+2026-03-30 14:50:52,801 :INFO : test_userscountsonlineoffline :User status: Offline
+11
+2026-03-30 14:50:52,802 :INFO : test_userscountsonlineoffline :Number of online/offline users: 2
+2026-03-30 14:52:46,079 :INFO : test_userscountsonlineoffline :User status: Online
+0
+2026-03-30 14:52:46,170 :INFO : test_userscountsonlineoffline :User status: Offline
+11
+2026-03-30 14:52:46,170 :INFO : test_userscountsonlineoffline :Number of online/offline users: 2
+2026-03-30 16:25:01,514 :INFO : test_userscountsonlineoffline :User status: Search Users
+Global Department
+Morning Shift
+Select Date
+Export Dashboard
+Download MaxelTracker Desktop App
+Download and install the MaxelTracker desktop app to access all features—follow the Installation Guide for quick setup. Need more help? Email at support@maxeltracker.com
+Note: To uninstall/quit the MaxelTracker app, please use this password******************
+Demo Videos
+Installation Guide
+Download App
+Total Idle Time
+0 hrs 0 min
++ 0 %
+Best Performance
+Mar 23 - Mar 30, 2026
+Productive/Unproductive
+Most Productive
+View All
+Most Unproductive
+View All
+Top Apps
+View All
+Top Productive Apps
+View All
+App by Category
+View All
+2026-03-30 16:25:05,542 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 16:25:09,555 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 16:25:13,564 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 16:25:17,574 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 16:25:21,583 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 16:25:25,594 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 16:25:29,605 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 16:25:33,619 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 16:25:37,633 :INFO : test_userscountsonlineoffline :User status: 
+2026-03-30 16:25:37,633 :INFO : test_userscountsonlineoffline :Number of online/offline users: 10
+2026-03-30 16:28:25,696 :INFO : test_userscountsonlineoffline :User status: Online
+0
+2026-03-30 16:28:29,794 :INFO : test_userscountsonlineoffline :User status: Offline
+11
+2026-03-30 16:28:29,795 :INFO : test_userscountsonlineoffline :Number of online/offline users: 2
+2026-03-30 16:28:29,808 :INFO : test_userscountsonlineoffline :Number of online users: 0
+2026-03-30 16:32:23,852 :INFO : test_userscountsonlineoffline :User status: Online
+0
+2026-03-30 16:32:27,939 :INFO : test_userscountsonlineoffline :User status: Offline
+4
+2026-03-30 16:32:27,939 :INFO : test_userscountsonlineoffline :Number of online/offline users: 2
+2026-03-30 16:32:27,953 :INFO : test_userscountsonlineoffline :Number of online users: 33
+2026-03-30 16:32:27,958 :INFO : test_userscountsonlineoffline :Total online users: 33
+2026-03-30 16:36:25,828 :INFO : test_userscountsonlineoffline :Number of online users: 31
+2026-03-30 16:36:25,833 :INFO : test_userscountsonlineoffline :Total online users: 31
+2026-03-30 16:42:06,325 :INFO : test_userscountsonlineoffline :Number of online users: 0
+2026-03-30 16:42:12,404 :INFO : test_userscountsonlineoffline :Total online users: 30
+2026-03-30 16:50:47,641 :INFO : test_userscountsonlineoffline :Number of online users: 25
+2026-03-30 16:50:47,646 :INFO : test_userscountsonlineoffline :Total online users: 25
+2026-03-30 17:03:05,290 :INFO : test_userscountsonlineoffline :Number of online users: 0
+2026-03-30 17:03:07,310 :INFO : test_userscountsonlineoffline :Total online users: 28
+2026-03-30 17:05:08,893 :INFO : test_userscountsonlineoffline :Number of online users: 29
+2026-03-30 17:05:08,900 :INFO : test_userscountsonlineoffline :Total online users: 29
+2026-03-30 17:19:50,016 :INFO : test_userscountsonlineoffline :Number of online users: 0
+2026-03-30 17:19:52,542 :INFO : test_userscountsonlineoffline :Total online users: 30
+2026-03-30 17:23:11,440 :INFO : test_userscountsonlineoffline :Number of online users: 30
+2026-03-30 17:23:11,444 :INFO : test_userscountsonlineoffline :Total online users: 30
+2026-03-30 17:29:39,372 :INFO : test_userscountsonlineoffline :Number of online users: 28
+2026-03-30 17:29:39,379 :INFO : test_userscountsonlineoffline :Total online users: 29
+2026-03-30 17:31:28,434 :INFO : test_userscountsonlineoffline :Number of online users: 28
+2026-03-30 17:31:28,439 :INFO : test_userscountsonlineoffline :Total online users: 28
+2026-03-30 17:34:28,554 :INFO : test_userscountsonlineoffline :Number of online users: 28
+2026-03-30 17:34:28,558 :INFO : test_userscountsonlineoffline :Total online users: 28
+2026-03-30 17:37:58,055 :INFO : test_userscountsonlineoffline :Number of online users: 27
+2026-03-30 17:37:58,060 :INFO : test_userscountsonlineoffline :Total online users: 27
+2026-03-30 17:41:38,361 :INFO : test_userscountsonlineoffline :Number of online users: 26
+2026-03-30 17:41:38,366 :INFO : test_userscountsonlineoffline :Total online users: 27
+2026-03-30 17:43:07,010 :INFO : test_userscountsonlineoffline :Number of online users: 0
+2026-03-30 17:43:08,033 :INFO : test_userscountsonlineoffline :Total online users: 25
+2026-03-30 17:49:37,805 :INFO : test_userscountsonlineoffline :Number of online users: 27
+2026-03-30 17:49:37,811 :INFO : test_userscountsonlineoffline :Total online users: 27
+2026-03-30 18:04:14,383 :INFO : test_userscountsonlineoffline :Number of online users: 0
+2026-03-30 18:04:16,411 :INFO : test_userscountsonlineoffline :Total online users: 29
+2026-03-30 18:06:02,425 :INFO : test_userscountsonlineoffline :Number of online users: 29
+2026-03-30 18:06:02,430 :INFO : test_userscountsonlineoffline :Total online users: 29
+2026-03-30 18:06:17,539 :INFO : test_userscountsonlineoffline :Number of offline users: 8
+2026-03-30 18:10:45,722 :INFO : test_userscountsonlineoffline :Number of online users: 30
+2026-03-30 18:10:45,727 :INFO : test_userscountsonlineoffline :Total online users: 30
+2026-03-30 18:11:00,833 :INFO : test_userscountsonlineoffline :Number of offline users: 7
+2026-03-30 18:11:00,836 :INFO : test_userscountsonlineoffline :Total offline users: 7
