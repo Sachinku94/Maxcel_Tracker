@@ -90,3 +90,7 @@ class HomePage(BaseClass):
         time.sleep(5)
         liv=env_url+"/organisation/dashboard/live-stream"
         return liv
+    def screen_record(self):
+        time.sleep(5)
+        liv=env_url+"/organisation/dashboard/video-recording"
+        return liv

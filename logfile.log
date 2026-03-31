@@ -5091,3 +5091,8 @@ View All
 2026-03-30 18:10:45,727 :INFO : test_userscountsonlineoffline :Total online users: 30
 2026-03-30 18:11:00,833 :INFO : test_userscountsonlineoffline :Number of offline users: 7
 2026-03-30 18:11:00,836 :INFO : test_userscountsonlineoffline :Total offline users: 7
+2026-03-31 11:48:00,975 :INFO : test_streamsearch :Total number of users: 2
+2026-03-31 11:48:43,238 :INFO : test_userscountsonlineoffline :Number of online users: 26
+2026-03-31 11:48:43,243 :INFO : test_userscountsonlineoffline :Total online users: 26
+2026-03-31 11:48:58,354 :INFO : test_userscountsonlineoffline :Number of offline users: 12
+2026-03-31 11:48:58,357 :INFO : test_userscountsonlineoffline :Total offline users: 11
