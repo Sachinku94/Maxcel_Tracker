@@ -24,7 +24,7 @@ class Testone(BaseClass):
 
 
     def test_screenrec(self): #need to check
-        time.sleep(100)
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.screen_record(self)

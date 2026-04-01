@@ -42,6 +42,7 @@ class Testone(BaseClass):
             celandar.click()
    
     def test_logsfilter(self): #need to checked
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.graph_logs(self)
@@ -57,20 +58,17 @@ class Testone(BaseClass):
         filter_but=By.CSS_SELECTOR,".css-c2frko-control"
         filter_button=wait.until(EC.presence_of_all_elements_located(filter_but))
         for _, row in user_data.iterrows():
-            flat_data.extend([row['shift'], row['name']])
+            flat_data.extend([row['Shift'], row['Name']])
             for i in filter_button:
                 i.click() 
-                try:
-                    i.send_keys(row['name'])
-                except Exception as e:
-                    log.info(f"Exception occurred: {e}")
-                    time.sleep(2)
+                
+                time.sleep(2)
                 try:
                     options=By.CSS_SELECTOR,".css-fygc7l-option"
                     options=wait.until(EC.presence_of_all_elements_located(options))
                     for opt in options:
                         log.info(f"clicking on filter option {opt.text}")
-                        if opt.text==row['name'] or opt.text==row['department']:
+                        if opt.text==row['Name'] or opt.text==row['Department']:
                             opt.click()
                             time.sleep(2)
                             break

@@ -19,6 +19,7 @@ import random
 class Testone(BaseClass): #Done
 
     def test_HomePage(self):
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         cel=By.XPATH,"//input[@placeholder='Select Date Range']"

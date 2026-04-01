@@ -90,6 +90,7 @@ class Testone(BaseClass):
             time.sleep(5)
             denied_url=self.driver.current_url
             assert "access-denied" in denied_url or "access_denied" in denied_url, f"Expected access denied but got {denied_url}"
+            
         else :
             log.info(f"User {user_name} does not have limited access, skipping authorization test.")
         # status=response.status_code

@@ -24,7 +24,7 @@ class Testone(BaseClass): #need to check all test cases
 
     
     def test_appclendarproductive(self):
-        
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.productive(self)

@@ -19,7 +19,7 @@ import pyautogui
 import os
 import pyperclip
 import random
-class Testone(BaseClass):
+class Testone(BaseClass): #pass
 
   
     def test_logsclendar(self):
@@ -43,7 +43,7 @@ class Testone(BaseClass):
             time.sleep(3)
             celandar.click()
    
-    def test_logsfilter(self):#need to checked
+    def test_logsfilterco(self):#need to checked
         time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
