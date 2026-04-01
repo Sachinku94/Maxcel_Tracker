@@ -23,7 +23,7 @@ class Testone(BaseClass):
 
   
     def test_logsclendar(self): #need to check
-        
+        time.sleep(10)
        
         log = self.getLogger()
         
@@ -78,7 +78,8 @@ class Testone(BaseClass):
                     log.info(f"Exception occurred while selecting option: {e}")
 
 
-    def test_actionsonapp(self):
+    def test_actionsonapplogs(self):
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.graph_logs(self)

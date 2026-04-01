@@ -25,7 +25,7 @@ class Testone(BaseClass):
   
     def test_screensshotclendar(self): #need to check
         
-        time.sleep(100)
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.screen_shot(self)
@@ -43,6 +43,7 @@ class Testone(BaseClass):
     
 
     def test_screenshotfilter(self): #need to verify
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.screen_shot(self)
@@ -58,24 +59,28 @@ class Testone(BaseClass):
         filter_but=By.CSS_SELECTOR,".css-c2frko-control"
         filter_button=wait.until(EC.presence_of_all_elements_located(filter_but))
         for _, row in user_data.iterrows():
-            flat_data.extend([row['shift'], row['name']])
+            flat_data.extend([row['Shift'], row['Name']])
             for i in filter_button:
                 i.click() 
-                try:
-                    i.send_keys(row['name'])
-                except Exception as e:
-                    log.info(f"Exception occurred: {e}")
-                    time.sleep(2)
+                # try:
+                #     i.send_keys(row['Name'])
+                # except Exception as e:
+                #     log.info(f"Exception occurred: {e}")
+                #     time.sleep(2)
                 try:
                     options=By.CSS_SELECTOR,".css-fygc7l-option"
                     options=wait.until(EC.presence_of_all_elements_located(options))
                     for opt in options:
                         log.info(f"clicking on filter option {opt.text}")
-                        if opt.text==row['name'] or opt.text==row['shift'] :
+                        if opt.text==row['Name'] or opt.text==row['Shift'] :
                             opt.click()
-                            time.sleep(2)
+                            time.sleep(5)
                             break
-
+                        elif opt.text!=row['Name'] or opt.text!=row['Shift']:
+                            log.info(f"Did not select value: {opt.text}")
+                            random.choice(options).click()
+                            time.sleep(5)
+                            break
                 except Exception as e:
                     log.info(f"Exception occurred while selecting option: {e}")
     

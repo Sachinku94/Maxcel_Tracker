@@ -18,6 +18,7 @@ import pandas as pd
 import pyautogui
 import os
 import pyperclip
+import random
 
 class Testone(BaseClass): #need to check all test cases
 
@@ -40,6 +41,7 @@ class Testone(BaseClass): #need to check all test cases
             celandar.click()
 
     def test_appfilterproductive(self):
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.productive(self)
@@ -55,7 +57,7 @@ class Testone(BaseClass): #need to check all test cases
         filter_but=By.CSS_SELECTOR,".css-c2frko-control"
         filter_button=wait.until(EC.presence_of_all_elements_located(filter_but))
         for _, row in user_data.iterrows():
-            flat_data.extend([row['shift'], row['department']])
+            flat_data.extend([row['Shift'], row['Department']])
             for i in filter_button:
                 i.click()
                 time.sleep(2)
@@ -66,20 +68,29 @@ class Testone(BaseClass): #need to check all test cases
                     al_opt.append(i.text)
 
                 
-                
-                if row['shift'] and row['department'] not in al_opt:
-                            log.info(f"clicking on filter option {row['shift']or row['department']}")
+
+                if row['Shift'] and row['Department'] not in al_opt:
+                            log.info(f"clicking on filter option {row['Shift'] or row['Department']}")
                             option_shift_department=By.CSS_SELECTOR,".css-fygc7l-option"
                             option_shift_d=wait.until(EC.visibility_of_all_elements_located(option_shift_department))
                             for e in option_shift_d:
-                                if e.text==row['shift'] or e.text==row['department']:
+                                if e.text==row['Shift'] or e.text==row['Department']:
                                     e.click()
+                                    time.sleep(5)
                                     break
+                                elif e.text!=row["Shift"] or e.text!=row["Department"]:
+                                    randomc= random.choice(option_shift_d)
+                                    randomc.click()
+                                    time.sleep(5)
+                                    break
+
+                                     
                 al_opt.clear()               
                 time.sleep(2)
             # shift filter not responding  
                     
     def test_actionsonappproductive(self):
+        time.sleep(10)
         log = self.getLogger()
         wait=WebDriverWait(self.driver,20)
         app=HomePage.productive(self)

@@ -71,3 +71,31 @@ class Testone(BaseClass):
         time.sleep(20)
         login=By.XPATH,"//span[contains(text(),'Google')]"
         self.driver.find_element(*login).click()
+    
+    def test_authorization(self): # to  test the autohorization use the specific user account which has limited acces;
+        log= self.getLogger()
+        time.sleep(10)
+        time.sleep(10)
+        log = self.getLogger()
+        wait=WebDriverWait(self.driver,20)
+        app=[HomePage.kpi(self),HomePage.appsandwebsite(self),HomePage.roles(self),HomePage.screen_record(self)]
+        user=By.ID,"sidebar-profile-txt"
+        user_profile=wait.until(EC.presence_of_element_located(user))
+        user_name=user_profile.text
+        if user_name=="Akash Sharma":
+        
+         for ap in app:
+            self.driver.get(ap)
+            response=requests.get(ap)
+            time.sleep(5)
+            denied_url=self.driver.current_url
+            assert "access-denied" in denied_url or "access_denied" in denied_url, f"Expected access denied but got {denied_url}"
+        else :
+            log.info(f"User {user_name} does not have limited access, skipping authorization test.")
+        # status=response.status_code
+        # log.info(status)
+        # if status == 307 or status == 403:
+        #     log.info(f"Authorization test passed: Access is correctly denied with status code {status}")
+        # else:
+        #     log.error(f"Authorization test failed: Expected status code 403 but got {status}")
+        # assert status == 307, f"Expected status code 307 but got {status}"
