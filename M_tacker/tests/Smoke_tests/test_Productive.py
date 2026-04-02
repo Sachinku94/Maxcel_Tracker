@@ -107,7 +107,7 @@ class Testone(BaseClass): #need to check all test cases
                  j.click()
                  time.sleep(2)
                  i.click() 
-             self.driver.execute_script("window.scrollTo(0,200);")
+             self.driver.execute_script("window.scrollTo(0,600);")
              time.sleep(2)
              
              

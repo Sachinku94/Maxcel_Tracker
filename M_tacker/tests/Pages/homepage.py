@@ -94,3 +94,7 @@ class HomePage(BaseClass):
         time.sleep(5)
         liv=env_url+"/organisation/dashboard/video-recording"
         return liv
+    def alerts(self):
+        time.sleep(5)
+        alert=env_url+"/organisation/dashboard/alerts"
+        return alert

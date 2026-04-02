@@ -34,7 +34,9 @@ class Testone(BaseClass):
             btn=By.XPATH,"//div/a[contains(text(),'Buy Add-on')]"
             return_btn=wait.until(EC.element_to_be_clickable(btn))
             return_btn.click()
+            time.sleep(10)
             current_url=self.driver.current_url
+            log.info(f"Current URL after clicking Buy Add-on: {current_url}")
             assert "settings/billing?openPayment=addons" in current_url, f"Expected URL to contain 'settings/billing?openPayment=addons', but got {current_url}"
                 
             

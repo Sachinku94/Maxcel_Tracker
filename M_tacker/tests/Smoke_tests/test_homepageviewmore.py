@@ -58,7 +58,7 @@ class Testone(BaseClass): #Done
         searcheduser=wait.until(EC.presence_of_all_elements_located(searcheduser))
         for i in searcheduser:
             log.info(f"verifying the search item {i.text}")
-            item_choosed.append(i.text)
+            item_choosed.append(i.text.split("\n"))
         log.info(item_choosed)
         assert item_chossen.__contains__(item_choosed),"item not found in search results"
 
