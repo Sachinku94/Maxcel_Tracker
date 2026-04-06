@@ -98,3 +98,11 @@ class HomePage(BaseClass):
         time.sleep(5)
         alert=env_url+"/organisation/dashboard/alerts"
         return alert
+    def ai(self):
+        time.sleep(5)
+        ai=env_url+"/organisation/dashboard/ai-summary"
+        return ai
+    def settings(self):
+        time.sleep(5)
+        settings=env_url+"/organisation/dashboard/settings"
+        return settings

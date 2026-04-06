@@ -9460,3 +9460,616 @@ Kamal Dhami
 2026-04-02 18:15:35,178 :INFO : test_emailradiobtn :All radio buttons are working correctly.
 2026-04-02 18:16:04,408 :INFO : test_emailradiobtn :All dropdown options are working correctly.
 2026-04-02 18:16:29,418 :INFO : test_emailradiobtn :All minute options are working correctly.
+2026-04-03 14:35:24,047 :INFO : test_emailradiobtn :All radio buttons are working correctly.
+2026-04-03 14:35:32,429 :INFO : test_emailradiobtn :All dropdown options are working correctly.
+2026-04-03 14:35:40,795 :INFO : test_emailradiobtn :All minute options are working correctly.
+2026-04-03 14:37:31,995 :INFO : test_emailradiobtn :All radio buttons are working correctly.
+2026-04-03 14:37:52,845 :INFO : test_emailradiobtn :All dropdown options are working correctly.
+2026-04-03 14:38:09,537 :INFO : test_emailradiobtn :All minute options are working correctly.
+2026-04-03 14:45:31,081 :INFO : test_Departmentsearch :Total number of users: 4
+2026-04-03 14:45:35,340 :INFO : test_Departmentsearch :verifying the search item Default Department
+2026-04-03 14:45:39,552 :INFO : test_Departmentsearch :verifying the search item Test Department
+2026-04-03 14:46:06,038 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-04-03 14:46:24,414 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-04-03 14:46:27,442 :INFO : test_DepartmentCreation :Did not select value: Human Resources
+2026-04-03 14:46:35,606 :INFO : test_DepartmentCreation :Entering value: 232
+2026-04-03 14:46:38,629 :INFO : test_DepartmentCreation :Did not select value: pinky
+2026-04-03 14:46:46,791 :INFO : test_DepartmentCreation :Entering value: Default Department
+2026-04-03 14:46:49,821 :INFO : test_DepartmentCreation :Did not select value: All
+2026-04-03 14:47:35,988 :INFO : test_Departmentaction :clicking on action option Edit Department
+2026-04-03 14:47:46,008 :INFO : test_Departmentaction :clicked on action option [Delete]
+2026-04-03 14:47:48,055 :INFO : test_Departmentaction :edit user screen opened successfully
+2026-04-03 14:47:50,145 :INFO : test_Departmentaction :Delete confirmation appeared successfully
+2026-04-03 14:47:55,154 :ERROR : test_Departmentaction :Exception occurred during user actions test: Message: The element with the reference 648e806f-66d5-4d45-b03c-0c60b09faea8 is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:412:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:270:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:174:30
+
+2026-04-03 14:49:13,080 :INFO : test_kpisearch :Total number of users: 4
+2026-04-03 14:50:05,373 :INFO : test_kpicreation :Total number of users: 2
+2026-04-03 14:50:26,209 :INFO : test_kpicreation :cleared the input field
+2026-04-03 14:50:29,218 :INFO : test_kpicreation :Entering value: ('Untracked',)
+2026-04-03 14:50:34,404 :INFO : test_kpicreation :cleared the input field
+2026-04-03 14:50:37,413 :INFO : test_kpicreation :Entering value: ('Untracked',)
+2026-04-03 14:52:22,356 :INFO : test_appfilterproductive :Total number of users: 4
+2026-04-03 14:52:24,473 :INFO : test_appfilterproductive :already selected filter option is Global Department
+2026-04-03 14:52:24,487 :INFO : test_appfilterproductive :already selected filter option is Morning Shift
+2026-04-03 14:52:24,494 :INFO : test_appfilterproductive :clicking on filter option Evening
+2026-04-03 14:52:33,738 :INFO : test_appfilterproductive :already selected filter option is test department
+2026-04-03 14:52:33,752 :INFO : test_appfilterproductive :already selected filter option is Morning Shift
+2026-04-03 14:52:33,758 :INFO : test_appfilterproductive :clicking on filter option Evening
+2026-04-03 14:52:43,013 :INFO : test_appfilterproductive :already selected filter option is test department
+2026-04-03 14:52:43,028 :INFO : test_appfilterproductive :already selected filter option is Evening
+2026-04-03 14:52:47,139 :INFO : test_appfilterproductive :already selected filter option is test department
+2026-04-03 14:52:47,153 :INFO : test_appfilterproductive :already selected filter option is Evening
+2026-04-03 14:52:51,265 :INFO : test_appfilterproductive :already selected filter option is test department
+2026-04-03 14:52:51,279 :INFO : test_appfilterproductive :already selected filter option is Evening
+2026-04-03 14:52:51,286 :INFO : test_appfilterproductive :clicking on filter option Evening
+2026-04-03 14:53:00,515 :INFO : test_appfilterproductive :already selected filter option is pinky
+2026-04-03 14:53:00,528 :INFO : test_appfilterproductive :already selected filter option is Evening
+2026-04-03 14:53:00,535 :INFO : test_appfilterproductive :clicking on filter option Evening
+2026-04-03 14:53:09,773 :INFO : test_appfilterproductive :already selected filter option is pinky
+2026-04-03 14:53:09,787 :INFO : test_appfilterproductive :already selected filter option is pinky test regression
+2026-04-03 14:53:09,793 :INFO : test_appfilterproductive :clicking on filter option Morning Shift
+2026-04-03 14:53:19,040 :INFO : test_appfilterproductive :already selected filter option is Default Department
+2026-04-03 14:53:19,054 :INFO : test_appfilterproductive :already selected filter option is pinky test regression
+2026-04-03 14:53:19,061 :INFO : test_appfilterproductive :clicking on filter option Morning Shift
+2026-04-03 14:53:47,951 :INFO : test_actionsonappproductive :clicking on graph option Line Chart
+2026-04-03 14:53:50,166 :INFO : test_actionsonappproductive :clicking on graph option Bar Chart
+2026-04-03 14:53:52,418 :INFO : test_actionsonappproductive :clicking on graph option Pie Chart
+2026-04-03 14:53:54,591 :INFO : test_actionsonappproductive :clicking on graph option Area Chart
+2026-04-03 14:54:00,910 :INFO : test_actionsonappproductive :clicking on graph option Line Chart
+2026-04-03 14:54:03,091 :INFO : test_actionsonappproductive :clicking on graph option Bar Chart
+2026-04-03 14:54:05,271 :INFO : test_actionsonappproductive :clicking on graph option Pie Chart
+2026-04-03 14:54:07,422 :INFO : test_actionsonappproductive :clicking on graph option Area Chart
+2026-04-03 14:54:13,761 :INFO : test_actionsonappproductive :clicking on graph option Line Chart
+2026-04-03 14:54:15,936 :INFO : test_actionsonappproductive :clicking on graph option Bar Chart
+2026-04-03 14:54:18,108 :INFO : test_actionsonappproductive :clicking on graph option Pie Chart
+2026-04-03 14:54:20,272 :INFO : test_actionsonappproductive :clicking on graph option Area Chart
+2026-04-03 14:55:40,711 :INFO : test_emailradiobtn :All radio buttons are working correctly.
+2026-04-03 14:57:15,700 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-04-03 14:57:15,700 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-04-03 14:57:15,701 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-04-03 14:57:54,071 :INFO : test_appfilter :Total number of users: 4
+2026-04-03 14:57:56,191 :INFO : test_appfilter :already selected filter option is Global Department
+2026-04-03 14:57:56,205 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-03 14:57:56,212 :INFO : test_appfilter :clicking on filter option Evening
+2026-04-03 14:58:00,470 :INFO : test_appfilter :already selected filter option is Default Department
+2026-04-03 14:58:00,483 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-03 14:58:04,591 :INFO : test_appfilter :already selected filter option is Default Department
+2026-04-03 14:58:04,604 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-03 14:58:04,610 :INFO : test_appfilter :clicking on filter option Noon Shift
+2026-04-03 14:58:08,853 :INFO : test_appfilter :already selected filter option is test department
+2026-04-03 14:58:08,866 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-03 14:58:12,972 :INFO : test_appfilter :already selected filter option is test department
+2026-04-03 14:58:12,985 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-03 14:58:12,992 :INFO : test_appfilter :clicking on filter option Evening
+2026-04-03 14:58:17,208 :INFO : test_appfilter :already selected filter option is Default Department
+2026-04-03 14:58:17,222 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-03 14:58:21,327 :INFO : test_appfilter :already selected filter option is Default Department
+2026-04-03 14:58:21,341 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-03 14:58:21,348 :INFO : test_appfilter :clicking on filter option Morning Shift
+2026-04-03 14:58:25,576 :INFO : test_appfilter :already selected filter option is test department
+2026-04-03 14:58:25,589 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-03 14:58:51,125 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-04-03 14:58:53,308 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-04-03 14:58:55,469 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-04-03 14:58:57,640 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-04-03 14:59:03,976 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-04-03 14:59:06,154 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-04-03 14:59:08,312 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-04-03 14:59:10,475 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-04-03 15:00:58,240 :INFO : test_logsfilterco :Total number of users: 4
+2026-04-03 15:01:00,392 :INFO : test_logsfilterco :Clicking on option: Default Department
+2026-04-03 15:01:00,479 :INFO : test_logsfilterco :Selected value: Default Department
+2026-04-03 15:01:22,773 :INFO : test_logsfilterco :Finished processing filter option: Team Member
+2026-04-03 15:02:07,826 :INFO : test_logsdatewise :Exception occurred while selecting option: Message: 
+
+2026-04-03 15:04:01,179 :INFO : test_CreateUserBulk :/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx
+2026-04-03 15:04:01,180 :INFO : test_CreateUserBulk :/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx
+2026-04-03 15:04:01,192 :INFO : test_CreateUserBulk :file path copied to clipboard
+2026-04-03 15:04:01,415 :INFO : test_CreateUserBulk :file path pasted in the dialog box
+2026-04-03 15:04:01,536 :INFO : test_CreateUserBulk :pressed enter key
+2026-04-03 15:05:09,716 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-04-03 15:05:11,815 :INFO : test_createUserSingle :4
+2026-04-03 15:05:13,921 :INFO : test_createUserSingle :4
+2026-04-03 15:05:16,014 :INFO : test_createUserSingle :4
+2026-04-03 15:05:17,519 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-04-03 15:05:17,520 :INFO : test_createUserSingle :Total input fields found: 16
+2026-04-03 15:05:19,631 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-04-03 15:05:19,716 :INFO : test_createUserSingle :Selected value: Employee
+2026-04-03 15:05:26,869 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-04-03 15:05:26,962 :INFO : test_createUserSingle :Selected value: Evening
+2026-04-03 15:05:34,107 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-04-03 15:05:34,197 :INFO : test_createUserSingle :Selected value: Default Department
+2026-04-03 15:05:41,309 :INFO : test_createUserSingle :Clicking on option: WFO
+2026-04-03 15:05:41,391 :INFO : test_createUserSingle :Selected value: WFO
+2026-04-03 15:05:48,506 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-04-03 15:05:48,589 :INFO : test_createUserSingle :Selected value: Employee
+2026-04-03 15:05:55,721 :INFO : test_createUserSingle :Clicking on option: Noon Shift
+2026-04-03 15:05:55,802 :INFO : test_createUserSingle :Selected value: Noon Shift
+2026-04-03 15:06:02,914 :INFO : test_createUserSingle :Clicking on option: test department
+2026-04-03 15:06:02,996 :INFO : test_createUserSingle :Selected value: test department
+2026-04-03 15:06:10,109 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-04-03 15:06:10,187 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-04-03 15:06:17,290 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-04-03 15:06:17,400 :INFO : test_createUserSingle :Selected value: Employee
+2026-04-03 15:06:24,556 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-04-03 15:06:24,664 :INFO : test_createUserSingle :Selected value: Evening
+2026-04-03 15:06:31,808 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-04-03 15:06:31,894 :INFO : test_createUserSingle :Selected value: Default Department
+2026-04-03 15:06:39,026 :INFO : test_createUserSingle :Clicking on option: WFH
+2026-04-03 15:06:39,111 :INFO : test_createUserSingle :Selected value: WFH
+2026-04-03 15:06:46,219 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-04-03 15:06:46,298 :INFO : test_createUserSingle :Selected value: Employee
+2026-04-03 15:06:53,437 :INFO : test_createUserSingle :Clicking on option: Morning Shift
+2026-04-03 15:06:53,519 :INFO : test_createUserSingle :Selected value: Morning Shift
+2026-04-03 15:07:00,631 :INFO : test_createUserSingle :Clicking on option: test department
+2026-04-03 15:07:00,711 :INFO : test_createUserSingle :Selected value: test department
+2026-04-03 15:07:07,827 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-04-03 15:07:07,908 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-04-03 15:07:37,758 :INFO : test_filteruser :Total number of users: 2
+2026-04-03 15:08:13,206 :INFO : test_useractions :clicking on action option Un-track
+2026-04-03 15:08:23,220 :INFO : test_useractions :clicked on action option [Edit]
+2026-04-03 15:08:25,295 :INFO : test_useractions :edit user screen opened successfully
+2026-04-03 15:08:47,423 :INFO : test_useractions :Edit
+2026-04-03 15:08:52,522 :INFO : test_useractions :clicking on action option 
+2026-04-03 15:09:02,533 :INFO : test_useractions :clicked on action option []
+2026-04-03 15:09:22,572 :INFO : test_useractions :
+2026-04-03 15:09:27,660 :INFO : test_useractions :clicking on action option 
+2026-04-03 15:09:37,673 :INFO : test_useractions :clicked on action option []
+2026-04-03 15:09:57,725 :INFO : test_useractions :
+2026-04-03 15:10:02,812 :INFO : test_useractions :clicking on action option 
+2026-04-03 15:10:12,821 :INFO : test_useractions :clicked on action option []
+2026-04-03 15:10:32,865 :INFO : test_useractions :
+2026-04-03 15:10:32,873 :ERROR : test_useractions :Exception occurred while clicking action button: Message: Element <div class="MenuOuterDrop supertab"> is not clickable at point (1203,507) because another element <div class="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-md"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:354:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:326:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:205:31
+
+2026-04-03 15:10:37,885 :INFO : test_useractions :clicking on action option 
+2026-04-03 15:10:47,894 :INFO : test_useractions :clicked on action option []
+2026-04-03 15:11:07,958 :INFO : test_useractions :
+2026-04-03 15:11:07,965 :ERROR : test_useractions :Exception occurred while clicking action button: Message: Element <div class="MenuOuterDrop supertab"> is not clickable at point (1203,440) because another element <div class="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-md"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:354:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:326:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:205:31
+
+2026-04-03 15:11:12,976 :INFO : test_useractions :clicking on action option 
+2026-04-03 15:11:22,985 :INFO : test_useractions :clicked on action option []
+2026-04-03 15:11:43,000 :INFO : test_useractions :
+2026-04-03 15:11:43,007 :ERROR : test_useractions :Exception occurred while clicking action button: Message: Element <div class="MenuOuterDrop supertab"> is not clickable at point (1203,708) because another element <div class="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-md"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:354:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:326:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:205:31
+
+2026-04-03 15:11:48,008 :INFO : test_useractions :Completed user actions test successfully
+2026-04-03 15:14:10,125 :INFO : test_dashboardsearch :item chosen for search is KD
+Kamal Dhami
+(1367)
+kamal.dhami@truinc.com
+2026-04-03 15:14:13,235 :INFO : test_dashboardsearch :verifying the search item Kamal Dhami (1367)
+2026-04-03 15:14:13,242 :INFO : test_dashboardsearch :[['Kamal Dhami (1367)']]
+2026-04-03 15:15:04,033 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,051 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ion/dashboard' == 'https://stg-.../log-by-chart'
+  
+  Skipping 43 identical leading characters in diff, use -v to show
+  - n/dashboard/logs/log-by-chart
+  + n/dashboard
+2026-04-03 15:15:04,144 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/users with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,145 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/users' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/users
+2026-04-03 15:15:04,236 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,237 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...-and-websites' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/apps-and-websites
+2026-04-03 15:15:04,329 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/screenshots with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,329 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/screenshots' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/screenshots
+2026-04-03 15:15:04,415 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/logs with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,415 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ashboard/logs' == 'https://stg-.../log-by-chart'
+  
+  Skipping 48 identical leading characters in diff, use -v to show
+  - hboard/logs/log-by-chart
+  + hboard/logs
+2026-04-03 15:15:04,503 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/productivity with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,504 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../productivity' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/productivity
+2026-04-03 15:15:04,583 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/department-teams with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,584 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...artment-teams' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/department-teams
+2026-04-03 15:15:04,664 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/kpis-kras with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,665 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...ard/kpis-kras' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/kpis-kras
+2026-04-03 15:15:04,745 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/roles with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,746 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...shboard/roles' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/roles
+2026-04-03 15:15:04,829 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/live-stream with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,829 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/live-stream' == 'https://stg-.../log-by-chart'
+  
+  Skipping 46 identical leading characters in diff, use -v to show
+  - ashboard/logs/log-by-chart
+  + ashboard/live-stream
+2026-04-03 15:15:04,913 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/video-recording with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,913 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...deo-recording' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/video-recording
+2026-04-03 15:15:04,996 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/alerts with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:04,996 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...hboard/alerts' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/alerts
+2026-04-03 15:15:05,079 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/integrations with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:05,080 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../integrations' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/integrations
+2026-04-03 15:15:05,164 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/ai-summary with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:05,165 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...rd/ai-summary' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/ai-summary
+2026-04-03 15:15:05,244 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/settings with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:05,245 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...oard/settings' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/settings
+2026-04-03 15:15:05,326 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/installation with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:05,327 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-.../installation' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/installation
+2026-04-03 15:15:05,405 :INFO : test_sidebarclick :verifying the redirection link https://stg-fe.maxeltracker.com/organisation/dashboard/demo-videos with current url https://stg-fe.maxeltracker.com/organisation/dashboard/logs/log-by-chart
+2026-04-03 15:15:05,406 :INFO : test_sidebarclick :Exception occurred while clicking sidebar button: redirection link is not matching with current url
+assert 'https://stg-...d/demo-videos' == 'https://stg-.../log-by-chart'
+  
+  Skipping 45 identical leading characters in diff, use -v to show
+  - dashboard/logs/log-by-chart
+  + dashboard/demo-videos
+2026-04-03 15:15:05,406 :INFO : test_sidebarclick :Finished verifying sidebar button redirections.
+2026-04-03 15:16:54,331 :INFO : test_logsfilter :Total number of users: 4
+2026-04-03 15:16:56,453 :INFO : test_logsfilter :clicking on filter option pinky
+2026-04-03 15:16:56,474 :INFO : test_logsfilter :clicking on filter option test department
+2026-04-03 15:16:56,495 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-04-03 15:17:00,720 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-04-03 15:17:00,779 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-04-03 15:17:00,840 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-04-03 15:17:00,904 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-04-03 15:17:00,965 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-04-03 15:17:01,030 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-04-03 15:17:01,093 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-04-03 15:17:01,157 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-04-03 15:17:03,307 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-04-03 15:17:03,328 :INFO : test_logsfilter :clicking on filter option pinky
+2026-04-03 15:17:03,349 :INFO : test_logsfilter :clicking on filter option test department
+2026-04-03 15:17:07,577 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-04-03 15:17:07,638 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-04-03 15:17:07,701 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-04-03 15:17:07,761 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-04-03 15:17:07,820 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-04-03 15:17:07,879 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-04-03 15:17:07,948 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-04-03 15:17:08,009 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-04-03 15:17:08,069 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-04-03 15:17:10,224 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-04-03 15:17:10,244 :INFO : test_logsfilter :clicking on filter option pinky
+2026-04-03 15:17:10,265 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-04-03 15:17:14,493 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-04-03 15:17:14,552 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-04-03 15:17:14,614 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-04-03 15:17:14,674 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-04-03 15:17:14,735 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-04-03 15:17:14,797 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-04-03 15:17:14,856 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-04-03 15:17:14,916 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-04-03 15:17:17,067 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-04-03 15:17:17,088 :INFO : test_logsfilter :clicking on filter option pinky
+2026-04-03 15:17:17,108 :INFO : test_logsfilter :clicking on filter option test department
+2026-04-03 15:17:21,320 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-04-03 15:17:21,379 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-04-03 15:17:21,439 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-04-03 15:17:21,501 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-04-03 15:17:21,563 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-04-03 15:17:21,627 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-04-03 15:17:21,695 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-04-03 15:17:21,759 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-04-03 15:17:21,820 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-04-03 15:17:44,478 :INFO : test_actionsonapplogs :clicking on graph option Line Chart
+2026-04-03 15:17:46,623 :INFO : test_actionsonapplogs :clicking on graph option Bar Chart
+2026-04-03 15:17:48,788 :INFO : test_actionsonapplogs :clicking on graph option Pie Chart
+2026-04-03 15:17:50,951 :INFO : test_actionsonapplogs :clicking on graph option Area Chart
+2026-04-03 15:17:57,260 :INFO : test_actionsonapplogs :clicking on graph option Line Chart
+2026-04-03 15:17:59,423 :INFO : test_actionsonapplogs :clicking on graph option Bar Chart
+2026-04-03 15:18:01,575 :INFO : test_actionsonapplogs :clicking on graph option Pie Chart
+2026-04-03 15:18:03,739 :INFO : test_actionsonapplogs :clicking on graph option Area Chart
+2026-04-03 15:18:10,055 :INFO : test_actionsonapplogs :clicking on graph option Line Chart
+2026-04-03 15:18:12,222 :INFO : test_actionsonapplogs :clicking on graph option Bar Chart
+2026-04-03 15:18:14,373 :INFO : test_actionsonapplogs :clicking on graph option Pie Chart
+2026-04-03 15:18:16,540 :INFO : test_actionsonapplogs :clicking on graph option Area Chart
+2026-04-03 15:18:22,878 :INFO : test_actionsonapplogs :clicking on graph option Line Chart
+2026-04-03 15:18:25,038 :INFO : test_actionsonapplogs :clicking on graph option Bar Chart
+2026-04-03 15:18:27,189 :INFO : test_actionsonapplogs :clicking on graph option Pie Chart
+2026-04-03 15:18:29,350 :INFO : test_actionsonapplogs :clicking on graph option Area Chart
+2026-04-03 15:19:46,958 :INFO : test_rolesearch :Total number of users: 4
+2026-04-03 15:20:38,872 :INFO : test_rolescreation :Total number of users: 2
+2026-04-03 15:20:46,130 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-04-03 15:20:52,317 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-04-03 15:21:07,574 :INFO : test_rolescreation :Role creation functionality is working fine
+2026-04-03 15:22:31,947 :INFO : test_screenrec :Current URL after clicking Buy Add-on: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing?openPayment=addons
+2026-04-03 15:22:31,948 :INFO : test_screenrec :Buy add-on button is working correctly and navigates to the expected URL.
+2026-04-03 15:24:08,192 :INFO : test_screenshotfilter :Total number of users: 4
+2026-04-03 15:24:08,301 :INFO : test_screenshotfilter :clicking on filter option pinky
+2026-04-03 15:24:08,345 :INFO : test_screenshotfilter :Did not select value: pinky
+2026-04-03 15:24:13,580 :INFO : test_screenshotfilter :clicking on filter option JW
+John Wick
+(Old457)
+2026-04-03 15:24:13,654 :INFO : test_screenshotfilter :Did not select value: JW
+John Wick
+(Old457)
+2026-04-03 15:24:18,869 :INFO : test_screenshotfilter :clicking on filter option Global Department
+2026-04-03 15:24:18,898 :INFO : test_screenshotfilter :Did not select value: Global Department
+2026-04-03 15:24:24,104 :INFO : test_screenshotfilter :clicking on filter option KD
+Kamal Dhami
+(1367)
+2026-04-03 15:24:24,180 :INFO : test_screenshotfilter :Did not select value: KD
+Kamal Dhami
+(1367)
+2026-04-03 15:24:29,379 :INFO : test_screenshotfilter :clicking on filter option Global Department
+2026-04-03 15:24:29,408 :INFO : test_screenshotfilter :Did not select value: Global Department
+2026-04-03 15:24:34,641 :INFO : test_screenshotfilter :clicking on filter option ST
+Sach Test
+(hi1)
+2026-04-03 15:24:34,710 :INFO : test_screenshotfilter :Did not select value: ST
+Sach Test
+(hi1)
+2026-04-03 15:24:39,913 :INFO : test_screenshotfilter :clicking on filter option Global Department
+2026-04-03 15:24:39,943 :INFO : test_screenshotfilter :Did not select value: Global Department
+2026-04-03 15:24:45,134 :INFO : test_screenshotfilter :clicking on filter option KD
+Kamal Dhami
+(1367)
+2026-04-03 15:24:45,210 :INFO : test_screenshotfilter :Did not select value: KD
+Kamal Dhami
+(1367)
+2026-04-03 15:26:02,883 :INFO : test_streamsearch :Total number of users: 2
+2026-04-03 15:26:06,996 :INFO : test_streamsearch :clicking on filter option pinky
+2026-04-03 15:26:07,003 :INFO : test_streamsearch :comparing pinky with test department
+2026-04-03 15:26:07,016 :INFO : test_streamsearch :clicking on filter option test department
+2026-04-03 15:26:07,024 :INFO : test_streamsearch :comparing test department with test department
+2026-04-03 15:26:07,038 :INFO : test_streamsearch :Clicking on option: test department
+2026-04-03 15:26:07,147 :INFO : test_streamsearch :Selected value: test department
+2026-04-03 15:26:50,826 :INFO : test_userscountsonlineoffline :Number of online users: 0
+2026-04-06 11:59:55,388 :INFO : test_searchaiuser :Total number of users: 4
+2026-04-06 12:13:42,303 :INFO : test_searchaiuser :Total number of users: 4
+2026-04-06 12:16:53,867 :INFO : test_searchaiuser :Total number of users: 4
+2026-04-06 12:16:56,004 :INFO : test_searchaiuser :clicking on filter option pinky
+2026-04-06 12:17:00,235 :INFO : test_searchaiuser :clicking on filter option Pinku
+(232)
+2026-04-06 12:17:22,278 :INFO : test_searchaiuser :Toast message: 
+2026-04-06 12:30:17,240 :INFO : test_searchaiuser :Total number of users: 4
+2026-04-06 12:30:19,364 :INFO : test_searchaiuser :clicking on filter option pinky
+2026-04-06 12:30:23,607 :INFO : test_searchaiuser :clicking on filter option Test
+(1215)
+2026-04-06 12:30:48,774 :INFO : test_searchaiuser :Toast message: Report generation started. You'll be notified by email once ready.
+2026-04-06 12:33:09,425 :INFO : test_searchaiuser :Total number of users: 4
+2026-04-06 12:33:11,544 :INFO : test_searchaiuser :clicking on filter option pinky
+2026-04-06 12:33:15,781 :INFO : test_searchaiuser :clicking on filter option Test
+(1215)
+2026-04-06 12:33:38,003 :INFO : test_searchaiuser :Toast message: Report generation started. You'll be notified by email once ready.
+2026-04-06 15:13:36,201 :INFO : test_settingsredir :Clicking on settings option: 
+2026-04-06 15:13:41,210 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+2026-04-06 15:24:33,179 :INFO : test_settingsredir :Clicked on settings option: Billing
+2026-04-06 15:24:38,186 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+2026-04-06 15:32:32,831 :INFO : test_settingsredir :Clicked on settings option: Billing
+2026-04-06 15:32:37,838 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 15:34:19,732 :INFO : test_settingsredir :Clicked on settings option: <built-in method lower of str object at 0x114af3df0>
+2026-04-06 15:34:24,738 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 15:37:13,955 :INFO : test_settingsredir :Clicked on settings option: <built-in method lower of str object at 0x119120d30>
+2026-04-06 15:37:18,963 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 15:40:20,594 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 15:40:25,600 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+2026-04-06 15:44:20,094 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 15:44:30,105 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 15:51:36,449 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 15:51:46,457 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 15:59:51,472 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 16:00:01,480 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 16:00:01,490 :INFO : test_settingsredir :Breadcrumb text: Billing
+2026-04-06 16:07:42,490 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 16:07:52,496 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 16:07:52,506 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-06 16:12:59,436 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 16:13:09,443 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 16:13:09,454 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-06 16:13:09,489 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-06 16:17:17,378 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 16:17:27,383 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 16:17:27,393 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-06 16:17:27,426 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-06 16:19:46,185 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 16:19:56,194 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 16:19:56,204 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-06 16:19:56,237 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-06 16:20:06,260 :INFO : test_settingsredir :Settings options are working correctly and navigate to the expected URLs.
+2026-04-06 16:39:23,513 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 16:39:33,517 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 16:39:33,527 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-06 16:39:33,560 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-06 16:41:43,739 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 16:41:53,747 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 16:41:53,758 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-06 16:41:53,801 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-06 16:47:36,197 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 16:47:46,204 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 16:47:46,215 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-06 16:47:46,264 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-06 16:50:29,426 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-06 16:50:39,434 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-06 16:50:39,445 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-06 16:50:39,486 :INFO : test_settingsredir :Navigated back to settings page.
