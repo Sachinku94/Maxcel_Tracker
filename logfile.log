@@ -10073,3 +10073,809 @@ Kamal Dhami
 2026-04-06 16:50:39,434 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
 2026-04-06 16:50:39,445 :INFO : test_settingsredir :Breadcrumb text: billing
 2026-04-06 16:50:39,486 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 12:23:42,305 :INFO : test_searchaiuser :Total number of users: 4
+2026-04-07 12:23:44,436 :INFO : test_searchaiuser :clicking on filter option pinky
+2026-04-07 12:23:48,677 :INFO : test_searchaiuser :clicking on filter option LoginLogout
+(lol)
+2026-04-07 12:24:10,362 :INFO : test_searchaiuser :Toast message: 
+2026-04-07 12:28:05,801 :INFO : test_searchaiuser :Total number of users: 4
+2026-04-07 12:28:07,912 :INFO : test_searchaiuser :clicking on filter option pinky
+2026-04-07 12:28:12,123 :INFO : test_searchaiuser :clicking on filter option Test
+(1215)
+2026-04-07 12:28:33,912 :INFO : test_searchaiuser :Toast message: Report generation started. You'll be notified by email once ready.
+2026-04-07 12:32:36,852 :INFO : test_searchaiuser :Total number of users: 4
+2026-04-07 12:32:38,992 :INFO : test_searchaiuser :clicking on filter option pinky
+2026-04-07 12:32:43,244 :INFO : test_searchaiuser :clicking on filter option Test
+(1215)
+2026-04-07 12:33:05,407 :INFO : test_searchaiuser :Toast message: Report generation started. You'll be notified by email once ready.
+2026-04-07 12:36:41,675 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 12:36:51,683 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 12:36:51,695 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 12:36:51,745 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 12:47:42,824 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 12:47:52,828 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 12:47:52,839 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 12:47:52,882 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 12:56:08,065 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 12:56:18,072 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 12:56:18,085 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 12:56:18,129 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 12:56:52,388 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 12:57:02,395 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 12:57:02,405 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 12:57:02,436 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 12:57:35,637 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 12:59:59,190 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 13:00:09,194 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 13:00:09,206 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 13:00:09,255 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 13:00:43,911 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 13:00:53,920 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+2026-04-07 13:14:34,323 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 13:14:44,333 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 13:14:44,345 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 13:14:44,387 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 13:15:17,535 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 13:15:31,254 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 13:15:41,330 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 14:31:41,840 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 14:31:51,844 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 14:31:51,859 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 14:31:51,906 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 14:32:25,440 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 14:32:37,165 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 14:32:47,172 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 14:35:17,632 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 14:35:27,639 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 14:35:27,650 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 14:35:27,694 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 14:36:03,069 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 14:36:15,265 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 14:36:25,272 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 14:38:40,283 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 14:38:50,291 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 14:38:50,303 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 14:38:50,353 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 14:39:23,719 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 14:39:35,905 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 14:39:45,912 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 14:41:39,582 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 14:41:49,588 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 14:41:49,598 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 14:41:49,641 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 14:42:22,817 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 14:42:34,507 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 14:42:44,515 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 14:44:57,882 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 14:45:07,888 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 14:45:07,900 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 14:45:07,948 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 14:45:42,895 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 14:45:55,086 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 14:46:05,096 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 14:50:39,349 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 14:50:49,359 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 14:50:49,369 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 14:50:49,414 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 14:51:12,977 :INFO : test_settingsredir :Current URL after navigating back: https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+2026-04-07 14:51:12,977 :INFO : test_settingsredir :Successfully navigated back to settings page.
+2026-04-07 14:51:27,781 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 14:51:39,996 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 14:51:50,000 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 14:54:35,113 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 14:54:45,118 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 14:54:45,129 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 14:54:45,179 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 14:55:22,695 :INFO : test_settingsredir :Current URL after navigating back: https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+2026-04-07 14:55:22,696 :INFO : test_settingsredir :Successfully navigated back to settings page.
+2026-04-07 14:55:37,635 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 14:55:49,331 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 14:55:59,344 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 15:05:05,031 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 15:05:15,040 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 15:05:15,051 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 15:05:15,089 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:05:39,519 :INFO : test_settingsredir :Current URL after navigating back: https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+2026-04-07 15:05:39,519 :INFO : test_settingsredir :Successfully navigated back to settings page.
+2026-04-07 15:05:54,195 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 15:06:06,382 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 15:06:16,389 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 15:06:16,390 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'role management', but got https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+assert 'role management' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/roles'
+2026-04-07 15:11:03,269 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 15:11:13,272 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 15:11:13,283 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 15:11:18,335 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:11:42,759 :INFO : test_settingsredir :Current URL after navigating back: https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+2026-04-07 15:11:42,760 :INFO : test_settingsredir :Successfully navigated back to settings page.
+2026-04-07 15:11:57,412 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 15:12:09,670 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 15:12:19,676 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 15:12:19,676 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'role management', but got https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+assert 'role management' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/roles'
+2026-04-07 15:15:38,197 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 15:15:48,205 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 15:15:48,217 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 15:15:53,265 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:16:27,622 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 15:16:39,820 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 15:16:49,827 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 15:16:49,827 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'role management', but got https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+assert 'role management' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/roles'
+2026-04-07 15:19:19,200 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 15:19:29,207 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 15:19:29,217 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 15:19:34,278 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:20:07,179 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 15:20:18,865 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 15:20:28,868 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 15:20:28,869 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'role management', but got https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+assert 'role management' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/roles'
+2026-04-07 15:23:00,012 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 15:23:10,018 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 15:23:10,030 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 15:23:15,082 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:23:47,970 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 15:23:59,650 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 15:24:09,658 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 15:24:09,658 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'role management', but got https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+assert 'role management' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/roles'
+2026-04-07 15:27:35,267 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 15:27:45,274 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+2026-04-07 15:27:45,275 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'billing', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+assert 'billing' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings'
+2026-04-07 15:28:05,505 :ERROR : test_settingsredir :not present: Message: 
+
+2026-04-07 15:32:20,300 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 15:32:30,306 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 15:32:30,319 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 15:32:35,374 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:33:10,501 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 15:33:22,209 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 15:33:32,215 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 15:33:32,216 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'role management', but got https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+assert 'role management' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/roles'
+2026-04-07 15:33:52,450 :ERROR : test_settingsredir :not present: Message: 
+
+2026-04-07 15:33:57,498 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:34:30,411 :INFO : test_settingsredir :Clicked on settings option: productivity settings
+2026-04-07 15:34:40,417 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+2026-04-07 15:34:40,418 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 15:34:40,428 :INFO : test_settingsredir :Breadcrumb text: productivity settings
+2026-04-07 15:34:40,428 :ERROR : test_settingsredir :not present: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 15:34:45,483 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:35:18,433 :INFO : test_settingsredir :Clicked on settings option: shift settings
+2026-04-07 15:35:28,436 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+2026-04-07 15:35:28,436 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 15:35:28,445 :INFO : test_settingsredir :Breadcrumb text: shift settings
+2026-04-07 15:35:28,445 :ERROR : test_settingsredir :not present: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 15:35:33,482 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:36:08,418 :INFO : test_settingsredir :Clicked on settings option: tracking settings
+2026-04-07 15:36:18,420 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+2026-04-07 15:36:18,420 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'tracking settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+assert 'tracking settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings'
+2026-04-07 15:36:38,655 :ERROR : test_settingsredir :not present: Message: 
+
+2026-04-07 15:36:47,693 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:53:26,910 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 15:53:36,914 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 15:53:36,929 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 15:53:41,986 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:54:14,376 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 15:54:26,565 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 15:54:36,571 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 15:54:36,572 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'role management', but got https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+assert 'role management' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/roles'
+2026-04-07 15:54:56,814 :ERROR : test_settingsredir :not present: Message: 
+
+2026-04-07 15:55:01,869 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:55:34,949 :INFO : test_settingsredir :Clicked on settings option: productivity settings
+2026-04-07 15:55:44,954 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+2026-04-07 15:55:44,954 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 15:55:44,965 :INFO : test_settingsredir :Breadcrumb text: productivity settings
+2026-04-07 15:55:44,965 :ERROR : test_settingsredir :not present: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 15:55:50,019 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:56:23,391 :INFO : test_settingsredir :Clicked on settings option: shift settings
+2026-04-07 15:56:33,393 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+2026-04-07 15:56:33,394 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 15:56:33,404 :INFO : test_settingsredir :Breadcrumb text: shift settings
+2026-04-07 15:56:33,404 :ERROR : test_settingsredir :not present: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 15:56:38,442 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 15:57:11,437 :INFO : test_settingsredir :Clicked on settings option: tracking settings
+2026-04-07 15:57:22,646 :INFO : test_settingsredir :Clicked on settings option: storage integrations
+2026-04-07 15:57:32,654 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+2026-04-07 15:57:32,654 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'storage integrations', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings
+assert 'storage integrations' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings'
+2026-04-07 15:57:53,033 :ERROR : test_settingsredir :not present: Message: 
+
+2026-04-07 15:58:01,862 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:03:42,505 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 16:03:52,512 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 16:03:52,522 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 16:03:57,580 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:04:30,058 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 16:04:42,247 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 16:04:52,250 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 16:04:52,251 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'role management', but got https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+assert 'role management' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/roles'
+2026-04-07 16:05:12,499 :ERROR : test_settingsredir :not present: Message: 
+
+2026-04-07 16:05:17,555 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:05:53,448 :INFO : test_settingsredir :Clicked on settings option: productivity settings
+2026-04-07 16:06:03,455 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+2026-04-07 16:06:03,455 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 16:06:03,465 :INFO : test_settingsredir :Breadcrumb text: productivity settings
+2026-04-07 16:06:03,466 :ERROR : test_settingsredir :not present: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 16:06:08,519 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:06:39,148 :INFO : test_settingsredir :Clicked on settings option: shift settings
+2026-04-07 16:06:49,152 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+2026-04-07 16:06:49,153 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 16:06:49,161 :INFO : test_settingsredir :Breadcrumb text: shift settings
+2026-04-07 16:06:49,162 :ERROR : test_settingsredir :not present: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 16:06:54,195 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:07:26,783 :INFO : test_settingsredir :Clicked on settings option: tracking settings
+2026-04-07 16:07:38,472 :INFO : test_settingsredir :Clicked on settings option: storage integrations
+2026-04-07 16:07:48,632 :INFO : test_settingsredir :Clicked on settings option: integrations
+2026-04-07 16:07:58,640 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/integrations
+2026-04-07 16:07:58,648 :INFO : test_settingsredir :Breadcrumb text: integrations
+2026-04-07 16:08:03,680 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:08:37,552 :INFO : test_settingsredir :Clicked on settings option: download report
+2026-04-07 16:12:53,806 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 16:13:03,812 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 16:13:03,822 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 16:13:08,877 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:13:46,642 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 16:13:58,826 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 16:14:08,829 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 16:14:08,829 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'role management', but got https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+assert 'role management' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/roles'
+2026-04-07 16:14:29,054 :ERROR : test_settingsredir :not present: Message: 
+
+2026-04-07 16:14:34,106 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:15:08,383 :INFO : test_settingsredir :Clicked on settings option: productivity settings
+2026-04-07 16:15:18,388 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+2026-04-07 16:15:18,389 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 16:15:18,400 :INFO : test_settingsredir :Breadcrumb text: productivity settings
+2026-04-07 16:15:18,401 :ERROR : test_settingsredir :not present: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 16:15:23,454 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:15:56,172 :INFO : test_settingsredir :Clicked on settings option: shift settings
+2026-04-07 16:16:06,177 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+2026-04-07 16:16:06,177 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 16:16:06,186 :INFO : test_settingsredir :Breadcrumb text: shift settings
+2026-04-07 16:16:06,186 :ERROR : test_settingsredir :not present: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 16:16:11,222 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:16:45,047 :INFO : test_settingsredir :Clicked on settings option: tracking settings
+2026-04-07 16:16:56,233 :INFO : test_settingsredir :Clicked on settings option: storage integrations
+2026-04-07 16:17:06,416 :INFO : test_settingsredir :Clicked on settings option: integrations
+2026-04-07 16:17:16,424 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/integrations
+2026-04-07 16:17:16,433 :INFO : test_settingsredir :Breadcrumb text: integrations
+2026-04-07 16:17:21,475 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:17:56,171 :INFO : test_settingsredir :Clicked on settings option: download report
+2026-04-07 16:21:15,951 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 16:21:25,958 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 16:21:25,970 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 16:21:31,026 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:22:03,980 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 16:22:17,690 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 16:22:27,696 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 16:22:27,697 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'role management', but got https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+assert 'role management' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/roles'
+2026-04-07 16:22:47,917 :ERROR : test_settingsredir :not present: Message: 
+
+2026-04-07 16:22:52,971 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:23:27,202 :INFO : test_settingsredir :Clicked on settings option: productivity settings
+2026-04-07 16:23:37,210 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+2026-04-07 16:23:37,210 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 16:23:37,220 :INFO : test_settingsredir :Breadcrumb text: productivity settings
+2026-04-07 16:23:37,220 :ERROR : test_settingsredir :not present: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 16:23:42,272 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:24:16,067 :INFO : test_settingsredir :Clicked on settings option: shift settings
+2026-04-07 16:24:26,074 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+2026-04-07 16:24:26,074 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 16:24:26,084 :INFO : test_settingsredir :Breadcrumb text: shift settings
+2026-04-07 16:24:26,084 :ERROR : test_settingsredir :not present: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 16:24:31,138 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:25:03,866 :INFO : test_settingsredir :Clicked on settings option: tracking settings
+2026-04-07 16:25:15,075 :INFO : test_settingsredir :Clicked on settings option: storage integrations
+2026-04-07 16:25:25,245 :INFO : test_settingsredir :Clicked on settings option: integrations
+2026-04-07 16:25:35,257 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/integrations
+2026-04-07 16:25:35,266 :INFO : test_settingsredir :Breadcrumb text: integrations
+2026-04-07 16:25:40,306 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 16:26:13,491 :INFO : test_settingsredir :Clicked on settings option: download report
+2026-04-07 16:26:14,602 :INFO : test_settingsredir :Completed settings redirection test successfully
+2026-04-07 16:33:14,711 :INFO : test_searchaiuser :Total number of users: 4
+2026-04-07 16:33:16,833 :INFO : test_searchaiuser :clicking on filter option pinky
+2026-04-07 16:33:21,072 :INFO : test_searchaiuser :clicking on filter option LoginLogout
+(lol)
+2026-04-07 16:33:42,679 :INFO : test_searchaiuser :Toast message: 
+2026-04-07 16:34:55,560 :INFO : test_Departmentsearch :Total number of users: 4
+2026-04-07 16:34:59,848 :INFO : test_Departmentsearch :verifying the search item Default Department
+2026-04-07 16:35:04,079 :INFO : test_Departmentsearch :verifying the search item Test Department
+2026-04-07 16:35:31,658 :INFO : test_DepartmentCreation :Total number of users: 2
+2026-04-07 16:35:50,071 :INFO : test_DepartmentCreation :Entering value: Human Resource
+2026-04-07 16:35:53,101 :INFO : test_DepartmentCreation :Did not select value: Human Resources
+2026-04-07 16:36:01,275 :INFO : test_DepartmentCreation :Entering value: 232
+2026-04-07 16:36:04,307 :INFO : test_DepartmentCreation :Did not select value: pinky
+2026-04-07 16:36:12,478 :INFO : test_DepartmentCreation :Entering value: Default Department
+2026-04-07 16:36:15,512 :INFO : test_DepartmentCreation :Did not select value: All
+2026-04-07 16:37:04,312 :INFO : test_Departmentaction :clicking on action option Manage Productivity
+2026-04-07 16:37:14,335 :INFO : test_Departmentaction :clicked on action option [Manage Productivity]
+2026-04-07 16:37:19,371 :INFO : test_Departmentaction :Completed user actions test successfully
+2026-04-07 16:38:34,282 :INFO : test_kpisearch :Total number of users: 4
+2026-04-07 16:39:26,609 :INFO : test_kpicreation :Total number of users: 2
+2026-04-07 16:39:47,430 :INFO : test_kpicreation :cleared the input field
+2026-04-07 16:39:50,434 :INFO : test_kpicreation :Entering value: ('Untracked',)
+2026-04-07 16:39:55,628 :INFO : test_kpicreation :cleared the input field
+2026-04-07 16:39:58,631 :INFO : test_kpicreation :Entering value: ('Untracked',)
+2026-04-07 16:41:47,064 :INFO : test_appfilterproductive :Total number of users: 4
+2026-04-07 16:41:49,186 :INFO : test_appfilterproductive :already selected filter option is Global Department
+2026-04-07 16:41:49,202 :INFO : test_appfilterproductive :already selected filter option is Morning Shift
+2026-04-07 16:41:49,209 :INFO : test_appfilterproductive :clicking on filter option Evening
+2026-04-07 16:41:58,468 :INFO : test_appfilterproductive :already selected filter option is test department
+2026-04-07 16:41:58,482 :INFO : test_appfilterproductive :already selected filter option is Morning Shift
+2026-04-07 16:41:58,489 :INFO : test_appfilterproductive :clicking on filter option Evening
+2026-04-07 16:42:07,718 :INFO : test_appfilterproductive :already selected filter option is test department
+2026-04-07 16:42:07,733 :INFO : test_appfilterproductive :already selected filter option is Noon Shift
+2026-04-07 16:42:11,831 :INFO : test_appfilterproductive :already selected filter option is test department
+2026-04-07 16:42:11,845 :INFO : test_appfilterproductive :already selected filter option is Noon Shift
+2026-04-07 16:42:15,945 :INFO : test_appfilterproductive :already selected filter option is test department
+2026-04-07 16:42:15,960 :INFO : test_appfilterproductive :already selected filter option is Noon Shift
+2026-04-07 16:42:15,966 :INFO : test_appfilterproductive :clicking on filter option Evening
+2026-04-07 16:42:25,184 :INFO : test_appfilterproductive :already selected filter option is Global Department
+2026-04-07 16:42:25,197 :INFO : test_appfilterproductive :already selected filter option is Noon Shift
+2026-04-07 16:42:25,204 :INFO : test_appfilterproductive :clicking on filter option Evening
+2026-04-07 16:42:34,432 :INFO : test_appfilterproductive :already selected filter option is Global Department
+2026-04-07 16:42:34,446 :INFO : test_appfilterproductive :already selected filter option is pinky test regression
+2026-04-07 16:42:34,453 :INFO : test_appfilterproductive :clicking on filter option Morning Shift
+2026-04-07 16:42:43,669 :INFO : test_appfilterproductive :already selected filter option is Default Department
+2026-04-07 16:42:43,685 :INFO : test_appfilterproductive :already selected filter option is pinky test regression
+2026-04-07 16:42:43,691 :INFO : test_appfilterproductive :clicking on filter option Morning Shift
+2026-04-07 16:43:12,937 :INFO : test_actionsonappproductive :clicking on graph option Line Chart
+2026-04-07 16:43:15,078 :INFO : test_actionsonappproductive :clicking on graph option Bar Chart
+2026-04-07 16:43:17,249 :INFO : test_actionsonappproductive :clicking on graph option Pie Chart
+2026-04-07 16:43:19,397 :INFO : test_actionsonappproductive :clicking on graph option Area Chart
+2026-04-07 16:43:25,686 :INFO : test_actionsonappproductive :clicking on graph option Line Chart
+2026-04-07 16:43:27,827 :INFO : test_actionsonappproductive :clicking on graph option Bar Chart
+2026-04-07 16:43:29,974 :INFO : test_actionsonappproductive :clicking on graph option Pie Chart
+2026-04-07 16:43:32,114 :INFO : test_actionsonappproductive :clicking on graph option Area Chart
+2026-04-07 16:43:38,403 :INFO : test_actionsonappproductive :clicking on graph option Line Chart
+2026-04-07 16:43:40,548 :INFO : test_actionsonappproductive :clicking on graph option Bar Chart
+2026-04-07 16:43:42,692 :INFO : test_actionsonappproductive :clicking on graph option Pie Chart
+2026-04-07 16:43:44,840 :INFO : test_actionsonappproductive :clicking on graph option Area Chart
+2026-04-07 16:45:08,792 :INFO : test_emailradiobtn :All radio buttons are working correctly.
+2026-04-07 16:46:19,537 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-04-07 16:46:19,538 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-04-07 16:46:19,538 :INFO : test_appclendar :https://stg-fe.maxeltracker.com/organisation/dashboard/apps-and-websites
+2026-04-07 16:46:57,833 :INFO : test_appfilter :Total number of users: 4
+2026-04-07 16:46:59,958 :INFO : test_appfilter :already selected filter option is Global Department
+2026-04-07 16:46:59,972 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-07 16:46:59,979 :INFO : test_appfilter :clicking on filter option Evening
+2026-04-07 16:47:04,258 :INFO : test_appfilter :already selected filter option is Default Department
+2026-04-07 16:47:04,271 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-07 16:47:08,374 :INFO : test_appfilter :already selected filter option is Default Department
+2026-04-07 16:47:08,388 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-07 16:47:08,395 :INFO : test_appfilter :clicking on filter option Noon Shift
+2026-04-07 16:47:12,663 :INFO : test_appfilter :already selected filter option is test department
+2026-04-07 16:47:12,677 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-07 16:47:16,806 :INFO : test_appfilter :already selected filter option is test department
+2026-04-07 16:47:16,820 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-07 16:47:16,826 :INFO : test_appfilter :clicking on filter option Evening
+2026-04-07 16:47:21,098 :INFO : test_appfilter :already selected filter option is Default Department
+2026-04-07 16:47:21,111 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-07 16:47:25,248 :INFO : test_appfilter :already selected filter option is Default Department
+2026-04-07 16:47:25,262 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-07 16:47:25,270 :INFO : test_appfilter :clicking on filter option Morning Shift
+2026-04-07 16:47:29,543 :INFO : test_appfilter :already selected filter option is test department
+2026-04-07 16:47:29,557 :INFO : test_appfilter :already selected filter option is Morning Shift
+2026-04-07 16:47:54,203 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-04-07 16:47:56,374 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-04-07 16:47:58,552 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-04-07 16:48:00,722 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-04-07 16:48:07,049 :INFO : test_actionsonapp :clicking on graph option Line Chart
+2026-04-07 16:48:09,208 :INFO : test_actionsonapp :clicking on graph option Bar Chart
+2026-04-07 16:48:11,374 :INFO : test_actionsonapp :clicking on graph option Pie Chart
+2026-04-07 16:48:13,536 :INFO : test_actionsonapp :clicking on graph option Area Chart
+2026-04-07 16:50:02,023 :INFO : test_logsfilterco :Total number of users: 4
+2026-04-07 16:50:04,160 :INFO : test_logsfilterco :Clicking on option: Default Department
+2026-04-07 16:50:04,245 :INFO : test_logsfilterco :Selected value: Default Department
+2026-04-07 16:50:26,519 :INFO : test_logsfilterco :Finished processing filter option: Team Member
+2026-04-07 16:51:11,137 :INFO : test_logsdatewise :Exception occurred while selecting option: Message: 
+
+2026-04-07 16:52:34,215 :INFO : test_CreateUserBulk :/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx
+2026-04-07 16:52:34,215 :INFO : test_CreateUserBulk :/Users/sachin/Desktop/qa_Automations/maxel_tracker/M_tacker/sample.xlsx
+2026-04-07 16:52:34,247 :INFO : test_CreateUserBulk :file path copied to clipboard
+2026-04-07 16:52:34,508 :INFO : test_CreateUserBulk :file path pasted in the dialog box
+2026-04-07 16:52:34,629 :INFO : test_CreateUserBulk :pressed enter key
+2026-04-07 16:53:29,617 :INFO : test_createUserSingle :Total number of users to be created: 4
+2026-04-07 16:53:31,733 :INFO : test_createUserSingle :4
+2026-04-07 16:53:33,838 :INFO : test_createUserSingle :4
+2026-04-07 16:53:35,931 :INFO : test_createUserSingle :4
+2026-04-07 16:53:37,574 :INFO : test_createUserSingle :Total flat_data values: 16
+2026-04-07 16:53:37,574 :INFO : test_createUserSingle :Total input fields found: 16
+2026-04-07 16:53:39,689 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-04-07 16:53:39,764 :INFO : test_createUserSingle :Selected value: Employee
+2026-04-07 16:53:46,897 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-04-07 16:53:46,977 :INFO : test_createUserSingle :Selected value: Evening
+2026-04-07 16:53:54,092 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-04-07 16:53:54,168 :INFO : test_createUserSingle :Selected value: Default Department
+2026-04-07 16:54:01,308 :INFO : test_createUserSingle :Clicking on option: WFO
+2026-04-07 16:54:01,414 :INFO : test_createUserSingle :Selected value: WFO
+2026-04-07 16:54:08,527 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-04-07 16:54:08,605 :INFO : test_createUserSingle :Selected value: Employee
+2026-04-07 16:54:15,745 :INFO : test_createUserSingle :Clicking on option: Noon Shift
+2026-04-07 16:54:15,827 :INFO : test_createUserSingle :Selected value: Noon Shift
+2026-04-07 16:54:22,940 :INFO : test_createUserSingle :Clicking on option: test department
+2026-04-07 16:54:23,016 :INFO : test_createUserSingle :Selected value: test department
+2026-04-07 16:54:30,131 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-04-07 16:54:30,208 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-04-07 16:54:37,314 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-04-07 16:54:37,394 :INFO : test_createUserSingle :Selected value: Employee
+2026-04-07 16:54:44,535 :INFO : test_createUserSingle :Clicking on option: Evening
+2026-04-07 16:54:44,615 :INFO : test_createUserSingle :Selected value: Evening
+2026-04-07 16:54:51,727 :INFO : test_createUserSingle :Clicking on option: Default Department
+2026-04-07 16:54:51,806 :INFO : test_createUserSingle :Selected value: Default Department
+2026-04-07 16:54:58,901 :INFO : test_createUserSingle :Clicking on option: WFH
+2026-04-07 16:54:58,979 :INFO : test_createUserSingle :Selected value: WFH
+2026-04-07 16:55:06,114 :INFO : test_createUserSingle :Clicking on option: Employee
+2026-04-07 16:55:06,200 :INFO : test_createUserSingle :Selected value: Employee
+2026-04-07 16:55:13,367 :INFO : test_createUserSingle :Clicking on option: Morning Shift
+2026-04-07 16:55:13,454 :INFO : test_createUserSingle :Selected value: Morning Shift
+2026-04-07 16:55:20,598 :INFO : test_createUserSingle :Clicking on option: test department
+2026-04-07 16:55:20,688 :INFO : test_createUserSingle :Selected value: test department
+2026-04-07 16:55:27,806 :INFO : test_createUserSingle :Clicking on option: Hybrid
+2026-04-07 16:55:27,891 :INFO : test_createUserSingle :Selected value: Hybrid
+2026-04-07 16:55:57,864 :INFO : test_filteruser :Total number of users: 2
+2026-04-07 16:56:01,962 :INFO : test_filteruser :clicking on filter option Employee
+2026-04-07 16:56:01,970 :INFO : test_filteruser :comparing Employee with Employee
+2026-04-07 16:56:01,983 :INFO : test_filteruser :Clicking on option: Employee
+2026-04-07 16:56:02,090 :INFO : test_filteruser :Selected value: Employee
+2026-04-07 16:56:11,226 :INFO : test_filteruser :clicking on filter option Global Department
+2026-04-07 16:56:11,232 :INFO : test_filteruser :comparing Global Department with test department
+2026-04-07 16:56:11,247 :INFO : test_filteruser :clicking on filter option pinky
+2026-04-07 16:56:11,254 :INFO : test_filteruser :comparing pinky with test department
+2026-04-07 16:56:11,267 :INFO : test_filteruser :clicking on filter option test department
+2026-04-07 16:56:11,273 :INFO : test_filteruser :comparing test department with test department
+2026-04-07 16:56:11,288 :INFO : test_filteruser :Clicking on option: test department
+2026-04-07 16:56:11,398 :INFO : test_filteruser :Selected value: test department
+2026-04-07 16:56:20,508 :INFO : test_filteruser :clicking on filter option All Users
+2026-04-07 16:56:20,514 :INFO : test_filteruser :comparing All Users with Untracked
+2026-04-07 16:56:20,527 :INFO : test_filteruser :clicking on filter option Tracked
+2026-04-07 16:56:20,534 :INFO : test_filteruser :comparing Tracked with Untracked
+2026-04-07 16:56:20,547 :INFO : test_filteruser :clicking on filter option Untracked
+2026-04-07 16:56:20,555 :INFO : test_filteruser :comparing Untracked with Untracked
+2026-04-07 16:56:20,567 :INFO : test_filteruser :Clicking on option: Untracked
+2026-04-07 16:56:20,678 :INFO : test_filteruser :Selected value: Untracked
+2026-04-07 16:56:29,783 :INFO : test_filteruser :clicking on filter option All Shift
+2026-04-07 16:56:29,790 :INFO : test_filteruser :comparing All Shift with Morning Shift
+2026-04-07 16:56:29,804 :INFO : test_filteruser :clicking on filter option LoginLout
+2026-04-07 16:56:29,810 :INFO : test_filteruser :comparing LoginLout with Morning Shift
+2026-04-07 16:56:29,823 :INFO : test_filteruser :clicking on filter option reg
+2026-04-07 16:56:29,830 :INFO : test_filteruser :comparing reg with Morning Shift
+2026-04-07 16:56:29,844 :INFO : test_filteruser :clicking on filter option pinky test regression
+2026-04-07 16:56:29,850 :INFO : test_filteruser :comparing pinky test regression with Morning Shift
+2026-04-07 16:56:29,863 :INFO : test_filteruser :clicking on filter option First shift
+2026-04-07 16:56:29,870 :INFO : test_filteruser :comparing First shift with Morning Shift
+2026-04-07 16:56:29,883 :INFO : test_filteruser :clicking on filter option Evening
+2026-04-07 16:56:29,889 :INFO : test_filteruser :comparing Evening with Morning Shift
+2026-04-07 16:56:29,904 :INFO : test_filteruser :clicking on filter option Noon Shift
+2026-04-07 16:56:29,910 :INFO : test_filteruser :comparing Noon Shift with Morning Shift
+2026-04-07 16:56:29,924 :INFO : test_filteruser :clicking on filter option Morning Shift
+2026-04-07 16:56:29,931 :INFO : test_filteruser :comparing Morning Shift with Morning Shift
+2026-04-07 16:56:29,944 :INFO : test_filteruser :Clicking on option: Morning Shift
+2026-04-07 16:56:30,076 :INFO : test_filteruser :Selected value: Morning Shift
+2026-04-07 16:56:39,172 :INFO : test_filteruser :clicking on filter option All OS
+2026-04-07 16:56:39,178 :INFO : test_filteruser :comparing All OS with All OS
+2026-04-07 16:56:39,193 :INFO : test_filteruser :Clicking on option: All OS
+2026-04-07 16:56:39,296 :INFO : test_filteruser :Selected value: All OS
+2026-04-07 16:56:48,382 :INFO : test_filteruser :clicking on filter option All Versions
+2026-04-07 16:56:48,390 :INFO : test_filteruser :comparing All Versions with Manager
+2026-04-07 16:56:48,405 :INFO : test_filteruser :clicking on filter option 0.0.7
+2026-04-07 16:56:48,411 :INFO : test_filteruser :comparing 0.0.7 with Manager
+2026-04-07 16:56:48,425 :INFO : test_filteruser :clicking on filter option 0.0.8
+2026-04-07 16:56:48,432 :INFO : test_filteruser :comparing 0.0.8 with Manager
+2026-04-07 16:57:30,890 :INFO : test_useractions :clicking on action option Track
+2026-04-07 16:57:40,905 :INFO : test_useractions :clicked on action option [Info]
+2026-04-07 16:57:42,926 :INFO : test_useractions :navigated to user info page successfully
+2026-04-07 16:57:48,329 :INFO : test_useractions :navigated back to user page successfully
+2026-04-07 16:57:48,333 :INFO : test_useractions :current url after navigating back: https://stg-fe.maxeltracker.com/organisation/dashboard/users/349b7512-a73c-4d13-bd39-abe43f9d45a6
+2026-04-07 16:58:13,335 :INFO : test_useractions :Info
+2026-04-07 16:58:13,335 :INFO : test_useractions :Already navigated to Info page, no need to click action button again.
+2026-04-07 16:58:13,338 :INFO : test_useractions :Current URL after Info action: https://stg-fe.maxeltracker.com/organisation/dashboard/users/349b7512-a73c-4d13-bd39-abe43f9d45a6
+2026-04-07 16:58:17,484 :INFO : test_useractions :Navigated back to user page successfully
+2026-04-07 16:58:22,490 :ERROR : test_useractions :Exception occurred while clicking action button: Message: The element with the reference e082a1f7-2001-47dd-9a24-251761b9b9b1 is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:412:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:270:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:174:30
+
+2026-04-07 16:58:27,494 :ERROR : test_useractions :Exception occurred during user actions test: Message: The element with the reference 5c346a20-c4c7-4da4-8ada-a2d3cdc62b29 is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:412:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:270:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:298:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:302:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:174:30
+
+2026-04-07 16:59:48,844 :INFO : test_dashboardsearch :item chosen for search is P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-04-07 17:02:49,167 :INFO : test_logsfilter :Total number of users: 4
+2026-04-07 17:02:51,283 :INFO : test_logsfilter :clicking on filter option pinky
+2026-04-07 17:02:51,304 :INFO : test_logsfilter :clicking on filter option test department
+2026-04-07 17:02:51,324 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-04-07 17:02:55,538 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-04-07 17:02:55,596 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-04-07 17:02:55,656 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-04-07 17:02:55,717 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-04-07 17:02:55,780 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-04-07 17:02:55,843 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-04-07 17:02:55,906 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-04-07 17:02:55,968 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-04-07 17:02:58,099 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-04-07 17:02:58,120 :INFO : test_logsfilter :clicking on filter option pinky
+2026-04-07 17:02:58,142 :INFO : test_logsfilter :clicking on filter option test department
+2026-04-07 17:03:02,379 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-04-07 17:03:02,438 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-04-07 17:03:02,497 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-04-07 17:03:02,557 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-04-07 17:03:02,617 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-04-07 17:03:02,677 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-04-07 17:03:02,736 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-04-07 17:03:02,798 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-04-07 17:03:02,862 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-04-07 17:03:04,990 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-04-07 17:03:05,010 :INFO : test_logsfilter :clicking on filter option pinky
+2026-04-07 17:03:05,032 :INFO : test_logsfilter :clicking on filter option Default Department
+2026-04-07 17:03:09,253 :INFO : test_logsfilter :clicking on filter option L
+LoginLogout
+(lol)
+pradeep.jangra+111@truinc.com
+2026-04-07 17:03:09,313 :INFO : test_logsfilter :clicking on filter option TM
+Team Member
+(EMP1022226)
+TM@teammember.com
+2026-04-07 17:03:09,373 :INFO : test_logsfilter :clicking on filter option QT
+QA Team Testing Account
+(EMP18082)
+pinky@truinc.com
+2026-04-07 17:03:09,431 :INFO : test_logsfilter :clicking on filter option JW
+John Wick
+(Old457)
+johnwick@maxeltracker.com
+2026-04-07 17:03:09,491 :INFO : test_logsfilter :clicking on filter option OP
+Optimus Prime
+(New3456)
+optimus@maxeltracker.com
+2026-04-07 17:03:09,554 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hiugg)
+optimus034@truinc.com
+2026-04-07 17:03:09,616 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(2010)
+pinky00@turinc.com
+2026-04-07 17:03:09,679 :INFO : test_logsfilter :clicking on filter option QA
+QA After Fix
+(qa)
+pradeep.jangra@truinc.com
+2026-04-07 17:03:11,823 :INFO : test_logsfilter :clicking on filter option Global Department
+2026-04-07 17:03:11,843 :INFO : test_logsfilter :clicking on filter option pinky
+2026-04-07 17:03:11,863 :INFO : test_logsfilter :clicking on filter option test department
+2026-04-07 17:03:16,079 :INFO : test_logsfilter :clicking on filter option P
+Pinku
+(232)
+pinky+1@truinc.com
+2026-04-07 17:03:16,137 :INFO : test_logsfilter :clicking on filter option P
+Pinky
+(33)
+pinky+33@truinc.com
+2026-04-07 17:03:16,198 :INFO : test_logsfilter :clicking on filter option T
+Test
+(1210)
+perla25@qualityth.com
+2026-04-07 17:03:16,262 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi111)
+optimus009@truinc.com
+2026-04-07 17:03:16,325 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi1211)
+optimus03125@truinc.com
+2026-04-07 17:03:16,389 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi12)
+optimus03115@truinc.com
+2026-04-07 17:03:16,452 :INFO : test_logsfilter :clicking on filter option ST
+Sach Test
+(hi1)
+optimus0341@truinc.com
+2026-04-07 17:03:16,526 :INFO : test_logsfilter :clicking on filter option ST
+Sah Test
+(hi)
+optimus0315@truinc.com
+2026-04-07 17:03:16,586 :INFO : test_logsfilter :clicking on filter option Q
+Qay
+(14uhy)
+de@ymail.com
+2026-04-07 17:03:39,382 :INFO : test_actionsonapplogs :clicking on graph option Line Chart
+2026-04-07 17:03:41,541 :INFO : test_actionsonapplogs :clicking on graph option Bar Chart
+2026-04-07 17:03:43,691 :INFO : test_actionsonapplogs :clicking on graph option Pie Chart
+2026-04-07 17:03:45,867 :INFO : test_actionsonapplogs :clicking on graph option Area Chart
+2026-04-07 17:03:52,162 :INFO : test_actionsonapplogs :clicking on graph option Line Chart
+2026-04-07 17:03:54,325 :INFO : test_actionsonapplogs :clicking on graph option Bar Chart
+2026-04-07 17:03:56,476 :INFO : test_actionsonapplogs :clicking on graph option Pie Chart
+2026-04-07 17:03:58,640 :INFO : test_actionsonapplogs :clicking on graph option Area Chart
+2026-04-07 17:04:04,958 :INFO : test_actionsonapplogs :clicking on graph option Line Chart
+2026-04-07 17:04:07,130 :INFO : test_actionsonapplogs :clicking on graph option Bar Chart
+2026-04-07 17:04:09,274 :INFO : test_actionsonapplogs :clicking on graph option Pie Chart
+2026-04-07 17:04:11,435 :INFO : test_actionsonapplogs :clicking on graph option Area Chart
+2026-04-07 17:04:17,769 :INFO : test_actionsonapplogs :clicking on graph option Line Chart
+2026-04-07 17:04:19,933 :INFO : test_actionsonapplogs :clicking on graph option Bar Chart
+2026-04-07 17:04:22,087 :INFO : test_actionsonapplogs :clicking on graph option Pie Chart
+2026-04-07 17:04:24,247 :INFO : test_actionsonapplogs :clicking on graph option Area Chart
+2026-04-07 17:05:41,004 :INFO : test_rolesearch :Total number of users: 4
+2026-04-07 17:06:33,049 :INFO : test_rolescreation :Total number of users: 2
+2026-04-07 17:06:40,299 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-04-07 17:06:46,485 :INFO : test_rolescreation :Entering value: ('Untracked',)
+2026-04-07 17:07:01,714 :INFO : test_rolescreation :Role creation functionality is working fine
+2026-04-07 17:08:24,399 :INFO : test_screenrec :Current URL after clicking Buy Add-on: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing?openPayment=addons
+2026-04-07 17:08:24,400 :INFO : test_screenrec :Buy add-on button is working correctly and navigates to the expected URL.
+2026-04-07 17:10:13,975 :INFO : test_screenshotfilter :Total number of users: 4
+2026-04-07 17:10:14,095 :INFO : test_screenshotfilter :clicking on filter option pinky
+2026-04-07 17:10:14,125 :INFO : test_screenshotfilter :Did not select value: pinky
+2026-04-07 17:10:19,344 :INFO : test_screenshotfilter :clicking on filter option KD
+Kamal Dhami
+(1367)
+2026-04-07 17:10:19,416 :INFO : test_screenshotfilter :Did not select value: KD
+Kamal Dhami
+(1367)
+2026-04-07 17:10:24,633 :INFO : test_screenshotfilter :clicking on filter option Global Department
+2026-04-07 17:10:24,667 :INFO : test_screenshotfilter :Did not select value: Global Department
+2026-04-07 17:10:31,925 :INFO : test_screenshotfilter :clicking on filter option L
+LoginLogout
+(lol)
+2026-04-07 17:10:31,999 :INFO : test_screenshotfilter :Did not select value: L
+LoginLogout
+(lol)
+2026-04-07 17:10:37,199 :INFO : test_screenshotfilter :clicking on filter option Global Department
+2026-04-07 17:10:37,227 :INFO : test_screenshotfilter :Did not select value: Global Department
+2026-04-07 17:10:42,453 :INFO : test_screenshotfilter :clicking on filter option JW
+John Wick
+(Old457)
+2026-04-07 17:10:42,526 :INFO : test_screenshotfilter :Did not select value: JW
+John Wick
+(Old457)
+2026-04-07 17:10:47,723 :INFO : test_screenshotfilter :clicking on filter option Global Department
+2026-04-07 17:10:47,752 :INFO : test_screenshotfilter :Did not select value: Global Department
+2026-04-07 17:10:52,957 :INFO : test_screenshotfilter :clicking on filter option KD
+Kamal Dhami
+(1367)
+2026-04-07 17:10:53,029 :INFO : test_screenshotfilter :Did not select value: KD
+Kamal Dhami
+(1367)
+2026-04-07 17:12:16,761 :INFO : test_settingsredir :Clicked on settings option: billing
+2026-04-07 17:12:26,765 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/billing
+2026-04-07 17:12:26,776 :INFO : test_settingsredir :Breadcrumb text: billing
+2026-04-07 17:12:31,838 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 17:13:05,111 :INFO : test_settingsredir :Clicked on settings option: create new alert
+2026-04-07 17:13:16,822 :INFO : test_settingsredir :Clicked on settings option: role management
+2026-04-07 17:13:26,825 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+2026-04-07 17:13:26,834 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'role management', but got https://stg-fe.maxeltracker.com/organisation/dashboard/roles
+assert 'role management' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/roles'
+2026-04-07 17:13:46,964 :ERROR : test_settingsredir :not present: Message: 
+
+2026-04-07 17:13:52,018 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 17:14:25,156 :INFO : test_settingsredir :Clicked on settings option: productivity settings
+2026-04-07 17:14:35,159 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+2026-04-07 17:14:35,160 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 17:14:35,171 :INFO : test_settingsredir :Breadcrumb text: productivity settings
+2026-04-07 17:14:35,171 :ERROR : test_settingsredir :not present: Expected URL to contain 'productivity settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings
+assert 'productivity settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/productive-settings'
+2026-04-07 17:14:40,222 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 17:15:14,002 :INFO : test_settingsredir :Clicked on settings option: shift settings
+2026-04-07 17:15:24,006 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+2026-04-07 17:15:24,006 :ERROR : test_settingsredir :Assertion error: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 17:15:24,016 :INFO : test_settingsredir :Breadcrumb text: shift settings
+2026-04-07 17:15:24,017 :ERROR : test_settingsredir :not present: Expected URL to contain 'shift settings', but got https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings
+assert 'shift settings' in 'https://stg-fe.maxeltracker.com/organisation/dashboard/settings/shift-settings'
+2026-04-07 17:15:29,071 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 17:16:02,884 :INFO : test_settingsredir :Clicked on settings option: tracking settings
+2026-04-07 17:16:14,104 :INFO : test_settingsredir :Clicked on settings option: storage integrations
+2026-04-07 17:16:24,325 :INFO : test_settingsredir :Clicked on settings option: integrations
+2026-04-07 17:16:34,330 :INFO : test_settingsredir :Current URL after clicking settings: https://stg-fe.maxeltracker.com/organisation/dashboard/integrations
+2026-04-07 17:16:34,338 :INFO : test_settingsredir :Breadcrumb text: integrations
+2026-04-07 17:16:39,372 :INFO : test_settingsredir :Navigated back to settings page.
+2026-04-07 17:17:12,532 :INFO : test_settingsredir :Clicked on settings option: download report
+2026-04-07 17:17:14,133 :INFO : test_settingsredir :Completed settings redirection test successfully
+2026-04-07 17:18:37,876 :INFO : test_streamsearch :Total number of users: 2
+2026-04-07 17:18:41,980 :INFO : test_streamsearch :clicking on filter option pinky
+2026-04-07 17:18:41,993 :INFO : test_streamsearch :comparing pinky with test department
+2026-04-07 17:18:42,005 :INFO : test_streamsearch :clicking on filter option test department
+2026-04-07 17:18:42,012 :INFO : test_streamsearch :comparing test department with test department
+2026-04-07 17:18:42,024 :INFO : test_streamsearch :Clicking on option: test department
+2026-04-07 17:18:42,121 :INFO : test_streamsearch :Selected value: test department
+2026-04-07 17:19:26,263 :INFO : test_userscountsonlineoffline :Number of online users: 0
